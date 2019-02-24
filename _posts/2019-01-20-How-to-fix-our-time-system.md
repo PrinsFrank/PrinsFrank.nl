@@ -7,6 +7,7 @@ categories: []
 canonical: https://medium.com/@prinsfrank/how-to-fix-our-time-system-2a4cedb8260b
 tags: [science, future, innovation, world, time, proposal, metric system, decimal, standards]
 readtime: 5
+author: Frank Prins
 ---
 
 ![St Joseph's cathedral hanoi](/images/2019/01/header_time_system.jpg)
