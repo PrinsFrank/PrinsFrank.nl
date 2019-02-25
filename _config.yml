@@ -25,6 +25,10 @@ linkedin_username: prinsfrank
 github_username: PrinsFrank
 instagram_username: prins__frank
 
+plant_uml_render_proxy: "http://www.plantuml.com/plantuml/proxy?cache=no&src="
+git_url: "https://raw.githubusercontent.com/PrinsFrank/vuln.one/master/"
+graphs_folder: "graphs/"
+
 # Build settings
 markdown: kramdown
 theme: minima
