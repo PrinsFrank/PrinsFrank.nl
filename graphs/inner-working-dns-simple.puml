@@ -1,0 +1,28 @@
+@startuml
+hide footbox
+skinparam monochrome true
+skinparam handwritten true
+
+actor "User" as usr
+control "Browser" as brwsr
+database "DNS Recursor" as recr
+database "Root Name Server" as root
+database "**.com** TLD Name Server" as tldns
+database "Authorative Name Server for **example.com**" as ans
+database "Hosting Server" as hs
+
+usr -> brwsr: Request **example.com**
+brwsr -> brwsr: IP cached and still valid?
+brwsr -> recr: Request IP **example.com**
+recr -> recr: IP cached and still valid?
+recr -> root: Request TLD for **.com**
+root -> recr: Receive TLD for **.com**
+recr -> tldns: Request domain name server info for **example**
+tldns -> recr: Receive domain name server info for **example**
+recr -> ans: Request IP for domain **example.com**
+ans -> recr: Receive IP for domain **example.com**
+recr -> brwsr: Receive IP for **example.com**
+brwsr -> hs: Request web page
+hs -> brwsr: Receive web page
+brwsr -> usr: Show web page
+@enduml
