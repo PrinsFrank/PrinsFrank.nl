@@ -6,6 +6,8 @@ description: >- # this means to ignore newlines until "baseurl:"
  -Sometimes while wearing my tinfoil hat-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vuln.one" # the base hostname & protocol for your site, e.g. http://example.com
+date_format: "%Y, %b %-d"
+
 linkedin_username: prinsfrank
 github_username: PrinsFrank
 instagram_username: Prins_Frank_travel
