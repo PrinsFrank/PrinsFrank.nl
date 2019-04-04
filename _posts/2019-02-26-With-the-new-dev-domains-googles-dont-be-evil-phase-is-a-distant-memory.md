@@ -2,9 +2,9 @@
 title: With the new .dev domains Google's "Don't be evil"-phase is a distant memory
 subtitle: The dystopian reality of a monopolized internet
 Description: 
-categories: []
+categories: [privacy, standards]
 canonical:
-tags: []
+tags: [future, google, tld, privacy, DNS]
 ---
 
 > The choice for mankind lay between freedom and happiness, and, for the great bulk of mankind, happiness was better. <sup>1984 - George Orwell</sup>

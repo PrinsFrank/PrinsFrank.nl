@@ -2,9 +2,9 @@
 title: The difficulties with solving the domain names homograph attack
 subtitle: Why a Homograph-safe font is the best solution
 Description: 
-categories: []
+categories: [security, standards]
 canonical:
-tags: []
+tags: [security, DNS, IETF, standards, unicode, vulnerability, browsers]
 ---
 
 **Before 2003 all domain names consisted only of simple ASCII-characters, so domain names in other character sets than latin were not possible. This severely limited the internationalization of the internet. Back in 1996 Martin Dürst[<sup>1</sup>](https://tools.ietf.org/html/draft-duerst-dns-i18n-00) first proposed introducing an extension so almost any unicode character could be used in domain names.**
