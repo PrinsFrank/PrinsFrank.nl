@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to fix our time system
 subtitle: Proposing Decimal Metric Time in Ticks
 Description: Where our current time system is leaving much to be desired, i am taking a deep dive in what is wrong and how we can fix it. I am proposing an alternative with Decimal Metric Time in Ticks.
@@ -7,7 +6,6 @@ categories: []
 canonical: https://medium.com/@prinsfrank/how-to-fix-our-time-system-2a4cedb8260b
 tags: [science, future, innovation, world, time, proposal, metric system, decimal, standards]
 readtime: 5
-author: Frank Prins
 ---
 
 ![St Joseph's cathedral hanoi](/images/2019/01/header_time_system.jpg)

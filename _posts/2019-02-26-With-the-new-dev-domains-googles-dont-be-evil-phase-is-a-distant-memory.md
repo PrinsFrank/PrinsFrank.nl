@@ -1,12 +1,10 @@
 ---
-layout: post
 title: With the new .dev domains Google's "Don't be evil"-phase is a distant memory
 subtitle: The dystopian reality of a monopolized internet
 Description: 
 categories: []
 canonical:
 tags: []
-author: Frank Prins
 ---
 
 > The choice for mankind lay between freedom and happiness, and, for the great bulk of mankind, happiness was better. <sup>1984 - George Orwell</sup>

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to fix our time system pt. 2
 subtitle: Earth Time in DMTT
 Description: Following my previous article on time and how to make the division of days less arbitrary, i am taking a deep dive into the origins of time zones and how we can fix them.
@@ -7,7 +6,6 @@ categories: []
 canonical: https://medium.com/@prinsfrank/how-to-fix-our-time-system-pt-2-ca2747dede31
 tags: [science, future, innovation, world, time, proposal, metric system, decimal, standards]
 readtime: 9
-author: Frank Prins
 ---
 
 ![Train passing through street at night](/images/2019/01/header_time_system_pt2.jpg)
