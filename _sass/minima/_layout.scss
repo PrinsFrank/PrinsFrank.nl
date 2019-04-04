@@ -38,6 +38,9 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+    &--active {
+      color: $brand-color;
+    }
   }
 
   @include media-query($on-palm) {

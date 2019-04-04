@@ -23,6 +23,8 @@ plugins:
   - jekyll-feed
   - jekyll-tidy
 
+permalink: /:year/:month/:day/:title
+
 defaults:
   -
     values:
