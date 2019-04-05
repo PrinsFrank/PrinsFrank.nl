@@ -4,6 +4,7 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    <a href="/">Back to posts ↺</a>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -15,6 +16,7 @@ layout: default
   </header>
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    <a href="/">Back to posts ↺</a>
   </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

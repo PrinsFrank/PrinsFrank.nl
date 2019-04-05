@@ -3,11 +3,19 @@ layout: default
 ---
 
 <div class="home">
+    {%- if page.category -%}
+    <a href="/">Back to all posts ↺</a>
+    {%- endif -%}
     {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">Posts</h2>
+    <h2 class="post-list-heading">{%- if page.category -%}{{ page.category | capitalize }} {%- endif %} Posts</h2>
     <ul class="post-list">
-        {%- for post in site.categories[page.category] -%}
-            {% include post_preview.html %}
+        {%- for post in site.posts -%}
+            {%- if post.categories contains page.category -%}
+                {% include post_preview.html %}
+            {%- endif -%}
+            {%- unless page.category -%}
+                {% include post_preview.html %}
+            {%- endunless -%}
         {%- endfor -%}
     </ul>
     <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
