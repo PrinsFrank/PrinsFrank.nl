@@ -5,6 +5,7 @@ Description:
 categories: [privacy, standards]
 canonical:
 tags: [future, google, tld, privacy, DNS]
+readtime: 4
 ---
 
 > The choice for mankind lay between freedom and happiness, and, for the great bulk of mankind, happiness was better. <sup>1984 - George Orwell</sup>
