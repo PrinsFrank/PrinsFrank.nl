@@ -34,6 +34,7 @@ $on-laptop:        800px !default;
 }
 
 @import
+  "functions/contrast",
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"

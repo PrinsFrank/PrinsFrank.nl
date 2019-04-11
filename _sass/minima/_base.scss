@@ -60,11 +60,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: $brand-color;
+  color: get-wcag-contrast-color($brand-color, $background-color);
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken(get-wcag-contrast-color($brand-color, $background-color), 15%);
   }
 
   &:hover {
@@ -82,7 +82,7 @@ a {
 }
 
 blockquote {
-  color: $grey-color;
+  color: get-wcag-contrast-color($grey-color, $background-color);
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
