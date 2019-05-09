@@ -1,0 +1,50 @@
+@startuml
+
+skinparam arrowColor black
+
+skinparam componentBackgroundColor transparent
+skinparam componentBorderColor black
+
+skinparam cloudBackgroundColor transparent
+skinparam ccloudBorderColor black
+
+skinparam usecaseBackgroundColor transparent
+skinparam usecaseBorderColor black
+
+skinparam actorBackgroundColor transparent
+skinparam actorBorderColor black
+
+left to right direction
+skinparam shadowing false
+
+rectangle Coffeeshop {
+    actor User as usr
+    actor Hacker as hacker #red
+    (<&laptop> Laptop) as laptop
+    (<&phone> Phone) as phone
+    (<&signal> WIFI connection laptop) as laptop_wifi #red
+    (<&signal> WIFI connection Phone) as phone_wifi #red
+    (<&wifi> WIFI AP) as wifi #red
+}
+
+rectangle "Internet Service Providers" {
+    (<&signal> ISP Coffeeshop) as isp #orange
+}
+
+cloud "<&cloud> Internet" {
+    (<&lock-unlocked>Unencrypted traffic) as unprotected_traffic
+}
+
+usr --> laptop
+usr --> phone
+hacker -> wifi #red
+laptop .. laptop_wifi #red
+laptop_wifi .. wifi #red
+phone .. phone_wifi #red
+phone_wifi .. wifi #red
+hacker -> phone_wifi #red
+hacker -> laptop_wifi #red
+wifi --> isp #red
+isp --> unprotected_traffic #red
+
+@enduml

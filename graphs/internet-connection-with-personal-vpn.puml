@@ -1,0 +1,55 @@
+@startuml
+
+skinparam arrowColor black
+
+skinparam componentBackgroundColor transparent
+skinparam componentBorderColor black
+
+skinparam cloudBackgroundColor transparent
+skinparam ccloudBorderColor black
+
+skinparam usecaseBackgroundColor transparent
+skinparam usecaseBorderColor black
+
+skinparam actorBackgroundColor transparent
+skinparam actorBorderColor black
+
+left to right direction
+skinparam shadowing false
+
+rectangle Coffeeshop {
+    actor User as usr
+    (<&laptop> Laptop) as laptop
+    (<&phone> Phone) as phone
+    (<&wifi> WIFI AP) as wifi
+}
+
+rectangle "Home network" #green {
+    (VPN Server) as vpn_server #green
+}
+
+rectangle "Internet Service Providers" {
+    (<&signal> ISP coffeeshop) as isp
+    (<&signal> ISP Personal / Home) as isp_home #green
+}
+
+cloud "<&cloud> Internet" {
+    [<&lock-locked>Encrypted traffic] as protected_traffic
+    (<&lock-unlocked>Unencrypted traffic) as unprotected_traffic
+}
+
+' Fixes order of protected and unprotected traffic items that is reversed sometimes.
+protected_traffic -[hidden]> unprotected_traffic
+
+usr --> laptop
+usr --> phone
+laptop .. wifi #green : "<&lock-locked>"
+phone .. wifi #green : "<&lock-locked>"
+wifi --> isp #green : "<&lock-locked>"
+isp --> protected_traffic #green : "<&lock-locked>"
+protected_traffic --> isp_home #green : "<&lock-locked>"
+isp_home --> vpn_server #green : "<&lock-locked>"
+vpn_server --> isp_home #red
+isp_home --> unprotected_traffic #red
+
+@enduml
