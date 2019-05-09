@@ -40,7 +40,7 @@
       margin-right: 10px;
     }
     &--active {
-      color: $brand-color;
+      color: get-wcag-contrast-color($brand-color, $background-color);
     }
   }
 
@@ -132,7 +132,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: get-wcag-contrast-color($grey-color, $background-color);
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -203,7 +203,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: get-wcag-contrast-color($grey-color, $background-color);
 }
 
 .post-link {
