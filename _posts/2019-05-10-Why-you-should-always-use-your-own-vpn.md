@@ -8,7 +8,7 @@ tags: [VPN, security, privacy, internet, technology]
 readtime: 4
 ---
 
-**It may just be the frequency illusion, but it seems VPNs and especially VPN providers have become more and more common. When companies like ExpressVPN and NordVPN market themselves as a way to protect yourself and your privacy from hackers in your local coffee shop I always get a bit itchy. It's not the coffeeshop-example that bothers me, it's a classic. And with the new WPA3-standard already proven vulnerable[<sup>1</sup>](https://wpa3.mathyvanhoef.com/) before any major implementation it doesn't look like it will ever get old. But with 'only' a reasonable change your internet traffic will be monitored in any coffee shop, you fully trust these VPN providers with all your internet traffic. What could ever go wrong?**
+**It may just be the frequency illusion, but it seems VPNs and especially VPN providers have become more and more common. When companies like ExpressVPN and NordVPN market themselves as a way to protect yourself and your privacy from hackers in your local coffee shop I always get a bit itchy. It's not the coffeeshop-example that bothers me, it's a classic. And with the new WPA3-standard already proven vulnerable[<sup>1</sup>](https://wpa3.mathyvanhoef.com/) before any major implementation it doesn't look like it will ever get old. But with 'only' a reasonable chance your internet traffic will be monitored in any coffee shop, you fully trust these VPN providers with all your internet traffic. What could ever go wrong?**
 
 Firstly, what is the problem at my coffee shop? The coffee is good there, and they have fast wifi! Maybe i get a bit distracted by all the influencers and cat gifs, but who doesn't?
 
