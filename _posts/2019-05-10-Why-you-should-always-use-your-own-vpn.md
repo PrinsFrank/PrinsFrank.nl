@@ -1,11 +1,11 @@
 ---
 title: Why you should always use your own VPN
 subtitle: or; How to be somewhat secure at your local coffee shop
-Description: 
+Description:
 categories: [privacy, security]
-canonical:
-tags: []
-readtime: 
+canonical: https://medium.com/@prinsfrank/why-you-should-always-use-your-own-vpn-70621c28810d
+tags: [VPN, security, privacy, internet, technology]
+readtime: 4
 ---
 
 **It may just be the frequency illusion, but it seems VPNs and especially VPN providers have become more and more common. When companies like ExpressVPN and NordVPN market themselves as a way to protect yourself and your privacy from hackers in your local coffee shop I always get a bit itchy. It's not the coffeeshop-example that bothers me, it's a classic. And with the new WPA3-standard already proven vulnerable[<sup>1</sup>](https://wpa3.mathyvanhoef.com/) before any major implementation it doesn't look like it will ever get old. But with 'only' a reasonable change your internet traffic will be monitored in any coffee shop, you fully trust these VPN providers with all your internet traffic. What could ever go wrong?**
