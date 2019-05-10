@@ -30,6 +30,7 @@ rectangle "Home network" #green {
 
 rectangle "Internet Service Providers" {
     (<&signal> ISP coffeeshop) as isp
+    (<&signal> ISP Cell phone) as isp_cell_phone
     (<&signal> ISP Personal / Home) as isp_home #green
 }
 
@@ -38,14 +39,18 @@ cloud "<&cloud> Internet" {
     (<&lock-unlocked>Unencrypted traffic) as unprotected_traffic
 }
 
+(<&phone> Phone) as phone2
+
 ' Fixes order of protected and unprotected traffic items that is reversed sometimes.
 protected_traffic -[hidden]> unprotected_traffic
 
 usr --> laptop
 usr --> phone
-laptop .. wifi #green : "<&lock-locked>"
-phone .. wifi #green : "<&lock-locked>"
+laptop ..> wifi #green : "<&lock-locked>"
+phone ..> wifi #green : "<&lock-locked>"
 wifi --> isp #green : "<&lock-locked>"
+phone2 ..> isp_cell_phone #green : "<&lock-locked>"
+isp_cell_phone --> protected_traffic #green : "<&lock-locked>"
 isp --> protected_traffic #green : "<&lock-locked>"
 protected_traffic --> isp_home #green : "<&lock-locked>"
 isp_home --> vpn_server #green : "<&lock-locked>"
