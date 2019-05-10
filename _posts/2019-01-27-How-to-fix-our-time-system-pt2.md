@@ -8,7 +8,7 @@ tags: [science, future, innovation, world, time, proposal, metric system, decima
 readtime: 9
 ---
 
-![Train passing through street at night](/images/2019/01/header_time_system_pt2.jpg)
+{% include img.html src="/images/2019/01/header_time_system_pt2.jpg" alt="Train passing through street at night" aspect_ratio=46.18  %}
 _A train passing through a narrow street in Hanoi_
 
 **Before the late 19th century, time was expressed in local solar time worldwide. As trains became a faster and more common way to transport people over long distances this became confusing. Theoretically, any distance you moved east or west would result in a person needing to adjust his watch before, but now you had these trains with scheduled stops in all these different local times.**
@@ -27,7 +27,8 @@ Sir Fleming then talks about the fundamentals of the Reckoning of Time. He talks
 
 >“When the decimal system was adopted by the French, it was proposed to divide the day into ten and a hundred parts; a scheme which would probably be the best at this age of the world, had the whole system of horology [time telling]to be established de novo [from the beginning].” _-page 26- (Additions by me in [square brackets])_
 
-![central chronometer](/images/2019/01/central_chronometer_fig_1.png)
+{% include img.html src="/images/2019/01/central_chronometer_fig_1.png" alt="central chronometer" aspect_ratio=88.17 %}
+
 _[Papers on Time-reckoning and the selection of a prime meridian to be common to all nations - 1879, page 27, figure 1](https://ia800208.us.archive.org/12/items/cihm_03135/cihm_03135.pdf)_
 
 Directly after the quote above, he goes into establishing a “mean solar day” before introducing the basis for time zones, beautifully accompanied by this illustration. You will notice a globe with a chronometer in the middle and letters around it representing subdivisions. The choice for letters is explained as: _“The employment of the letters of the alphabet for the twenty-four divisions would in most civilized countries distinguish them from local hours (..).”_ -page 28-. Notably the letter “J” is omitted. This could be because the letter “J” and “I” are so similar, but this could also be because even though the letter “J” was used for a relatively long time, it wasn’t considered a separate letter. I can’t easily find a trust-able source or an exact point in time though when it did became so, and it’s not that important to this article. Sir Fleming explains his proposed system and the above illustration as follows:
@@ -55,8 +56,8 @@ Even though he calls the Washington conference _“(..) an epoch in the annals o
 
 If we look at his first paper regarding _“time reckoning”_ I mentioned above, we can see that his proposal was not actually about time zones each with their local time. Remember the letters and why they were letters? In the appendix he explains with some beautiful examples:
 
+{% include img.html src="/images/2019/01/meridians_and_their_time.png" alt="Meridians and their time illustrated" aspect_ratio=11.01 %}
 
-![Meridians and their time illustrated](/images/2019/01/meridians_and_their_time.png)
 _“Illustrating simultaneous Time at each of the twenty-four lettered meridians proposed as Local Standards; Local Time differing one hour in each case; Cosmopolitan Time remaining constant.” -page 44–51-_
 
 Besides the local time that represents our current time zoned time, we can see that _“Cosmopolitan time”_ is the same on every clock! The local time can is still visible on the outer circle, together with a shading depending on the time of the day. Very elegant, right? As the first part of his proposal was excepted, he expected this system to make it into everyday life very soon after that:

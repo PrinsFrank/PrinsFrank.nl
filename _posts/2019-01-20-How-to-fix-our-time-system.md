@@ -8,7 +8,8 @@ tags: [science, future, innovation, world, time, proposal, metric system, decima
 readtime: 5
 ---
 
-![St Joseph's cathedral hanoi](/images/2019/01/header_time_system.jpg)
+{% include img.html src="/images/2019/01/header_time_system.jpg" alt="St Joseph's cathedral Hanoi" aspect_ratio=75 %}
+
 _St. Joseph’s Cathedral in Hanoi at 12:07_
 
 **Most of us have mastered telling time by now. It is such a basic concept that it existed before the invention of the wheel. Our current time system with multiples of 24 and 60 dates back to ancient Egypt and Babylonian time and hasn’t changed a lot since. But why does a day divide into 24 pieces, hours and minutes into 60? And can we improve on that?**

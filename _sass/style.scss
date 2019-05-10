@@ -1,0 +1,10 @@
+.aspect-ratio-full-width {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  & img {
+    width: 100%;
+    position: absolute;
+    background: url("/images/loaders/puff.svg") center center no-repeat;
+  }
+}

@@ -18,7 +18,7 @@ To fully understand the significance of what happened we need to go back some ye
 
 A new system was proposed and implemented, eventually growing into our current system. A simplified graph of how a user can type in a user friendely domain name and get the resulting web page can be seen below;
 
-{% include puml.html graph_name="inner-working-dns-simple" alt="Inner working DNS graph" %}
+{% include puml.html graph_name="inner-working-dns-simple" alt="Inner working DNS graph"  aspect_ratio=43.49 %}
 
 As you can see quite a few different servers are involved with fetching the correct ip address for a domain name. Most servers along the way will cache the results, so when you request a domain name probably not all these request will actually take place.
 

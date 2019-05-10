@@ -1,1 +1,2 @@
-![{{ include.alt }}]({{site.plant_uml_render_proxy}}{{site.git_url}}{{site.graphs_folder}}{{include.graph_name}}.puml)
+{%- assign src = site.plant_uml_render_proxy | append: site.git_url | append: site.graphs_folder | append: include.graph_name | append: ".puml" -%}
+{%- include img.html graph_name=include.graph_name alt=include.alt aspect_ratio=include.aspect_ratio src=src -%}
