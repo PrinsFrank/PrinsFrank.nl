@@ -12,7 +12,7 @@ linkedin_username: prinsfrank
 github_username: PrinsFrank
 instagram_username: Prins_Frank_travel
 
-plant_uml_render_proxy: "http://www.plantuml.com/plantuml/proxy?cache=no&src="
+plant_uml_render_proxy: "http://www.plantuml.com/plantuml/proxy?src="
 git_url: "https://raw.githubusercontent.com/PrinsFrank/vuln.one/master/"
 graphs_folder: "graphs/"
 
