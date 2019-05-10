@@ -1,5 +1,10 @@
 <li>
-    <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+    <span class="post-meta">
+        {{ post.date | date: site.date_format }}
+        {%- if page.author -%}
+            &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {%- endif -%}</p>
+    </span>
     <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
