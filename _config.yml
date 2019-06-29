@@ -1,11 +1,11 @@
-title: Vuln.One
+title: PrinsFrank.nl
 email: prinsfrank@vuln.one
 pgp_fingerprint: 058B EA0C 7B01 8E1E 1A07 7EED BC88 7FF5 7202 0508
 description: >- # this means to ignore newlines until "baseurl:"
  Web technology and application security taken seriously.<br>
  -Sometimes while wearing my tinfoil hat-
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vuln.one" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://prinsfrank.nl" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y, %b %-d"
 
 linkedin_username: prinsfrank
@@ -13,7 +13,7 @@ github_username: PrinsFrank
 instagram_username: Prins_Frank_travel
 
 plant_uml_render_proxy: "http://www.plantuml.com/plantuml/proxy?src="
-git_url: "https://raw.githubusercontent.com/PrinsFrank/vuln.one/master/"
+git_url: "https://raw.githubusercontent.com/PrinsFrank/PrinsFrank.nl/master/"
 graphs_folder: "graphs/"
 
 # Build settings
