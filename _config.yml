@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  Web technology and application security taken seriously.<br>
  -Sometimes while wearing my tinfoil hat-
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://prinsfrank.nl" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://prinsfrank.nl" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y, %b %-d"
 
 linkedin_username: prinsfrank
