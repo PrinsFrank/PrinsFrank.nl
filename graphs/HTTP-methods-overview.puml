@@ -25,8 +25,9 @@ partition "HTTP Methods" {
     Q6 --> [ yes ] "PUT \n /user/{id}" as PUT
     Q6 --> [ no ] "PATCH \n /user/{id}" as PATCH
     Q8 --> [ no ] "POST \n /user" as POST
-    Q8 -[#red]-> [ yes *3 ] PUT
 }
+
+Q8 -[#red]-> [ yes *3 ] PUT
 
 legend
 |= |= Remarks |
