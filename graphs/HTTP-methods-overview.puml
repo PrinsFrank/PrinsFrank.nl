@@ -1,0 +1,38 @@
+@startuml
+
+skinparam arrowColor black
+
+skinparam activityBackgroundColor transparent
+skinparam legendBackgroundColor transparent
+skinparam activityBorderColor black
+
+left to right direction
+
+(*) -> "Do you want to know \n what methods are available \n for a resource?" as Q1
+Q1 -> [ no ] "Do you want to know \n something about an \n existing resource?" as Q2
+Q2 --> [ yes ] "Do you only want to know either \n - if a specific resource exists or \n - when it was last modified?" as Q3
+Q2 -> [ no ] "Do you want to modify \n a specific existing resource?" as Q4
+Q4 --> [ yes ] "Do you want to \n delete it?" as Q5
+Q5 --> [ no ] "Do you want to \n replace it in its \n entirety?" as Q6
+Q4 -> [ no ] "Do you want to create \n a new resource?" as Q7
+Q7 --> [ yes ] "Do you want to \n determine the location? \n (e.g. the {id})" as Q8
+
+partition "HTTP Methods" {
+    Q1 --> [ yes ] "OPTIONS \n /user *1 \n /user/{id} *2" as OPTIONS
+    Q3 --> [ yes ] "HEAD \n /user \n /user/{id}" as HEAD
+    Q3 --> [ no ] "GET \n /user/{id} \n /user?name=frank" as GET
+    Q5 --> [ yes ] "DELETE \n /user/{id}" as DELETE
+    Q6 --> [ yes ] "PUT \n /user/{id}" as PUT
+    Q6 --> [ no ] "PATCH \n /user/{id}" as PATCH
+    Q8 --> [ no ] "POST \n /user" as POST
+    Q8 -[#red]-> [ yes *3 ] PUT
+}
+
+legend
+|= |= Remarks |
+| *1 | Example: Allow: OPTIONS, HEAD, GET, POST |
+| *2 | Example: Allow: OPTIONS, HEAD, GET, PUT, PATCH, DELETE |
+| *3 | Make sure the location is unique, or you will replace an existing resource |
+endlegend
+
+@enduml
