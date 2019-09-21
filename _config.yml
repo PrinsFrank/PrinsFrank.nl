@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prinsfrank.nl" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y, %b %-d"
 
-linkedin_username: prinsfrank
+linkedin_username: PrinsFrank
 github_username: PrinsFrank
 instagram_username: Prins_Frank_travel
 thingiverse_username: PrinsFrank
