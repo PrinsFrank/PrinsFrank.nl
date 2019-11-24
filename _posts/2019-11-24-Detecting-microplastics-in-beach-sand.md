@@ -15,8 +15,8 @@ The next step is concentrating the plastics so I dont have to play "where is wal
 
 After a bit of stirring a bunch of very fine objects had collected at the surface. I bought some coffee filters, but was afraid that I would lose a lot of the very little material I had. Then I remembered the trick to break surface tension by using the marangoni effect, and with a little dab of soap on the surface all objects were now concentrated in one spot. With the microscope glass almost fully submerged close to the concentrated area, the objects were attracted to the slide and stuck to it when I got it out.
 
-{% include img.html src="/images/2019/11/microscopic_sea_creature_shell_in_beach_sand_40x.jpg" alt="Microscopic sea creature, 40 times magnification" aspect_ratio=100 %}
-_Microscopic sea creature <sub>40x magnification</sub>_
+{% include img.html src="/images/2019/11/microscopic_sea_creature_shell_in_beach_sand_100x.jpg" alt="Microscopic sea creature, 100 times magnification" aspect_ratio=100 %}
+_Microscopic sea creature <sub>100x magnification</sub>_
 
 One of the first things waiting for me was this microscopic sea creature. I could take the trouble identifying it, but that's not what I was looking for so I won't.
 
