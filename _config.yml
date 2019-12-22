@@ -4,7 +4,6 @@ pgp_fingerprint: 058B EA0C 7B01 8E1E 1A07 7EED BC88 7FF5 7202 0508
 description: >- # this means to ignore newlines until "baseurl:"
  Web technology and application security taken seriously.<br>
  -Sometimes while wearing my tinfoil hat-
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://prinsfrank.nl" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y, %b %-d"
 
@@ -12,6 +11,7 @@ linkedin_username: PrinsFrank
 github_username: PrinsFrank
 instagram_username: Prins_Frank_travel
 thingiverse_username: PrinsFrank
+polarsteps_username: PrinsFrank
 
 plant_uml_render_proxy: "http://www.plantuml.com/plantuml/proxy?src="
 git_url: "https://raw.githubusercontent.com/PrinsFrank/PrinsFrank.nl/master/"
@@ -19,7 +19,6 @@ graphs_folder: "graphs/"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-tidy
