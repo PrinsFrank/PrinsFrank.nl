@@ -1,14 +1,10 @@
-<li>
-    <span class="post-meta">
-        {{ post.date | date: site.date_format }}
-        {%- if page.author -%}
-            &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-        {%- endif -%}
-    </span>
-    <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-        </a>
-    </h3>
-    <span>{{ post.subtitle }}</span>
+<li itemscope itemtype="http://schema.org/ListItem http://schema.org/Article">
+    <time itemprop="datePublished">{{- post.date | date: site.date_format -}}</time>
+    {%- if page.author -%}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ -}}
+            <span itemprop="name">{{ page.author }}</span>{{ -}}
+        </span>
+    {%- endif -%}
+    <h3 itemprop="name"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <span itemprop="alternativeHeadline">{{ post.subtitle }}</span>
 </li>
