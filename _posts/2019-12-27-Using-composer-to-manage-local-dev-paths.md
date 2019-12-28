@@ -71,4 +71,19 @@ If everything went well you should now see something like:
 
 ```- Installing author/package (dev-master): Symlinking from /var/www/devroot/package```
 
-**Please note that lock-files should be generated without the global config set if you want them in git, otherwise paths will be committed.**
+One major disadvantage of this process is that the lock file will be updated and will include your local paths. obviously we don't want them in git, so we have to work around that. After the composer update we can simple revert the lock file, but we don't want to do this for every update so we can create a new command called "setup-symlinks". We also don't want to revert a file that already has changes, so we need to check if it has uncommitted changes before we can continue. Add these lines to the composer.json of the main project under the "scripts" section: 
+
+```
+"lock:fail-on-change": "git diff --exit-code -w -s composer.lock || (echo 'Please make sure you dont have uncommitted changes to your composer lock file before you continue.' && false )",
+"lock:revert": "git checkout -- composer.lock",
+"setup-symlinks": [
+    "composer lock:fail-on-change",
+    "composer clear-cache",
+    "composer update --prefer-source",
+    "composer lock:revert"
+]
+```
+
+When you now run ```composer setup-symlinks``` your symlinks will be taken care off without affecting your lock file!
+
+When you add the ```"preferred-install": "dist""``` to the composer.json, composer will not use the symlinks when updating your composer.json or lock file so you won't accidentally commit them.
