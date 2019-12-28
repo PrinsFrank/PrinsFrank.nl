@@ -71,6 +71,7 @@ header {
 
 main {
   padding: 30px 0;
+  overflow: hidden;
 }
 
 footer {
@@ -141,4 +142,8 @@ footer nav {
       text-decoration: underline;
     }
   }
+}
+
+code {
+  white-space: pre-wrap;
 }
