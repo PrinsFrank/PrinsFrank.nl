@@ -24,6 +24,21 @@ ul, li {
   margin: 0;
 }
 
+
+a {
+  color: #154f9b;
+  text-decoration: none;
+
+  &:visited {
+    color: #0c2d58;
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
 figure {
   width: 100%;
   position: relative;
@@ -129,18 +144,7 @@ footer nav {
   }
 
   > [itemprop~="name"] * {
-    color: #154f9b;
     font-size: 24px;
-    text-decoration: none;
-
-    &:visited {
-      color: #0c2d58;
-    }
-
-    &:hover {
-      color: $text-color;
-      text-decoration: underline;
-    }
   }
 }
 
