@@ -52,6 +52,19 @@ figure {
   }
 }
 
+hr {
+  border: none;
+
+  &:after {
+    display: block;
+    content: '...';
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0.5em;
+  }
+}
+
 header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
