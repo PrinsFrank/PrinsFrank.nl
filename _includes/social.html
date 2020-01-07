@@ -8,6 +8,15 @@
         </a>{{ -}}
     </li>
     {%- endif -%}
+    {%- if site.google_scholar_username -%}
+    <li>{{ -}}
+        Google Scholar: {{ -}}
+        <a itemprop="sameAs" target="_blank" rel="noopener" {{ -}}
+           href="https://scholar.google.com/citations?user={{ site.google_scholar_username| cgi_escape | escape }}">{{ -}}
+            {{ site.google_scholar_visible_name| escape -}}
+        </a>{{ -}}
+    </li>
+    {%- endif -%}
     {%- if site.instagram_username -%}
     <li>{{ -}}
         Instagram: {{ -}}
