@@ -47,13 +47,21 @@ With the path option, we can point our composer to our local working directory f
 To generate the symlink successfully, we first need to add the dev version constraint to the composer.json of the package you want to use the local repository in. Let's say you have a dependency constraint in your ```require``` or ```require-dev``` section as follows:
 
 ```json
-"author/package": "^1.0.0"
+{
+  "require": {
+    "author/package": "^1.0.0"
+  }
+}
 ```
 
 To also allow local packages when they are available, this needs to be changed to:
 
 ```json
-"author/package": "dev-master|^1.0.0"
+{
+  "require": {
+    "author/package": "dev-master|^1.0.0"
+  }
+}
 ```
 
 This points to the master branch in the local path we just defined, or if it's not set like on a test or production environment it falls back to the original version constraint.
@@ -84,14 +92,18 @@ If everything went well you should now see something like:
 One major disadvantage of this process is that the lock file will be updated and will include your local paths. obviously we don't want them in git, so we have to work around that. After the composer update we can simple revert the lock file, but we don't want to do this for every update so we can create a new command called "setup-symlinks". We also don't want to revert a file that already has changes, so we need to check if it has uncommitted changes before we can continue. Add these lines to the composer.json of the main project under the "scripts" section: 
 
 ```json
-"lock:fail-on-change": "git diff --exit-code -w -s composer.lock || (echo 'Please make sure you dont have uncommitted changes to your composer lock file before you continue.' && false )",
-"lock:revert": "git checkout -- composer.lock",
-"setup-symlinks": [
-    "composer lock:fail-on-change",
-    "composer clear-cache",
-    "composer update --prefer-source",
-    "composer lock:revert"
-]
+{
+    "scripts": { 
+        "lock:fail-on-change": "git diff --exit-code -w -s composer.lock || (echo 'Please make sure you dont have uncommitted changes to your composer lock file before you continue.' && false )",
+        "lock:revert": "git checkout -- composer.lock",
+        "setup-symlinks": [
+            "composer lock:fail-on-change",
+            "composer clear-cache",
+            "composer update --prefer-source",
+            "composer lock:revert"
+        ]
+    }
+}
 ```
 
 When you now run ```composer setup-symlinks``` your symlinks will be taken care off without affecting your lock file!
