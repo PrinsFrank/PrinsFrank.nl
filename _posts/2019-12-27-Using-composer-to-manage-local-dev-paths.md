@@ -86,7 +86,8 @@ composer update
 If everything went well you should now see something like: 
 
 ```
-- Installing author/package (dev-master): Symlinking from /var/www/devroot/package
+- Installing author/package (dev-master):
+Symlinking from /var/www/devroot/package
 ```
 
 One major disadvantage of this process is that the lock file will be updated and will include your local paths. obviously we don't want them in git, so we have to work around that. After the composer update we can simple revert the lock file, but we don't want to do this for every update so we can create a new command called "setup-symlinks". We also don't want to revert a file that already has changes, so we need to check if it has uncommitted changes before we can continue. Add these lines to the composer.json of the main project under the "scripts" section: 
