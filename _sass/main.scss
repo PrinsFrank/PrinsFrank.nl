@@ -162,5 +162,6 @@ footer nav {
 }
 
 code {
-  white-space: pre-wrap;
+  display: block;
+  overflow-x: auto;
 }
