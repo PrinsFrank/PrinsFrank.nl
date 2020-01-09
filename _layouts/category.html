@@ -7,16 +7,16 @@ layout: default
 {%- endif -%}
 
 {%- if site.posts.size > 0 -%}
-<h2>{%- if page.category -%}{{ page.category | capitalize }} {%- endif %}Posts</h2>
+<h2>{%- if page.category -%}{{ page.category | capitalize }} {% endif %}Posts</h2>
 <ul itemscope itemtype="http://schema.org/ItemList">
-{%- for post in site.posts -%}
-    {%- if post.categories contains page.category -%}
-        {% include post_preview.html %}
-    {%- endif -%}
-    {%- unless page.category -%}
-        {% include post_preview.html %}
-    {%- endunless -%}
-{%- endfor -%}
+    {%- for post in site.posts -%}
+        {%- if post.categories contains page.category -%}
+            {% include post_preview.html %}
+        {%- endif -%}
+        {%- unless page.category -%}
+            {% include post_preview.html %}
+        {%- endunless -%}
+    {%- endfor -%}
 </ul>
 <p>{{ -}}
     subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a>{{ -}}
