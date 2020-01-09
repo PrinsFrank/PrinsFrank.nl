@@ -6,7 +6,7 @@
             {%- assign tag_index = tag_index|plus:1 -%}
             {%- if page.categories contains category_page.category or page.category contains category_page.category %}
                 <li itemprop="name" class="tag-{{ tag_index }}">{{ -}}
-                    <a itemprop="url" href="{{ category_page.url | relative_url }}">{{ category_page.category | escape | capitalize }}</a>
+                    <a itemprop="url" href="{{ category_page.url | relative_url }}">{{ category_page.category | escape | capitalize }}</a>{{ -}}
                 </li>
             {%- endif -%}
         {% endif %}
