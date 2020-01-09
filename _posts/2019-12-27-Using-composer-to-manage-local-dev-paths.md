@@ -2,7 +2,7 @@
 title: Using composer to manage local dev paths
 subtitle: And how to keep them out of your composer.json and lock file so your teammates won't be angry at you
 Description:
-categories: []
+categories: [development]
 tags: []
 readtime: 
 ---

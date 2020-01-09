@@ -2,7 +2,7 @@
 title: Detecting microplastics in beach sand
 subtitle: An inconvenient truth
 Description:
-categories: []
+categories: [science]
 tags: []
 readtime: 4
 ---

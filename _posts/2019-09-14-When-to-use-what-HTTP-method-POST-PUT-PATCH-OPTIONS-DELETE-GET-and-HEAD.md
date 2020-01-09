@@ -2,7 +2,7 @@
 title: When to use what HTTP method.
 subtitle: A guide on POST, PUT, PATCH, OPTIONS, DELETE, GET and HEAD
 Description:
-categories: [develop, standards]
+categories: [development, standards]
 tags: [HTTP, POST, PUT, PATCH, OPTIONS, DELETE, GET, HEAD]
 readtime: 
 ---

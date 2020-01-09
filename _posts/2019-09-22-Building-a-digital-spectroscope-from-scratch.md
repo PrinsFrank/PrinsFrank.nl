@@ -2,7 +2,7 @@
 title: Building a digital spectroscope from scratch.
 subtitle: From webcam to 3d model and fabrication.
 Description:
-categories: []
+categories: [science]
 tags: []
 readtime: 8
 ---

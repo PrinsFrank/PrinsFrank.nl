@@ -2,7 +2,7 @@
 title: Diffraction grating under a microscope
 subtitle: And how to make the grating visible
 Description:
-categories: []
+categories: [science]
 tags: []
 readtime: 8
 ---
