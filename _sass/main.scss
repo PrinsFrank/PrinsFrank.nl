@@ -100,6 +100,57 @@ header {
 main {
   padding: 30px 0;
   overflow: hidden;
+
+  [itemtype~="http://www.schema.org/SiteNavigationElement"] {
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+
+    [itemprop~=name] {
+      height: 24px;
+      line-height: 24px;
+      position: relative;
+      float: left;
+      margin: 0 12px;
+      padding: 0 12px;
+
+      [itemprop~=url] {
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -12px;
+          width: 0;
+          height: 0;
+          border-color: transparent transparent transparent transparent;
+          border-style: solid;
+          border-width: 12px 12px 12px 0;
+        }
+
+        &:after {
+          content: "";
+          float: left;
+          position: absolute;
+          top: 10px;
+          left: 1px;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background: #fff;
+        }
+      }
+
+      @for $index from 1 through length($tag-colors) {
+        $color: nth($tag-colors, $index);
+        &.tag-#{$index} {
+          background-color: $color;
+        }
+        &.tag-#{$index} [itemprop~=url]:before {
+          border-right-color: $color;
+        }
+      }
+    }
+  }
 }
 
 footer {
