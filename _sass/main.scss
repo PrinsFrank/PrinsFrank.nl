@@ -120,6 +120,8 @@ main {
       padding: 0 12px;
 
       [itemprop~=url] {
+        color: white;
+
         &:before {
           content: "";
           position: absolute;
@@ -142,6 +144,11 @@ main {
           height: 5px;
           border-radius: 50%;
           background: #fff;
+        }
+
+        &:hover {
+          color: white;
+          text-decoration: none;
         }
       }
 
