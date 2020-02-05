@@ -59,7 +59,7 @@ To also allow local packages when they are available, this needs to be changed t
 ```json
 {
   "require": {
-    "author/package": "dev-master|^1.0.0"
+    "author/package": "dev-master || ^1.0.0"
   }
 }
 ```
@@ -109,4 +109,4 @@ One major disadvantage of this process is that the lock file will be updated and
 
 When you now run ```composer setup-symlinks``` your symlinks will be taken care off without affecting your lock file!
 
-When you add the ```"preferred-install": "dist""``` to the composer.json, composer will not use the symlinks when updating your composer.json or lock file so you won't accidentally commit them.
+When you add the ```"preferred-install": "dist"``` to the composer.json, composer will not use the symlinks when updating your composer.json or lock file so you won't accidentally commit them.
