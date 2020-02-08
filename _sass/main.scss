@@ -34,6 +34,7 @@ a {
   }
 
   &:hover {
+    transition: .3s;
     color: $text-color;
     text-decoration: underline;
   }
@@ -161,6 +162,12 @@ main {
           border-right-color: $color;
         }
       }
+    }
+  }
+
+  article {
+    a {
+      text-decoration: underline;
     }
   }
 }
