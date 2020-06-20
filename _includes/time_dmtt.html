@@ -1,0 +1,17 @@
+<time id="dmtt">000,00t</time>
+<script>
+    function updateDMTT() {
+        var now           = new Date();
+        var milliSeconds  = (now.getSeconds() + (now.getMinutes() * 60) + (now.getHours() * 60 * 60)) * 1000 + now.getMilliseconds();
+        var milliTick     = Math.floor(milliSeconds / 864000 * 1000);
+        var tickOnly      = Math.floor(milliTick / 100);
+        var milliTickOnly = milliTick - (tickOnly * 100);
+
+        document.getElementById('dmtt').innerHTML = tickOnly.toString().padStart(3, '0') + "," + milliTickOnly.toString().padStart(2, '0') + "t";
+    }
+
+    updateDMTT();
+    setInterval(updateDMTT, 864 / 8);
+    // A tick takes 864ms, but because of lag that differs between browsers the deviation from the current time can make the browser catch up with skipping ticks.
+    // To make this less obvious we refresh 8 times as much, so a skip is 8 times as common but only an 8th of the amount and less noticeable.
+</script>
