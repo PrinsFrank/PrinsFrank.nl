@@ -1,23 +1,23 @@
-<time id="dmttlocal" class="inline"><span id="dmttlocal-t">000</span><span id="dmttlocal-mt">00</span></time>
+<time id="dmttlocal" class="inline"><span id="dmttlocal-t">000</span><span id="dmttlocal-ct">00</span></time>
 <script>
     var DMTTTickLocal = document.getElementById('dmttlocal-t');
-    var DMTTMilliTickLocal = document.getElementById('dmttlocal-mt');
+    var DMTTCentiTickLocal = document.getElementById('dmttlocal-ct');
 
     function updateDMTTLocal() {
         var now           = new Date();
         var milliSeconds  = (now.getSeconds() + (now.getMinutes() * 60) + (now.getHours() * 60 * 60)) * 1000 + now.getMilliseconds();
-        var milliTick     = Math.floor(milliSeconds / 864000 * 1000);
-        var tickOnly      = Math.floor(milliTick / 100);
-        var milliTickOnly = milliTick - (tickOnly * 100);
+        var centiTick     = Math.floor(milliSeconds / 864000 * 1000);
+        var tickOnly      = Math.floor(centiTick / 100);
+        var centiTickOnly = centiTick - (tickOnly * 100);
 
         var currentTick = tickOnly.toString().padStart(3, '0');
         if (DMTTTickLocal.innerHTML !== currentTick) {
             DMTTTickLocal.innerHTML = currentTick;
         }
 
-        var currentMilliTick = milliTickOnly.toString().padStart(2, '0');
-        if (DMTTMilliTickLocal.innerHTML !== currentMilliTick) {
-            DMTTMilliTickLocal.innerHTML = currentMilliTick;
+        var currentCentiTick = centiTickOnly.toString().padStart(2, '0');
+        if (DMTTCentiTickLocal.innerHTML !== currentCentiTick) {
+            DMTTCentiTickLocal.innerHTML = currentCentiTick;
         }
     }
 
