@@ -1,28 +1,28 @@
-<time id="dmtt" class="inline"><span id="dmtt-t">000</span><span id="dmtt-mt">00</span></time>
+<time id="dmttlocal" class="inline"><span id="dmttlocal-t">000</span><span id="dmttlocal-mt">00</span></time>
 <script>
-    var DMTTTick = document.getElementById('dmtt-t');
-    var DMTTMilliTick = document.getElementById('dmtt-mt');
+    var DMTTTickLocal = document.getElementById('dmttlocal-t');
+    var DMTTMilliTickLocal = document.getElementById('dmttlocal-mt');
 
-    function updateDMTT() {
+    function updateDMTTLocal() {
         var now           = new Date();
-        var milliSeconds  = (now.getUTCSeconds() + (now.getUTCMinutes() * 60) + (now.getUTCHours() * 60 * 60)) * 1000 + now.getUTCMilliseconds();
+        var milliSeconds  = (now.getSeconds() + (now.getMinutes() * 60) + (now.getHours() * 60 * 60)) * 1000 + now.getMilliseconds();
         var milliTick     = Math.floor(milliSeconds / 864000 * 1000);
         var tickOnly      = Math.floor(milliTick / 100);
         var milliTickOnly = milliTick - (tickOnly * 100);
 
         var currentTick = tickOnly.toString().padStart(3, '0');
-        if (DMTTTick.innerHTML !== currentTick) {
-            DMTTTick.innerHTML = currentTick;
+        if (DMTTTickLocal.innerHTML !== currentTick) {
+            DMTTTickLocal.innerHTML = currentTick;
         }
 
         var currentMilliTick = milliTickOnly.toString().padStart(2, '0');
-        if (DMTTMilliTick.innerHTML !== currentMilliTick) {
-            DMTTMilliTick.innerHTML = currentMilliTick;
+        if (DMTTMilliTickLocal.innerHTML !== currentMilliTick) {
+            DMTTMilliTickLocal.innerHTML = currentMilliTick;
         }
     }
 
     updateDMTT();
-    setInterval(updateDMTT, 864 / 8);
+    setInterval(updateDMTTLocal, 864 / 8);
     // A tick takes 864ms, but because of lag that differs between browsers the deviation from the current time can make the browser catch up with skipping ticks.
     // To make this less obvious we refresh 8 times as much, so a skip is 8 times as common but only an 8th of the amount and less noticeable.
 </script>

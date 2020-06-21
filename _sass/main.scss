@@ -282,6 +282,7 @@ time.inline {
       content: 'H';
     }
   }
+  #dmttlocal-t,
   #dmtt-t {
     &::before {
       content: '1000 Ticks\00000a0-999';
@@ -290,6 +291,7 @@ time.inline {
       content: ',';
     }
   }
+  #dmttlocal-mt,
   #dmtt-mt {
     &::before {
       content: '100 Centiticks\00000a0-99';
