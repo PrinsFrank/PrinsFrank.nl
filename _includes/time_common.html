@@ -1,13 +1,30 @@
-<time id="common">00:00:00H</time>
+<time id="common" class="inline"><span id="common-h">00</span><span id="common-m">00</span><span id="common-s">00</span></time>
 <script>
+    var commonH = document.getElementById('common-h');
+    var commonM = document.getElementById('common-m');
+    var commonS = document.getElementById('common-s');
+
     function updateCommonTime() {
         var now = new Date();
-        document.getElementById('common').innerHTML =
-            now.getHours() + ":" + now.getMinutes().toString().padStart(2, '0') + ":" + now.getSeconds().toString().padStart(2, '0') + "H";
+
+        var currentHour = now.getHours().toString().padStart(2, '0');
+        if (commonH.innerHTML !== currentHour) {
+            commonH.innerHTML = currentHour;
+        }
+
+        var currentMinutes = now.getMinutes().toString().padStart(2, '0');
+        if (commonM.innerHTML !== currentMinutes) {
+            commonM.innerHTML = currentMinutes;
+        }
+
+        var currentSecond = now.getSeconds().toString().padStart(2, '0');
+        if (commonS.innerHTML !== currentSecond) {
+            commonS.innerHTML = currentSecond;
+        }
     }
 
     updateCommonTime();
     setInterval(updateCommonTime, 1000 / 10);
-    // A seconds takes 1000ms, but because of lag that differs between browsers the deviation from the current time can make the browser catch up with skipping ticks.
+    // A seconds takes 1000ms, but because of lag that differs between browsers the deviation from the current time can make the browser catch up with skipping seconds.
     // To make this less obvious we refresh 10 times as much, so a skip is 10 times as common but only a 10th of the amount and less noticeable.
 </script>

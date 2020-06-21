@@ -1,5 +1,8 @@
-<time id="dmtt">000,00t</time>
+<time id="dmtt" class="inline"><span id="dmtt-t">000</span><span id="dmtt-mt">00</span></time>
 <script>
+    var DMTTTick = document.getElementById('dmtt-t');
+    var DMTTMilliTick = document.getElementById('dmtt-mt');
+
     function updateDMTT() {
         var now           = new Date();
         var milliSeconds  = (now.getSeconds() + (now.getMinutes() * 60) + (now.getHours() * 60 * 60)) * 1000 + now.getMilliseconds();
@@ -7,7 +10,15 @@
         var tickOnly      = Math.floor(milliTick / 100);
         var milliTickOnly = milliTick - (tickOnly * 100);
 
-        document.getElementById('dmtt').innerHTML = tickOnly.toString().padStart(3, '0') + "," + milliTickOnly.toString().padStart(2, '0') + "t";
+        var currentTick = tickOnly.toString().padStart(3, '0');
+        if (DMTTTick.innerHTML !== currentTick) {
+            DMTTTick.innerHTML = currentTick;
+        }
+
+        var currentMilliTick = milliTickOnly.toString().padStart(2, '0');
+        if (DMTTMilliTick.innerHTML !== currentMilliTick) {
+            DMTTMilliTick.innerHTML = currentMilliTick;
+        }
     }
 
     updateDMTT();

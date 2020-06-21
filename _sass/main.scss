@@ -235,3 +235,67 @@ code {
   display: block;
   overflow-x: auto;
 }
+
+time.inline {
+  display: inline-block;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 1rem 0 6rem 0;
+  * {
+    position: relative;
+    &::before {
+      font-size: 1rem;
+      line-height: 1rem;
+      position: absolute;
+      transform: rotate(45deg);
+      top: 5.5rem;
+      left: calc(50% - 2rem);
+      text-align: left;
+      width: 9rem;
+      white-space: pre;
+    }
+  }
+  #common-h {
+    &::before {
+      content: '24 Hours\00000a0-23';
+    }
+    &::after {
+      content: ':';
+    }
+  }
+  #common-m {
+    &::before {
+      content: '60 Minutes\00000a0-59';
+    }
+    &::after {
+      content: ':';
+    }
+  }
+  #common-s {
+    &::before {
+      content: '60 Seconds\00000a0-59';
+    }
+    &::after {
+      content: 'H';
+    }
+  }
+  #dmtt-t {
+    &::before {
+      content: '1000 Ticks\00000a0-999';
+    }
+    &::after {
+      content: ',';
+    }
+  }
+  #dmtt-mt {
+    &::before {
+      content: '100 Centiticks\00000a0-99';
+    }
+    &::after {
+      content: 't';
+    }
+  }
+}
