@@ -244,6 +244,7 @@ time.inline {
   font-size: 3rem;
   line-height: 3rem;
   margin: 1rem 0 6rem 0;
+  user-select: none;
   * {
     position: relative;
     &::before {
