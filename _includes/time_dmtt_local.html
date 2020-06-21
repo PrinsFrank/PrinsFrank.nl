@@ -21,7 +21,7 @@
         }
     }
 
-    updateDMTT();
+    updateDMTTLocal();
     setInterval(updateDMTTLocal, 864 / 8);
     // A tick takes 864ms, but because of lag that differs between browsers the deviation from the current time can make the browser catch up with skipping ticks.
     // To make this less obvious we refresh 8 times as much, so a skip is 8 times as common but only an 8th of the amount and less noticeable.
