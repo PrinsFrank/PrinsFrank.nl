@@ -93,11 +93,16 @@ header {
   [itemtype~="http://www.schema.org/SiteNavigationElement"] {
     float: right;
 
-    [itemprop~=url] {
-      text-decoration: none;
+    [itemprop~=name] {
+      float: right;
+      margin: 0 10px;
 
-      &:hover {
-        text-decoration: underline;
+      [itemprop~=url] {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
