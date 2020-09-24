@@ -27,6 +27,7 @@ plugins:
 
 permalink: /:year/:month/:day/:title
 
+show_drafts: false
 defaults:
   -
     values:
