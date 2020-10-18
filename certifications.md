@@ -20,3 +20,4 @@ order: 99
 # General
 
 - First aid in Adults (EHBO)
+- [COVID-19 Contact Tracing - Johns Hopkins Universitey](http://coursera.org/verify/PVKC4ZW8VCDA) 
