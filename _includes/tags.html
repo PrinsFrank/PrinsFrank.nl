@@ -1,14 +1,13 @@
 <ul  itemscope itemtype="http://www.schema.org/SiteNavigationElement">
     {%- assign tag_index = 0 -%}
-    {%- for path in page_paths -%}
-        {%- assign category_page = site.pages | where: "path", path | first -%}
-        {%- if category_page.category -%}
-            {%- assign tag_index = tag_index|plus:1 -%}
-            {%- if page.categories contains category_page.category or page.category contains category_page.category %}
-                <li itemprop="name" class="tag-{{ tag_index }}">{{ -}}
-                    <a itemprop="url" href="{{ category_page.url | relative_url }}">{{ category_page.category | escape | capitalize }}</a>{{ -}}
-                </li>
-            {%- endif -%}
-        {% endif %}
+    {%- for category in site.categories -%}
+        {%- assign category_name = category[0] -%}
+        {%- assign tag_index = tag_index|plus:1 -%}
+        {%- assign category_page = site.pages | where: "category", category_name | first -%}
+        {%- if page.categories contains category_page.category or page.category contains category_page.category %}
+            <li itemprop="name" class="tag-{{ tag_index }}">{{ -}}
+                <a itemprop="url" href="{{ category_page.url | relative_url }}">{{ category[0] | escape | capitalize }}</a>{{ -}}
+            </li>
+        {%- endif -%}
     {%- endfor -%}
 </ul>
