@@ -225,14 +225,22 @@ footer nav {
   [itemprop~="datePublished"], [itemprop~="author"] {
     font-size: 14px;
     color: #545454;
-  }
-
-  [itemprop~="author"] [itemprop~="name"]::before {
-    content: " \2022  ";
+    margin-right: 5px;
   }
 
   > [itemprop~="name"] * {
     font-size: 24px;
+  }
+
+  @for $index from 1 through length($tag-colors) {
+    .category-indicator-#{$index} {
+      background-color: nth($tag-colors, $index);
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 6px;
+      margin-right: 5px;
+    }
   }
 }
 
