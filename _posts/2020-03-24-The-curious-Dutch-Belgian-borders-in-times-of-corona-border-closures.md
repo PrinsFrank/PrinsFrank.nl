@@ -2,7 +2,7 @@
 title: The curious Dutch-Belgian borders in times of corona border closures
 subtitle: A story about Baarle-Hertog and Baarle-Nassau.
 Description:
-categories: []
+categories: [travel]
 tags: []
 readtime: 
 ---
