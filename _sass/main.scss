@@ -220,7 +220,8 @@ footer nav {
 }
 
 [itemtype~="http://schema.org/ListItem"][itemtype~="http://schema.org/Article"] {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-top: 25px;
 
   [itemprop~="datePublished"], [itemprop~="author"] {
     font-size: 14px;
