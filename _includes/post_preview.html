@@ -1,13 +1,6 @@
 <li itemscope itemtype="http://schema.org/ListItem http://schema.org/Article">
     <time itemprop="datePublished">{{- post.date | date: site.date_format -}}</time>
-    {%- assign tag_index = 0 -%}
-    {%- for category in site.categories -%}
-        {%- assign tag_index = tag_index|plus:1 -%}
-        {%- if post.categories contains category[0] -%}
-            {%- assign category_page = site.pages | where: "category", category[0] | first -%}
-            <a itemprop="url" class="category-indicator-{{ tag_index }}" href="{{ category_page.url | relative_url }}" title="{{ category[0] | capitalize }}"></a>
-        {%- endif -%}
-    {%- endfor -%}
+    {%- include category_indicators.html post = post -%}
     {%- if page.author -%}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ -}}
             <span itemprop="name">{{ page.author }}</span>{{ -}}

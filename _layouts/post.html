@@ -5,6 +5,8 @@ layout: default
 <a href="/">Back to posts ↺</a>
 <h1 itemprop="name headline">{{ page.title | escape }}</h1>
 <span itemprop="alternativeHeadline">{{ page.subtitle }}</span>
+<br>
+{%- include category_indicators.html post = page -%}
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time>
 {% if page.author -%}
 <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ -}}
