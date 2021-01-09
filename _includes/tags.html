@@ -4,10 +4,8 @@
         {%- assign category_name = category[0] -%}
         {%- assign tag_index = tag_index|plus:1 -%}
         {%- assign category_page = site.pages | where: "category", category_name | first -%}
-        {%- if page.categories contains category_page.category or page.category contains category_page.category %}
-            <li itemprop="name" class="tag-{{ tag_index }}">{{ -}}
-                <a itemprop="url" href="{{ category_page.url | relative_url }}">{{ category[0] | escape | capitalize }}</a>{{ -}}
-            </li>
-        {%- endif -%}
+        <li itemprop="name" class="tag-{{ tag_index }} {%- if page.categories contains category_page.category or page.category contains category_page.category %} tag-active{%- endif -%}">{{ -}}
+            <a itemprop="url" href="{%- if page.category contains category_page.category %}{{ site.url }}{% else %}{{ category_page.url | relative_url }}{%- endif -%}">{{ category[0] | escape | capitalize }}</a>{{ -}}
+        </li>
     {%- endfor -%}
 </ul>

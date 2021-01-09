@@ -125,6 +125,10 @@ main {
       margin: 2px 12px;
       padding: 0 12px;
 
+      &:not(.tag-active) {
+        opacity: 0.5;
+      }
+
       [itemprop~=url] {
         color: white;
 
