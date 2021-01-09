@@ -3,6 +3,6 @@
     {%- assign tag_index = tag_index|plus:1 -%}
     {%- if include.post.categories contains category[0] -%}
     {%- assign category_page = site.pages | where: "category", category[0] | first -%}
-    <a itemprop="url" class="category-indicator-{{ tag_index }}" href="{{ category_page.url | relative_url }}" title="{{ category[0] | capitalize }}"></a>
+    <a itemprop="url" class="category-indicator-{{ tag_index }}" href="{%- if page.category contains category_page.category %}{{ site.url }}{% else %}{{ category_page.url | relative_url }}{%- endif -%}" title="{{ category[0] | capitalize }}"></a>
     {%- endif -%}
 {%- endfor -%}
