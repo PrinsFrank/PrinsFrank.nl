@@ -14,6 +14,10 @@ order: 99
 ### Boating
 
 [Klein vaarbewijs I](https://www.cbr.nl/nl/recreatievaart-en-privevliegers/recreatievaart/recreatievaart-2/theorie-examen-klein-vaarbewijs-1.htm)
+
+### Drone License
+
+[A1/A3 European Open sub category drone license. Issued by austro control Austria (AUT-RP-2576kqkl8ken)](https://www.dronespace.at/drohnenfuehrerschein)
     
 ## Work
 
