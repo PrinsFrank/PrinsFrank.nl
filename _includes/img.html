@@ -1,7 +1,7 @@
 {%- if include.aspect_ratio -%}
     <figure style="padding-bottom: {{include.aspect_ratio}}%;">
-        <img src="{{include.src}}" alt="{{ include.alt }}">
+        <img src="{{include.src}}" alt="{{ include.alt }}" {% if include.full_width -%}class="full-width"{%- endif -%}>
     </figure>
 {%- else -%}
-    <img src="{{include.src}}" alt="{{ include.alt }}">
+    <img src="{{include.src}}" alt="{{ include.alt }}" {% if include.full_width -%}class="full-width"{%- endif -%}>
 {%- endif -%}

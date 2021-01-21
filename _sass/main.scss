@@ -110,7 +110,7 @@ header {
 
 main {
   padding: 30px 0;
-  overflow: hidden;
+  overflow: visible;
 
   [itemtype~="http://www.schema.org/SiteNavigationElement"] {
     display: inline-block;
