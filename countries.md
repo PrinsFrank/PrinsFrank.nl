@@ -4,6 +4,6 @@ title: Visited countries
 order: 99
 ---
 
-{% include img.html src="/images/worldmap.svg" alt="Visited countries" aspect_ratio=50.8 %}
+{% include img.html src="/images/worldmap_2021.svg" alt="Visited countries" aspect_ratio=64.5 %}
 
 31 of 196 countries visited
