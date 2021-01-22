@@ -1,0 +1,3 @@
+<figure {% if include.aspect_ratio and include.full_width != true -%}style="padding-bottom: {{include.aspect_ratio}}%;"{%- endif %} {% if include.full_width -%}class="full-width"{%- endif -%}>
+    {% include svg/{{include.src}} %}
+</figure>

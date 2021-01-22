@@ -34,3 +34,36 @@ defaults:
       author: "Frank Prins"
 
 build: 2021012201 # cache busting variable for css
+
+visited_countries:
+  - NL
+  - AT
+  - BE
+  - CH
+  - CH
+  - CN
+  - CN
+  - CZ
+  - DE
+  - ES
+  - FR
+  - GB
+  - IL
+  - IT
+  - JO
+  - JP
+  - KH
+  - KR
+  - LU
+  - LV
+  - NL
+  - NL
+  - PL
+  - PS
+  - SI
+  - SK
+  - TR
+  - UA
+  - UZ
+  - VN
+  - ZA
