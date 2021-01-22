@@ -33,4 +33,4 @@ defaults:
     values:
       author: "Frank Prins"
 
-build: 20210109 # cache busting variable for js
+build: 2021012201 # cache busting variable for css
