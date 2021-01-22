@@ -55,6 +55,10 @@ figure {
     width: 100%;
     height: 100%;
     position: absolute;
+  }
+
+  & img {
+    // Only necessary for img sources, as svgs get loaded with the page source
     background: url("/images/loaders/puff.svg") center center no-repeat;
   }
 
