@@ -36,7 +36,6 @@ defaults:
 build: 2021012201 # cache busting variable for css
 
 visited_countries:
-  - NL
   - AT
   - BE
   - CH
@@ -56,7 +55,6 @@ visited_countries:
   - KR
   - LU
   - LV
-  - NL
   - NL
   - PL
   - PS
