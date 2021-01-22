@@ -33,7 +33,7 @@ defaults:
     values:
       author: "Frank Prins"
 
-build: 2021012201 # cache busting variable for css
+build: 2021012202 # cache busting variable for css
 
 visited_countries:
   - AT
