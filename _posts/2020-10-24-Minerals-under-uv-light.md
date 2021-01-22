@@ -31,46 +31,46 @@ Tenebrescence is a rare phenomenon where a mineral changes colour and changes ba
 
 To share some excitement, I took some pictures in both visible and short wave UV to post here. Below each set of pictures the name of the mineral and the properties from above are listed.
 
-{% include img.html src="/images/2020/10/afghanite_visible_short_wave_uv_light.jpg" alt="Afghanite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/afghanite_visible_short_wave_uv_light.jpg" alt="Afghanite" aspect_ratio=28 full_width=true full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Afghanite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/calcite_visible_short_wave_uv_light.jpg" alt="Calcite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/calcite_visible_short_wave_uv_light.jpg" alt="Calcite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Calcite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/cerrusite_visible_short_wave_uv_light.jpg" alt="Cerrusite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/cerrusite_visible_short_wave_uv_light.jpg" alt="Cerrusite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Cerrusite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/fluorite_visible_short_wave_uv_light.jpg" alt="Fluorite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/fluorite_visible_short_wave_uv_light.jpg" alt="Fluorite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Fluorite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/hackmanite_visible_short_wave_uv_light.jpg" alt="Hackmanite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/hackmanite_visible_short_wave_uv_light.jpg" alt="Hackmanite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Hackmanite, Fluorescent & Phosphorescent & Tenebrescent</div>
 
-{% include img.html src="/images/2020/10/hauyn_visible_short_wave_uv_light.jpg" alt="Hauyn" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/hauyn_visible_short_wave_uv_light.jpg" alt="Hauyn" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Hauyn, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/kunzite_visible_short_wave_uv_light.jpg" alt="Kunzite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/kunzite_visible_short_wave_uv_light.jpg" alt="Kunzite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Kunzite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/opal_visible_short_wave_uv_light.jpg" alt="Opal" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/opal_visible_short_wave_uv_light.jpg" alt="Opal" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Opal, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/ruby_visible_short_wave_uv_light.jpg" alt="Ruby" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/ruby_visible_short_wave_uv_light.jpg" alt="Ruby" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Ruby, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/selenite_visible_short_wave_uv_light.jpg" alt="Selenite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/selenite_visible_short_wave_uv_light.jpg" alt="Selenite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Selenite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/sodalite_visible_short_wave_uv_light.jpg" alt="Sodalite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/sodalite_visible_short_wave_uv_light.jpg" alt="Sodalite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Sodalite, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/spinel_visible_short_wave_uv_light.jpg" alt="Spinel" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/spinel_visible_short_wave_uv_light.jpg" alt="Spinel" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Spinel, Fluorescent</div>
 
-{% include img.html src="/images/2020/10/stilbite_visible_short_wave_uv_light.jpg" alt="Stilbite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/stilbite_visible_short_wave_uv_light.jpg" alt="Stilbite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Stilbite, Fluorescent & Phosphorescent</div>
 
-{% include img.html src="/images/2020/10/tugtupite_visible_short_wave_uv_light.jpg" alt="Tugtupite" aspect_ratio=28 %}
+{% include img.html src="/images/2020/10/tugtupite_visible_short_wave_uv_light.jpg" alt="Tugtupite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Tugtupite, Fluorescent</div>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
