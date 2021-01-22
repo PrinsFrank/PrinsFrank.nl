@@ -100,7 +100,16 @@ svg {
       }
     }
 
-    @include countries-visited;
+    @for $i from 1 through length($tag-colors) {
+      $color: nth($tag-colors, $i);
+      &.color-#{$i} {
+        @each $countryCode in $countryCodes {
+          &.#{$countryCode} ##{$countryCode} {
+            fill: $color;
+          }
+        }
+      }
+    }
 
     #AQ {
       display: none;
