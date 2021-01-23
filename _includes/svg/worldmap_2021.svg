@@ -705,4 +705,80 @@
             <title>Zimbabwe</title>
         </path>
     </g>
+    <circle cx="490" cy="292" r="2" id="amsterdam"/>
+    <g id="2011">
+        <circle cx="480" cy="337" r="2" id="barcelona"/>
+    </g>
+    <g id="2013">
+        <circle cx="467" cy="275" r="2" id="edinburgh"/>
+    </g>
+    <g id="2014">
+        <circle cx="469" cy="279" r="2" id="newcastle"/>
+        <circle cx="507" cy="314" r="2" id="bludenz"/>
+        <circle cx="487" cy="325" r="2" id="ardeche"/>
+    </g>
+    <g id="2015">
+        <circle cx="543" cy="270" r="2" id="riga"/>
+        <circle cx="480" cy="310" r="2" id="paris"/>
+        <circle cx="473" cy="295" r="2" id="hull"/>
+    </g>
+    <g id="2016">
+        <circle cx="495" cy="302" r="2" id="krov"/>
+        <circle cx="471" cy="283" r="2" id="london"/>
+        <circle cx="508" cy="332" r="2" id="rome"/>
+        <circle cx="514" cy="335" r="2" id="pompei"/>
+        <circle cx="520" cy="309" r="2" id="vienna"/>
+        <circle cx="523" cy="309" r="2" id="bratislava"/>
+    </g>
+    <g id="2017">
+        <circle cx="855" cy="359" r="2" id="kyoto"/>
+        <circle cx="854" cy="360" r="2" id="osaka"/>
+        <circle cx="867" cy="356" r="2" id="tokyo"/>
+        <circle cx="867" cy="358" r="2" id="yokohama"/>
+        <path d="M 854 360 L 855 359 L 854 360L 867 356 L 867 358"><title>2017</title></path>
+    </g>
+    <g id="2018">
+        <circle cx="555" cy="338" r="2" id="istanbul"/>
+        <circle cx="560" cy="301" r="2" id="kyiv"/>
+        <circle cx="560" cy="298" r="2" id="pripyat"/>
+        <path d="M 560 301 L 560 298"><title>2018</title></path>
+        <circle cx="503" cy="292" r="2" id="hanover"/>
+        <circle cx="520" cy="302" r="2" id="trutnov"/>
+        <circle cx="522" cy="300" r="2" id="walzbrych"/>
+        <circle cx="511" cy="292" r="2" id="berlin"/>
+        <circle cx="492" cy="302" r="2" id="luxemburg"/>
+        <circle cx="831" cy="353" r="2" id="seoul"/>
+        <circle cx="830" cy="350" r="2" id="panmunjom"/>
+        <circle cx="794" cy="400" r="2" id="honk-kong"/>
+        <circle cx="792" cy="400" r="2" id="macau"/>
+        <circle cx="794" cy="398" r="2" id="shenzen"/>
+        <circle cx="766" cy="426" r="2" id="siem-reap"/>
+        <circle cx="769" cy="429" r="2" id="phnom-penh"/>
+        <circle cx="771" cy="403" r="2" id="hanoi"/>
+        <circle cx="774" cy="404" r="2" id="ha-long"/>
+        <path d="M 831 353 L 830 353 L 831 353 L 766 426 L 769 429 L 771 403 L 774 404 L 771 403 L 794 400 L 792 400 L 794 400 L 794 398 L 794 400 L 831 353" stroke="black" fill="transparent"><title>2018</title></path>
+    </g>
+    <g id="2019">
+        <circle cx="661" cy="343" r="2" id="samarkand"/>
+        <circle cx="670" cy="338" r="2" id="tashkent"/>
+        <circle cx="654" cy="342" r="2" id="bukhara"/>
+        <circle cx="645" cy="335" r="2" id="khiva"/>
+        <path d="M 661 343 L 670 338 L 645 335 L 654 342 L 661 343" stroke="black" fill="transparent"><title>2019</title></path>
+    </g>
+    <g id="2020">
+        <circle cx="550" cy="560" r="2" id="port-alfred"/>
+        <circle cx="547" cy="562" r="2" id="port-elizabeth"/>
+        <circle cx="528" cy="565" r="2" id="cape-town"/>
+        <path d="M 547 562 L 550 560 L 528 565" stroke="black" fill="transparent"><title>2020</title></path>
+        <circle cx="517" cy="318" r="2" id="ljubljana"/>
+        <circle cx="514" cy="335" r="2" id="naples"/>
+        <circle cx="503" cy="327" r="2" id="pisa"/>
+        <circle cx="506" cy="327" r="2" id="florence"/>
+        <circle cx="509" cy="326" r="2" id="san-marino"/>
+        <circle cx="494" cy="327" r="2" id="monaco"/>
+        <circle cx="504" cy="322" r="2" id="verona"/>
+        <circle cx="508" cy="322" r="2" id="venetie"/>
+        <circle cx="497" cy="316" r="2" id="lauterbrunen"/>
+        <path d="M 517 318 L 514 335 L 503 327 L 506 327 L 509 326 L 506 327 L 494 327 L 504 322 L 508 322 L 504 322 L 497 316" stroke="black" fill="transparent"><title>2018</title></path>
+    </g>
 </svg>
