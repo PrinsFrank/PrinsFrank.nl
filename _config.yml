@@ -24,6 +24,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-tidy
+  - jekyll-sitemap
 
 permalink: /:year/:month/:day/:title
 
