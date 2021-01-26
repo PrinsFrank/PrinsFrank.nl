@@ -7,7 +7,7 @@ tags: []
 readtime: 
 ---
 
-A while ago, I wrote about my [microplastic research and my plans about staining plastics with fluorescent Nile Red](2020-02-08-Fibrous-microplastic-particles-in-prawn-crackers.md). Some equipment was ordered, when the coronavirus broke out and the shipping status of the equipment became uncertain. After 2 months waiting, the uv flashlight was still not on its way, but stuck in the US as air cargo was basically at a halt. Finally, when the package was put on a boat instead the flashlight arrived a couple months ago. 
+A while ago, I wrote about my [microplastic research and my plans about staining plastics with fluorescent Nile Red]({{ site.baseurl }}{% post_url 2020-02-08-Fibrous-microplastic-particles-in-prawn-crackers %}). Some equipment was ordered, when the coronavirus broke out and the shipping status of the equipment became uncertain. After 2 months waiting, the uv flashlight was still not on its way, but stuck in the US as air cargo was basically at a halt. Finally, when the package was put on a boat instead the flashlight arrived a couple months ago. 
 
 Meanwhile, I had been searching for Nile Red to purchase as an individual. Most web shops that sell it in Europe  immediately responded they don't sell to individuals or sold it to individuals for a thousand euro per gram, others required a statement that I wouldn't do anything illegal with the chemicals and a credit card number before cancelling my order. Eventually I found an address that was willing to order the chemicals for me, and a month later I had one gram of Nile Red delivered to my house.
 
