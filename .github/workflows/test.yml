@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Check for external links with missing target="blank"
-        run: grep -P '\[[^\]]*\]\([^){% post_url]*\)(?!{)' * --include \*.md -r
+        run: grep -P '\[[^\]]*\]\([^){%]*\)(?!{)' * --include \*.md -r
