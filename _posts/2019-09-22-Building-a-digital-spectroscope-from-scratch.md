@@ -24,12 +24,12 @@ To start this build for yourself you need the following items:
 - 2 old-school metal razor blades
 - Logitech C920 (Pro) or similar webcam
 - 4 bolts <sub>M3, 40mm (This case is not designed in freedom units)</sub>
-- The [3D-printed parts](https://www.thingiverse.com/thing:3872984)
+- The [3D-printed parts](https://www.thingiverse.com/thing:3872984){:target="_blank" rel="noreferrer noopener"}
 - Some poster tack
 
 # Webcam disassembly
 
-With all the screws hidden behind rubber stickers and corners I was very happy to see an [ifixit guide for the exact model webcam I had](https://www.ifixit.com/Guide/Logitech+C920+Webcam+Disassembly/115077). Make sure the webcam is fully operational before you start! After following steps one through ten the only thing left to do is cut the plastic case with some cutting pliers so the circuit board and cable are free on their own. Make sure to keep all the screws that you get during disassemly as we need them to assemble the spectroscope itself.
+With all the screws hidden behind rubber stickers and corners I was very happy to see an [ifixit guide for the exact model webcam I had](https://www.ifixit.com/Guide/Logitech+C920+Webcam+Disassembly/115077){:target="_blank" rel="noreferrer noopener"}. Make sure the webcam is fully operational before you start! After following steps one through ten the only thing left to do is cut the plastic case with some cutting pliers so the circuit board and cable are free on their own. Make sure to keep all the screws that you get during disassemly as we need them to assemble the spectroscope itself.
 
 {% include img.html src="/images/2019/09/webcam_logitech_c920pro.jpg" alt="The Logitech C920 Pro halfway through disassembly" aspect_ratio=56 %}
 

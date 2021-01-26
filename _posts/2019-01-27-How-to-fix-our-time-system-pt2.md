@@ -15,7 +15,7 @@ _A train passing through a narrow street in Hanoi_
 
 ## Our current system
 
-Sandfor Fleming, a Canadian railway engineer first proposed the basis for our current time zone system in his “[Papers on Time-reckoning and the selection of a prime meridian to be common to all nations” in the Transactions of the Canadian Institute, Toronto in 1879](https://ia800208.us.archive.org/12/items/cihm_03135/cihm_03135.pdf). The urgency for a solution is made clear on page 13 with the example:
+Sandfor Fleming, a Canadian railway engineer first proposed the basis for our current time zone system in his “[Papers on Time-reckoning and the selection of a prime meridian to be common to all nations” in the Transactions of the Canadian Institute, Toronto in 1879](https://ia800208.us.archive.org/12/items/cihm_03135/cihm_03135.pdf){:target="_blank" rel="noreferrer noopener"}. The urgency for a solution is made clear on page 13 with the example:
 
 >“Suppose we take the case of a person travelling from London to India. He starts with Greenwich time, but he scarcely leaves the shores of England, when he finds his watch no longer right. Paris time is used for the journey, until that of Rome becomes the standard. At Brindisi is another exchange. Up the Mediterranean, ships’ time is used. At Alexandria, Egyptian time is the standard. At Suez, ships’ time is resumed, and continues, with daily changes, until India is reached. Arriving at Bombay, the traveller will find two standards employed, local time and railway time, the latter being that of Madras.” _-page 13-_
 
@@ -29,7 +29,7 @@ Sir Fleming then talks about the fundamentals of the Reckoning of Time. He talks
 
 {% include img.html src="/images/2019/01/central_chronometer_fig_1.png" alt="central chronometer" aspect_ratio=88.17 %}
 
-_[Papers on Time-reckoning and the selection of a prime meridian to be common to all nations - 1879, page 27, figure 1](https://ia800208.us.archive.org/12/items/cihm_03135/cihm_03135.pdf)_
+_[Papers on Time-reckoning and the selection of a prime meridian to be common to all nations - 1879, page 27, figure 1](https://ia800208.us.archive.org/12/items/cihm_03135/cihm_03135.pdf){:target="_blank" rel="noreferrer noopener"}_
 
 Directly after the quote above, he goes into establishing a “mean solar day” before introducing the basis for time zones, beautifully accompanied by this illustration. You will notice a globe with a chronometer in the middle and letters around it representing subdivisions. The choice for letters is explained as: _“The employment of the letters of the alphabet for the twenty-four divisions would in most civilized countries distinguish them from local hours (..).”_ -page 28-. Notably the letter “J” is omitted. This could be because the letter “J” and “I” are so similar, but this could also be because even though the letter “J” was used for a relatively long time, it wasn’t considered a separate letter. I can’t easily find a trust-able source or an exact point in time though when it did became so, and it’s not that important to this article. Sir Fleming explains his proposed system and the above illustration as follows:
 
@@ -41,7 +41,7 @@ What an elegant solution to such an ugly problem, right? An interesting detail f
 
 His proposal is considerably different than our current time system, but it lays the basis for the realization that dividing the world in 24 parts, as the days already were, would result in a uniform way worldwide to tell time.
 
-In his letter _“[Time Reckoning for the twentieth century”_ in _“the annual report of the board of regents of the Smithsonian institution (..) for the year ending Jun 30, 1886](https://ia801407.us.archive.org/1/items/annualreportofbo18861smit/annualreportofbo18861smit.pdf)"_ Sanford reflects on the scientific conference in the autumn of 1884 in Washington and the resulting unanimous adoption of the seven resolutions of time worldwide. In this letter he explicitly talks about divisions in degrees:
+In his letter _“[Time Reckoning for the twentieth century”_ in _“the annual report of the board of regents of the Smithsonian institution (..) for the year ending Jun 30, 1886](https://ia801407.us.archive.org/1/items/annualreportofbo18861smit/annualreportofbo18861smit.pdf){:target="_blank" rel="noreferrer noopener"}"_ Sanford reflects on the scientific conference in the autumn of 1884 in Washington and the resulting unanimous adoption of the seven resolutions of time worldwide. In this letter he explicitly talks about divisions in degrees:
 
 >“A spectator standing at the north pole would have neither east nor west; in whatever direction he might east his eyes he would look towards the south; (..) If from zero the horizon be divided into a series of ares of 15° each the whole circle around will consist of twenty-four divisions.” _-page 349-_
 

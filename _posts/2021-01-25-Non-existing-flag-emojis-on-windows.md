@@ -7,7 +7,7 @@ tags: []
 readtime:
 ---
 
-While they seem quite new, the first known emoji set was created by [Softbank in 1997](https://emojipedia.org/softbank/1997/) for Japanese customers, but only in [2008 Apple introduced support on the Japanese market](https://web.archive.org/web/20090703152413/http://support.apple.com/kb/TS2404), with eventually the entire world being able to use them. And while all emoji differ between platforms, most do work when you send them in an email from your Apple device to an Android or Windows device, or displayed on a web page. With one noticeable exception: country flags;
+While they seem quite new, the first known emoji set was created by [Softbank in 1997](https://emojipedia.org/softbank/1997/){:target="_blank" rel="noreferrer noopener"} for Japanese customers, but only in [2008 Apple introduced support on the Japanese market](https://web.archive.org/web/20090703152413/http://support.apple.com/kb/TS2404){:target="_blank" rel="noreferrer noopener"}, with eventually the entire world being able to use them. And while all emoji differ between platforms, most do work when you send them in an email from your Apple device to an Android or Windows device, or displayed on a web page. With one noticeable exception: country flags;
 
 {% include img.html src="/images/2021/01/emoji_platforms.jpg" alt="Flag emojis on macOS" aspect_ratio=31.5 %}
 
@@ -21,7 +21,7 @@ The organization that standardizes the emoji and their code points is the Unicod
 
 Instead of adding a code point for every country, something smarter was done. Countries regularly combine, break up etc. The newest country - South Sudan, independent since 2011 - didn't appear on my country map because I used an outdated svg. Exactly this problem is what the consortium wanted to prevent, by coming up with a clever workaround. The International Organization for Standardization - or ISO - already manages a standard of what countries exist: ISO 3166. Part 1, ISO 3166-1 specifies country codes. The alpha-2 representation was chosen to make up the building blocks of the emoji. For a 2 character code there are 26<sup>2</sup> or 676 possible combinations, so 676 possible countries before the standard needs to be revised.
 
-Every alpha-2 representation for a country is unique and consists of 2 letters from the modern english alphabet. These 26 letters all got another [code point specifically for "regional indicators" in range 1F1E6-1F1FF](https://www.unicode.org/charts/PDF/U1F100.pdf); 🇦 🇧 🇨 🇩 🇪 🇫 🇬 🇭 🇮 🇯 🇿 🇱 🇲 🇳 🇴 🇵 🇶 🇷 🇸 🇹 🇺 🇻 🇼 🇽 🇾 🇿. To include a countries flag. simply look up the alpha-2 code for it and look up the regional indicators for that country code. The alpha-2 for the Netherlands is NL. Take the 🇳 and 🇱 code points and squash them together and you have a flag: 🇳🇱. Or not when you are visiting on Windows.
+Every alpha-2 representation for a country is unique and consists of 2 letters from the modern english alphabet. These 26 letters all got another [code point specifically for "regional indicators" in range 1F1E6-1F1FF](https://www.unicode.org/charts/PDF/U1F100.pdf){:target="_blank" rel="noreferrer noopener"}; 🇦 🇧 🇨 🇩 🇪 🇫 🇬 🇭 🇮 🇯 🇿 🇱 🇲 🇳 🇴 🇵 🇶 🇷 🇸 🇹 🇺 🇻 🇼 🇽 🇾 🇿. To include a countries flag. simply look up the alpha-2 code for it and look up the regional indicators for that country code. The alpha-2 for the Netherlands is NL. Take the 🇳 and 🇱 code points and squash them together and you have a flag: 🇳🇱. Or not when you are visiting on Windows.
 
 There are quite some forum posts asking why these otherwise universal emojis don't work on Windows yet dating back several years. Up until 2015, Apple only supported 10 flags, but during that year they introduced almost all flags for iOS and OS X, and more than 5 years later they still don't exist for Windows. How is that possible?
 
@@ -29,7 +29,7 @@ The actual conversion from code point to visual representation happens with the 
 
 Weirdly, all forums discussing a solution to this mention it can't be done, while fixing this is actually quite simple. Maybe it is because most of these posts are 1 year old or older, but it can also be that I didn't test this solution thoroughly enough across platforms. 
 
-While normally I only show the end result of my experimentation, I will also show some intermediate results here. While searching for a font that includes country flags I came across one by Babelstone called [Babelstone Flags](https://www.babelstone.co.uk/Fonts/Flags.html). I tried some flags, and they worked! The Dutch, American, Swiss. I was happy and decided to write this post, including all country flags. I wrote this snippet:
+While normally I only show the end result of my experimentation, I will also show some intermediate results here. While searching for a font that includes country flags I came across one by Babelstone called [Babelstone Flags](https://www.babelstone.co.uk/Fonts/Flags.html){:target="_blank" rel="noreferrer noopener"}. I tried some flags, and they worked! The Dutch, American, Swiss. I was happy and decided to write this post, including all country flags. I wrote this snippet:
 
 ```html
 <style>
@@ -62,7 +62,7 @@ But when this was rendered, I realised not all flags where in there;
     </blockquote>
 </div>
 
-My search continued, until I found the [Noto Color Emoji font](https://github.com/googlefonts/noto-emoji). Written down in that readme is also the reason older discussions mentioned that there was no solution to the missing flag emoji on Windows: 
+My search continued, until I found the [Noto Color Emoji font](https://github.com/googlefonts/noto-emoji){:target="_blank" rel="noreferrer noopener"}. Written down in that readme is also the reason older discussions mentioned that there was no solution to the missing flag emoji on Windows: 
 
 > NotoColorEmoji uses the CBDT/CBLC color font format, (..) Windows supports it starting with Windows 10 Anniversary Update (..)
 

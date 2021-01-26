@@ -37,11 +37,11 @@ With a better time system we need to consider a few things. A day has to keep it
 ---
 
 ## Decimal Metric Time in “Ticks”
-Our current definition of day consists of 86400 seconds. I am proposing that a day should consist of a different unit — a “tick” — so not to confuse it with the existing second but also using a familiar term. Because of the metric naming system that has names for 10-³ all the way up to 10³ but leaves gaps of two factors of ten after that, we need to define a tick to be in a usable sweet spot so we don’t need names outside of that range in our everyday live.
+Our current definition of day consists of 86400 seconds. I am proposing that a day should consist of a different unit — a “tick” — so not to confuse it with the existing second but also using a familiar term. Because of the metric naming system that has names for 10-³ all the way up to 10³ but leaves gaps of two factors of ten after that, we need to define a tick to be in a usable sweet spot so we don’t need names outside of that range in our everyday live.
 
 That logically leaves us with a that day should be exactly a kilotick or “kt” long. The length of a tick is then the same as 86.4 seconds, almost 1,5 minutes. Should you want to express a shorter time you can use a decitick for 8.64 seconds, a centitick for .864 seconds. Scientists have a lot of room left for much smaller or bigger numbers while our everyday time units are very logical and every factor of 10 has it’s own name.
 
-We can now express any part of the day with as many digits precision as we want. If we talk about noon we can just say .5 day, 5ht or 500 t. If we would want to express 1 millitick before midnight we can note that as .99999 day or 999.99 ticks. With one digit less —And without the AM/PM indication — we can express a specific time of the day with greater precision than a second and an efficiency of a 100%!
+We can now express any part of the day with as many digits precision as we want. If we talk about noon we can just say .5 day, 5ht or 500 t. If we would want to express 1 millitick before midnight we can note that as .99999 day or 999.99 ticks. With one digit less —And without the AM/PM indication — we can express a specific time of the day with greater precision than a second and an efficiency of a 100%!
 
 Adding and subtracting numbers is also no hassle at all anymore. Multiplication has never been easier and conversions between different multiples and submultiples is just a matter of moving a dot.
 
