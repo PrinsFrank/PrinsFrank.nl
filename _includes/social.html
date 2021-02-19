@@ -53,6 +53,15 @@
         </a>{{ -}}
     </li>
     {%- endif -%}
+    {%- if site.chess_com_username -%}
+    <li>{{ -}}
+        Chess.com: {{ -}}
+        <a itemprop="sameAs" target="_blank" rel="noopener" {{ -}}
+           href="https://www.chess.com/member/{{ site.chess_com_username| escape }}">{{ -}}
+            {{ site.chess_com_username | escape -}}
+        </a>{{ -}}
+    </li>
+    {%- endif -%}
     {%- if site.rss -%}
     <li>{{ -}}
         RSS: {{ -}}
