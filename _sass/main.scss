@@ -172,6 +172,7 @@ main {
   overflow: visible;
 
   [itemtype~="http://www.schema.org/SiteNavigationElement"] {
+    padding: 0 0 (.5 * $vertical-padding) 0;
     display: inline-block;
     width: 100%;
     list-style: none;
@@ -283,8 +284,10 @@ footer nav {
 }
 
 [itemtype~="http://schema.org/ListItem"][itemtype~="http://schema.org/Article"] {
-  margin-bottom: 40px;
-  margin-top: 25px;
+  margin-top: 10px;
+  &:not(:last-of-type) {
+    margin-bottom: 40px;
+  }
 
   [itemprop~="datePublished"], [itemprop~="author"] {
     font-size: 14px;

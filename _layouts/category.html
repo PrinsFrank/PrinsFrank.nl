@@ -5,15 +5,17 @@ layout: default
 {%- include tags.html -%}
 
 {%- if site.posts.size > 0 -%}
-<h2>Posts{%- if page.category %} in category "{{ page.category | capitalize }}"{% endif %}</h2>
-<ul itemscope itemtype="http://schema.org/ItemList">
-    {%- for post in site.posts -%}
-        {%- if post.categories contains page.category -%}
-            {% include post_preview.html %}
-        {%- endif -%}
-        {%- unless page.category -%}
-            {% include post_preview.html %}
-        {%- endunless -%}
-    {%- endfor -%}
-</ul>
+<section>
+    <h1>Posts{%- if page.category %} in category "{{ page.category | capitalize }}"{% endif %}</h1>
+    <ul itemscope itemtype="http://schema.org/ItemList">
+        {%- for post in site.posts -%}
+            {%- if post.categories contains page.category -%}
+                {% include post_preview.html %}
+            {%- endif -%}
+            {%- unless page.category -%}
+                {% include post_preview.html %}
+            {%- endunless -%}
+        {%- endfor -%}
+    </ul>
+</section>
 {%- endif -%}
