@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Visited countries
+hide_title: true
 order: 99
 ---
 
