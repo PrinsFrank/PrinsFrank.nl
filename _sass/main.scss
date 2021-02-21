@@ -29,7 +29,6 @@ ul, li {
   margin: 0;
 }
 
-
 a {
   color: #154f9b;
   text-decoration: none;
@@ -85,6 +84,14 @@ figure {
       max-height: $max-full-height-img;
     }
   }
+}
+
+p,
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 svg {
