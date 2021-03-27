@@ -27,6 +27,8 @@ order: 99
 
 ## General
 
-First aid in Adults (EHBO)
+First aid in Adults (EHBO) (April 2015 - April 2017)
+
+European First Aid Certificate (EHBO) (March 2021 - March 2023) - European Red Cross & Red Crescent, Netherlands nrks10108215-71892
 
 [COVID-19 Contact Tracing - Johns Hopkins Universitey](http://coursera.org/verify/PVKC4ZW8VCDA){:target="_blank" rel="noreferrer noopener"}
