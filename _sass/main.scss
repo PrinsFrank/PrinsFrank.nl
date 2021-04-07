@@ -23,12 +23,6 @@ h2 {
   font-size: 28px;
 }
 
-ul, li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 a {
   color: #154f9b;
   text-decoration: none;
@@ -159,10 +153,13 @@ header {
 
   [itemtype~="http://www.schema.org/SiteNavigationElement"] {
     float: right;
+    padding: 0;
+    margin: 0;
 
     [itemprop~=name] {
       float: right;
       margin: 0 10px;
+      list-style: none;
 
       [itemprop~=url] {
         text-decoration: none;
@@ -181,6 +178,7 @@ main {
 
   [itemtype~="http://www.schema.org/SiteNavigationElement"] {
     padding: 0 0 (.5 * $vertical-padding) 0;
+    margin: 0;
     display: inline-block;
     width: 100%;
     list-style: none;
@@ -291,20 +289,25 @@ footer nav {
   }
 }
 
-[itemtype~="http://schema.org/ListItem"][itemtype~="http://schema.org/Article"] {
-  margin-top: 10px;
-  &:not(:last-of-type) {
-    margin-bottom: 40px;
-  }
+[itemtype~="http://schema.org/ItemList"] {
+  padding: 0;
+  [itemtype~="http://schema.org/ListItem"][itemtype~="http://schema.org/Article"] {
+    list-style-type: none;
+    margin: 10px 0 0;
 
-  [itemprop~="datePublished"], [itemprop~="author"] {
-    font-size: 14px;
-    color: #545454;
-    margin-right: 5px;
-  }
+    &:not(:last-of-type) {
+      margin-bottom: 40px;
+    }
 
-  > [itemprop~="name"] * {
-    font-size: 24px;
+    [itemprop~="datePublished"], [itemprop~="author"] {
+      font-size: 14px;
+      color: #545454;
+      margin-right: 5px;
+    }
+
+    > [itemprop~="name"] * {
+      font-size: 24px;
+    }
   }
 }
 
