@@ -10,6 +10,7 @@ order: 99
 ### Diving
 
 [PADI Open Water](https://www.padi.com/courses/open-water-diver){:target="_blank" rel="noreferrer noopener"}
+[PADI Enriched Air Diver](https://www.padi.com/courses/enriched-air-diver){:target="_blank" rel="noreferrer noopener"}
 
 ### Boating
 
