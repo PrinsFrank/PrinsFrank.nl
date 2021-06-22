@@ -2,7 +2,7 @@
 title: Measuring radiation from other radioactive facilities in the Netherlands
 subtitle: Is nuclear energy safer and a better solution to global warming than it seems?
 Description:
-categories: [science]
+categories: [science, curiosity]
 tags: []
 readtime:
 ---

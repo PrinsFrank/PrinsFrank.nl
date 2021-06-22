@@ -2,7 +2,7 @@
 title: Staining microplastics with UV fluorescent Nile red
 subtitle: The search for microplastics in our environment continued
 Description:
-categories: [science]
+categories: [science, curiosity]
 tags: []
 readtime:
 ---

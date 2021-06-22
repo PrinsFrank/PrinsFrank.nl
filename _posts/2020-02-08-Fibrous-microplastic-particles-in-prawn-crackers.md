@@ -2,7 +2,7 @@
 title: Fibrous microplastic particles in prawn crackers
 subtitle: And why I haven't written a lot on here in the last month.
 Description:
-categories: [science]
+categories: [science, curiosity]
 tags: []
 readtime: 
 ---

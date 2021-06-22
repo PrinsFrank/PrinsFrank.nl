@@ -2,7 +2,7 @@
 title: Destructuring and piecing together the muqarnas of Shah i Zinda
 subtitle: The beautiful geometric islamic art unknown to many
 Description:
-categories: [travel]
+categories: [travel, curiosity]
 tags: []
 readtime:
 ---

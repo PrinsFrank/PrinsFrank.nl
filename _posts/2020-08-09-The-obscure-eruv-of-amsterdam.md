@@ -2,7 +2,7 @@
 title: The obscure eruv of amsterdam
 subtitle: looking for an enclosed area with invisible boundaries
 Description:
-categories: [travel]
+categories: [travel, curiosity]
 tags: []
 readtime: 
 --- 

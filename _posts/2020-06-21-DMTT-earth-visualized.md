@@ -2,7 +2,7 @@
 title: DMTT earth visualized
 subtitle: 
 Description:
-categories: [standards]
+categories: [standards, curiosity]
 tags: []
 readtime: 
 --- 

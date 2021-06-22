@@ -2,7 +2,7 @@
 title: Exploring around the only nuclear power plant in the Netherlands
 subtitle: Testing a new geiger counter as a TERRA-P for cabin fever
 Description:
-categories: [science]
+categories: [science, curiosity]
 tags: []
 readtime:
 ---
