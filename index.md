@@ -1,4 +1,4 @@
 ---
-categories: [privacy, security, standards, development, science, travel, culture]
+categories: all
 layout: home
 ---
