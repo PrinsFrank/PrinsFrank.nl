@@ -781,4 +781,13 @@
         <circle cx="497" cy="316" r="2" id="lauterbrunen"/>
         <path d="M 517 318 L 514 335 L 503 327 L 506 327 L 509 326 L 506 327 L 494 327 L 504 322 L 508 322 L 504 322 L 497 316" stroke="black" fill="transparent"><title>2020</title></path>
     </g>
+    <g id="2021">
+        <circle cx="546" cy="250" r="2" id="Helsinki"/>
+        <circle cx="548" cy="212" r="2" id="Rovaniemi"/>
+        <circle cx="550" cy="202" r="2" id="Tankavaara"/>
+        <circle cx="539" cy="249" r="2" id="Turku"/>
+        <circle cx="545" cy="257" r="2" id="Talinn"/>
+        <circle cx="525" cy="256" r="2" id="Stockholm"/>
+        <path d="M 546 250 L 548 212 L 550 202 M 546 250 L 539 249 M 546 250 L 545 257 M 546 250 L 525 256" stroke="black" fill="transparent"><title>2021</title></path>
+    </g>
 </svg>
