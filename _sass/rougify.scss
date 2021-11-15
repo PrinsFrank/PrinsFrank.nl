@@ -1,5 +1,8 @@
 .highlight {
-  background-color: #f8f8f8;
+  background-color: $background-code;
+  @media (prefers-color-scheme: dark) {
+    background-color: $background-code-dark-mode;
+  }
 
   table td {
     padding: 5px;

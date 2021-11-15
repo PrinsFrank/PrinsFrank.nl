@@ -12,14 +12,13 @@ body {
   background-color: $background-color;
   margin: 0;
   overflow-y: scroll;
-}
 
-@media (prefers-color-scheme: dark) {
-  body {
+  @media (prefers-color-scheme: dark) {
     color: $text-color-dark-mode;
     background-color: $background-color-dark-mode;
   }
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
@@ -35,23 +34,40 @@ h2 {
 }
 
 a {
-  color: #154f9b;
+  color: $link-color;
   text-decoration: none;
 
+  @media (prefers-color-scheme: dark) {
+    color: $link-color-dark-mode;
+  }
+
   &:visited {
-    color: #0c2d58;
+    color: $link-color-visited;
+
+    @media (prefers-color-scheme: dark) {
+      color: $link-color-visited-dark-mode;
+    }
   }
 
   &:hover {
     transition: .3s;
-    color: $text-color;
+    color: $link-color-hover;
     text-decoration: underline;
+
+    @media (prefers-color-scheme: dark) {
+      color: $link-color-hover-dark-mode;
+    }
   }
 }
 
 img {
   max-width: 100%;
+
+  @media (prefers-color-scheme: dark) {
+    filter: brightness(.8) contrast(1.2);
+  }
 }
+
 
 figure {
   width: 100%;
@@ -144,18 +160,27 @@ hr {
 }
 
 header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $border-color-dark;
+  border-bottom: 1px solid $border-color-light;
   line-height: $header-height;
 
+  @media (prefers-color-scheme: dark) {
+    border-top-color: $border-color-dark-mode-dark;
+    border-bottom-color: $border-color-dark-mode-light;
+  }
+
   [rel~=author] {
-    color: #424242;
+    color: $header-color;
     font-size: 26px;
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
     text-decoration: none;
+
+    @media (prefers-color-scheme: dark) {
+      color: $header-color-dark-mode;
+    }
 
     &:hover {
       text-decoration: underline;
@@ -260,10 +285,14 @@ main {
 
 footer {
   padding: 30px 0;
-  border-top: 1px solid $grey-color-light;
-  border-bottom: 5px solid $grey-color-dark;
+  border-top: 1px solid $border-color-light;
+  border-bottom: 5px solid $border-color-dark;
   font-size: 15px;
-  color: #545454;
+
+  @media (prefers-color-scheme: dark) {
+    border-top-color: $border-color-dark-mode-light;
+    border-bottom-color: $border-color-dark-mode-dark;
+  }
 
   h2 {
     font-size: 18px;
@@ -312,7 +341,6 @@ footer nav {
 
     [itemprop~="datePublished"], [itemprop~="author"] {
       font-size: 14px;
-      color: #545454;
       margin-right: 5px;
     }
 
