@@ -36,13 +36,13 @@ $classificationValue = $classificationList[$match['value']] ?? null;
 
 So far so good, right?
 
-Enter the microliter, also indicated by 'µl' or 'µL'. After adding it to the classificationList, the classificationValue was sometimes null, even when this shouldn't be happening, right? After all, we took the keys and matched on them directly, why shouldn't it exist anymore in the original array? After quite some debugging I found the issue; In the classificationList I had put the character ['μ' - Unicode 03BC](https://util.unicode.org/UnicodeJsps/character.jsp?a=03BC), and the character that matched and resulted in the null value when searching in the original array was ['µ' - Unicode 00B5](https://util.unicode.org/UnicodeJsps/character.jsp?a=00B5).
+Enter the microliter, also indicated by 'µl' or 'µL'. After adding it to the classificationList, the classificationValue was sometimes null, even when this shouldn't be happening, right? After all, we took the keys and matched on them directly, why shouldn't it exist anymore in the original array? After quite some debugging I found the issue; In the classificationList I had put the character ['μ' - Unicode 03BC](https://util.unicode.org/UnicodeJsps/character.jsp?a=03BC){:target="_blank" rel="noreferrer noopener"}, and the character that matched and resulted in the null value when searching in the original array was ['µ' - Unicode 00B5](https://util.unicode.org/UnicodeJsps/character.jsp?a=00B5){:target="_blank" rel="noreferrer noopener"}.
 
 Another character looking almost identical to the character we're looking for, matching in the regex. What's going on here?
 
-Normally when debugging regexes I use tools like regex101, but it gives the same result and not any info on why. I have been looking for official documentation about PCRE2 regexes [as PHP uses PCRE (PCRE2 starting from 7.3)](https://www.php.net/manual/en/book.pcre.php), but have not stumbled on any good in-depth documentation before. When looking at [pcre.org](http://pcre.org), I did find a link to [Philip Hazels' PCRE2 repository](https://github.com/PhilipHazel/pcre2), which is apparently the official source now. At an astonishing star count of 72, I reckon this has to be one of the least starred repositories for the amount of developers counting on it.
+Normally when debugging regexes I use tools like regex101, but it gives the same result and not any info on why. I have been looking for official documentation about PCRE2 regexes [as PHP uses PCRE (PCRE2 starting from 7.3)](https://www.php.net/manual/en/book.pcre.php){:target="_blank" rel="noreferrer noopener"}, but have not stumbled on any good in-depth documentation before. When looking at [pcre.org](http://pcre.org){:target="_blank" rel="noreferrer noopener"}, I did find a link to [Philip Hazels' PCRE2 repository](https://github.com/PhilipHazel/pcre2){:target="_blank" rel="noreferrer noopener"}, which is apparently the official source now. At an astonishing star count of 72, I reckon this has to be one of the least starred repositories for the amount of developers counting on it.
 
-Looking through the few issues I found a very interesting one: ["Caseless ASCII matching"](https://github.com/PhilipHazel/pcre2/issues/11), talking about a particular interesting feature in unicode: "Case folding", with a [link to a list af characters that can be 'folded'](http://www.unicode.org/Public/12.1.0/ucd/CaseFolding.txt). Including a line saying `00B5; C; 03BC; # MICRO SIGN`. Our mystery character!
+Looking through the few issues I found a very interesting one: ["Caseless ASCII matching"](https://github.com/PhilipHazel/pcre2/issues/11){:target="_blank" rel="noreferrer noopener"}, talking about a particular interesting feature in unicode: "Case folding", with a [link to a list af characters that can be 'folded'](http://www.unicode.org/Public/12.1.0/ucd/CaseFolding.txt){:target="_blank" rel="noreferrer noopener"}. Including a line saying `00B5; C; 03BC; # MICRO SIGN`. Our mystery character!
 
 With the underlying issue now found, we can now fix the problem. When we get the code point using the mb_ord function and convert it to hex, we can see the difference in the characters:
 
@@ -69,11 +69,11 @@ But why?
 
 In our regex, we use the flag 'i' to indicate we want to ignore cases. This way, both 'l' and 'L' will match when looking for 'l' for example. 
 
-What character corresponds to what uppercase letter and vice versa is maintained by the Unicode Consurtium at [unicode.org](https://unicode.org). The previously referenced [FAQ about Case Mappings](https://unicode.org/faq/casemap_charprop.html#1) links to three resources:
+What character corresponds to what uppercase letter and vice versa is maintained by the Unicode Consurtium at [unicode.org](https://unicode.org){:target="_blank" rel="noreferrer noopener"}. The previously referenced [FAQ about Case Mappings](https://unicode.org/faq/casemap_charprop.html#1){:target="_blank" rel="noreferrer noopener"} links to three resources:
 
-- [UnicodeData.txt](https://unicode.org/faq/casemap_charprop.html#1) - one-to-one case mappings, where we can find 'l'(006C) mapped to 'L'(004C) and back.
-- [SpecialCasing.txt](https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt) - additional info like needed for uppercasing the 'ß' character.
-- [CaseFolding.txt](https://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt) - additional resources for case folding and caseless matching.
+- [UnicodeData.txt](https://unicode.org/faq/casemap_charprop.html#1){:target="_blank" rel="noreferrer noopener"} - one-to-one case mappings, where we can find 'l'(006C) mapped to 'L'(004C) and back.
+- [SpecialCasing.txt](https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt){:target="_blank" rel="noreferrer noopener"} - additional info like needed for uppercasing the 'ß' character.
+- [CaseFolding.txt](https://www.unicode.org/Public/UCD/latest/ucd/CaseFolding.txt){:target="_blank" rel="noreferrer noopener"} - additional resources for case folding and caseless matching.
 
 The third file is the file our character is in. The doc says specifically "In addition, CaseFolding.txt contains additional mappings used in case folding and caseless matching", exactly the flag we were using in our regex!
 
