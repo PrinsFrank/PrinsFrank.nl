@@ -790,4 +790,11 @@
         <circle cx="525" cy="256" r="2" id="Stockholm"/>
         <path d="M 546 250 L 548 212 L 550 202 M 546 250 L 539 249 M 546 250 L 545 257 M 546 250 L 525 256" stroke="black" fill="transparent"><title>2021</title></path>
     </g>
+    <g id="2022">
+        <circle cx="504" cy="251" r="2" id="Oslo"/>
+        <circle cx="529" cy="190" r="2" id="Tromso"/>
+        <circle cx="520" cy="100" r="2" id="Longyearbyen"/>
+        <circle cx="534" cy="185" r="2" id="Skjervoy"/>
+        <path d="M 504 251 L 529 190 L 520 100 M 529 190 L 534 185" stroke="black" fill="transparent"><title>2022</title></path>
+    </g>
 </svg>
