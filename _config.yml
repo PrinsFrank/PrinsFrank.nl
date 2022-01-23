@@ -66,7 +66,6 @@ visited_countries:
   - PS
   - SE
   - SI
-  - SJ
   - SK
   - SM
   - TR
@@ -75,3 +74,7 @@ visited_countries:
   - VA
   - VN
   - ZA
+
+visited_territories:
+ - SJ
+
