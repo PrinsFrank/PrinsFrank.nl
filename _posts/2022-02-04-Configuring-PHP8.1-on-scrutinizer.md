@@ -7,9 +7,9 @@ tags: []
 readtime:
 ---
 
-When building open source PHP packages, Scrutinizer is an awesome free tool to analyse code and create coverage reports. As I recently started a [Validated Properties](https://github.com/PrinsFrank/php-validated-properties) package I decided to implement it there as well, but unlike with other packages this one doesn't have support for PHP7.4 and 8.0, as it uses Attributes introduced with PHP8.1. And setting up PHP8.1 on Scrutinizer turned out to quite difficult.
+When building open source PHP packages, Scrutinizer is an awesome free tool to analyse code and create coverage reports. As I recently started a [Validated Properties](https://github.com/PrinsFrank/php-validated-properties){:target="_blank" rel="noreferrer noopener"} package I decided to implement it there as well, but unlike with other packages this one doesn't have support for PHP7.4 and 8.0, as it uses Attributes introduced with PHP8.1. And setting up PHP8.1 on Scrutinizer turned out to quite difficult.
 
-According to the Scrutinizer docs, using PHP8.1 should be as simple as adding a version to the php build environment variable, and: [(...) currently support the following versions: (...) <b>or any other released version</b>](https://scrutinizer-ci.com/docs/build/languages#php). But when adding setting the following configuration:
+According to the Scrutinizer docs, using PHP8.1 should be as simple as adding a version to the php build environment variable, and: [(...) currently support the following versions: (...) <b>or any other released version</b>](https://scrutinizer-ci.com/docs/build/languages#php){:target="_blank" rel="noreferrer noopener"}. But when adding setting the following configuration:
 
 ```yaml
 build:
@@ -53,7 +53,7 @@ E: Unable to locate package php8.1
 E: Couldn't find any package by regex 'php8.1'
 ```
 
-Great, the Ubuntu image is [so old no packages were built for it](https://launchpad.net/~ondrej/+archive/ubuntu/php). 
+Great, the Ubuntu image is [so old no packages were built for it](https://launchpad.net/~ondrej/+archive/ubuntu/php){:target="_blank" rel="noreferrer noopener"}. 
 
 After searching for scrutinizer.yaml files on github and in google containing PHP8.1 I was ready to give up. No one appeared to have struggled with this before, or at least no one reported back with an update on how to set this up. (Until now of course). All the scrutinizer.yaml files on Github that contain PHP8.1 have broken builds on Scrutinizer failing for weeks now.
 
@@ -66,7 +66,7 @@ Our usual reply time
 🕒 A day
 ```
 
-Great. I went to bed frustrated and forgot all about it. Until today, I got an actually useful answer, pointing me to an article on [how to switch to a different Ubuntu version](https://scrutinizer-ci.com/docs/guides/upgrading-trusty-image)!
+Great. I went to bed frustrated and forgot all about it. Until today, I got an actually useful answer, pointing me to an article on [how to switch to a different Ubuntu version](https://scrutinizer-ci.com/docs/guides/upgrading-trusty-image){:target="_blank" rel="noreferrer noopener"}!
 
 The fix? It's easy as this:
 
