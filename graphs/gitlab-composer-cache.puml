@@ -1,0 +1,31 @@
+@startuml
+
+start
+    partition "Build" {
+        if (Vendor cache exists for current composer.lock) then (yes)
+            :Pull vendor cache from composer.lock cache;
+        else (no)
+            if (Global vendor cache exists) then (yes)
+                :Pull global vendor cache;
+            else (no)
+            endif
+            if (Global package cache exists) then (yes)
+                :Pull global package cache;
+            else (no)
+            endif
+            :Composer install;
+        endif
+        :Push vendor cache for current composer.lock;
+    }
+    partition "Other" {
+        :....Test stages;
+    }
+    partition "Cache" {
+        if (Job part of master pipeline) then (yes)
+            :Push vendor cache for composer.lock to global fallback cache;
+        else (no)
+        endif
+    }
+stop
+
+@enduml
