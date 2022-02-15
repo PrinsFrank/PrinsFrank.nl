@@ -15,6 +15,7 @@ start
             endif
             :Composer install;
         endif
+        :Push global package cache;
         :Push vendor cache for current composer.lock;
     }
     partition "Other" {
