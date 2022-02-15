@@ -15,7 +15,7 @@ In this first part I will mostly focus on general optimizations for pipeline spe
 
 ## Dependency proxy for image
 
-When you use specific docker image, make sure you have the [Dependency Proxy](https://docs.gitlab.com/ee/user/packages/dependency_proxy/) enabled so the image doesn't have to be downloaded again for every job. Use the proxy when you specify the image in your '.gitlab-ci.pml' using the CI_DEPENDENCY_PROXY_* variables;
+When you use specific docker image, make sure you have the [Dependency Proxy](https://docs.gitlab.com/ee/user/packages/dependency_proxy/){:target="_blank" rel="noreferrer noopener"} enabled so the image doesn't have to be downloaded again for every job. Use the proxy when you specify the image in your '.gitlab-ci.pml' using the CI_DEPENDENCY_PROXY_* variables;
 
 ```yml
 image: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/alpine:latest
@@ -43,7 +43,7 @@ job-name:
 
 ## Interruptible jobs
 
-Sometimes, you push new commit(s) before the current pipeline is finished. Instead of waiting for all jobs to finish, [you can mark jobs as interruptible](https://docs.gitlab.com/ee/ci/yaml/#interruptible) which signals a job to cancel when a new pipeline starts for the same branch;
+Sometimes, you push new commit(s) before the current pipeline is finished. Instead of waiting for all jobs to finish, [you can mark jobs as interruptible](https://docs.gitlab.com/ee/ci/yaml/#interruptible){:target="_blank" rel="noreferrer noopener"} which signals a job to cancel when a new pipeline starts for the same branch;
 
 ```yml
 job-name:
@@ -129,7 +129,7 @@ build-composer:
     - composer i
 ```
 
-To share assets between multiple stages, [Gitlab has caches and artifacts. For dependencies we should use caches](https://docs.gitlab.com/ee/ci/caching/#how-cache-is-different-from-artifacts).
+To share assets between multiple stages, [Gitlab has caches and artifacts. For dependencies we should use caches](https://docs.gitlab.com/ee/ci/caching/#how-cache-is-different-from-artifacts){:target="_blank" rel="noreferrer noopener"}.
 
 There are multiple ways we can specify when our cache is valid. For the composer vendor dir we can use the 'composer.lock' file as it is always the same for the same vendor folder;
 
@@ -234,7 +234,7 @@ Now when a cache doesn't exist for a specific version of the 'composer.lock' fil
 
 We can take this caching even one step further: when dependencies are updated/downgraded/added/removed in multiple branches or there is a complex branch structure with different dependency versions, the packages might be downloaded by composer multiple times.
 
-Normally, composer prevents this by caching packages in a global package cache, but in our current setup that global cache is emptied between runs as we don't save any of it. Composer does supply us [with an option to specify in what folder we want to save that cache and where to read it from](https://getcomposer.org/doc/03-cli.md#composer-cache-dir). We can pass it along to our 'composer install' command, and make sure that cache is pushed to and pulled from:
+Normally, composer prevents this by caching packages in a global package cache, but in our current setup that global cache is emptied between runs as we don't save any of it. Composer does supply us [with an option to specify in what folder we want to save that cache and where to read it from](https://getcomposer.org/doc/03-cli.md#composer-cache-dir){:target="_blank" rel="noreferrer noopener"}. We can pass it along to our 'composer install' command, and make sure that cache is pushed to and pulled from:
 
 ```yml
 build-composer:
@@ -313,6 +313,6 @@ update-npm-fallback-cache:
 
 ## Multiple runners and shared caches
 
-When you have multiple runners across several hosts that pick up your jobs, they will run on different hosts and probably in their own docker container. In that case, the cache feature doesn't work by default until you set up a distributed runner cache. I won't go into detail about it as the [gitlab docs has an extensive section about it on their documentation page](https://docs.gitlab.com/runner/configuration/autoscale.html#distributed-runners-caching).
+When you have multiple runners across several hosts that pick up your jobs, they will run on different hosts and probably in their own docker container. In that case, the cache feature doesn't work by default until you set up a distributed runner cache. I won't go into detail about it as the [gitlab docs has an extensive section about it on their documentation page](https://docs.gitlab.com/runner/configuration/autoscale.html#distributed-runners-caching){:target="_blank" rel="noreferrer noopener"}.
 
 This concludes the first part of this series. Sit tight for the next part!
