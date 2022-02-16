@@ -315,4 +315,6 @@ update-npm-fallback-cache:
 
 When you have multiple runners across several hosts that pick up your jobs, they will run on different hosts and probably in their own docker container. In that case, the cache feature doesn't work by default until you set up a distributed runner cache. I won't go into detail about it as the [gitlab docs has an extensive section about it on their documentation page](https://docs.gitlab.com/runner/configuration/autoscale.html#distributed-runners-caching){:target="_blank" rel="noreferrer noopener"}.
 
-This concludes the first part of this series. Sit tight for the next part!
+This concludes the first part of this series. The next parts in this series:
+
+[Optimizing Gitlab pipelines - PHPUnit (2)](/2022/02/16/Optimizing-gitlab-pipelines-pt-2-phpunit)
