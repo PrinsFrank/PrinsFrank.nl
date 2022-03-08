@@ -1,0 +1,27 @@
+@startuml
+
+start
+    partition "Build" {
+        :Build assets;
+    }
+    partition "Other" {
+        partition "PHPStan" {
+            if (Branch cache exists) then (yes)
+                :Pull branch cache;
+            elseif (Fallback cache exists) then (yes)
+                :Pull fallback cache;
+            else (no)
+            endif
+            :Run PHPStan;
+            :Push to branch cache;
+        }
+    }
+    partition "Cache" {
+        if (Job part of master pipeline) then (yes)
+            :Push fallback cache;
+        else (no)
+        endif
+    }
+stop
+
+@enduml
