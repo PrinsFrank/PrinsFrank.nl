@@ -260,4 +260,6 @@ The echos between the lines are not necessary, but they are useful for debugging
 
 Now instead of waiting for 10s of minutes before our coverage data is generated, this runs within a single minute! Faster merge pipelines means faster reviews and earlier merges. But we still want to have a full overview of our coverage to keep track of overall trends and to analyze our codebase. In our case, we run a new pipeline on merges to master that generates a full coverage report in both cobertura and html format.
 
-This concludes the second part of this series. Sit tight for the next part!
+This concludes the second part of this series. The next parts in this series:
+
+[Optimizing Gitlab pipelines - PHPStan (3)](/2022/03/08/Optimizing-gitlab-pipelines-pt-3-phpstan)

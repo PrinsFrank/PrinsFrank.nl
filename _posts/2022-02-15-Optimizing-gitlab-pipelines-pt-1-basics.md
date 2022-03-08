@@ -318,3 +318,5 @@ When you have multiple runners across several hosts that pick up your jobs, they
 This concludes the first part of this series. The next parts in this series:
 
 [Optimizing Gitlab pipelines - PHPUnit (2)](/2022/02/16/Optimizing-gitlab-pipelines-pt-2-phpunit)
+
+[Optimizing Gitlab pipelines - PHPStan (3)](/2022/03/08/Optimizing-gitlab-pipelines-pt-3-phpstan)
