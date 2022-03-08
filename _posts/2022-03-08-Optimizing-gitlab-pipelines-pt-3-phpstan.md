@@ -13,7 +13,7 @@ In this third part I will focus on optimizing PHPStan pipelines.
 
 ---
 
-Besides maybe generating coverage, PHPStan is the most time-consuming job in our pipeline. Mostly because we have a lot of rule extensions like [Larastan for Laravel support](https://github.com/nunomaduro/larastan), [PHPUnit support](https://github.com/phpstan/phpstan-phpunit), [PHPStan strict rules](https://github.com/phpstan/phpstan-strict-rules) and [PHPStan deprecation rules](https://github.com/phpstan/phpstan-deprecation-rules), but also because our level is set to 9 in a legacy project, which causes a huge baseline and slows everything down even further. 
+Besides maybe generating coverage, PHPStan is the most time-consuming job in our pipeline. Mostly because we have a lot of rule extensions like [Larastan for Laravel support](https://github.com/nunomaduro/larastan){:target="_blank" rel="noreferrer noopener"}, [PHPUnit support](https://github.com/phpstan/phpstan-phpunit){:target="_blank" rel="noreferrer noopener"}, [PHPStan strict rules](https://github.com/phpstan/phpstan-strict-rules) and [PHPStan deprecation rules](https://github.com/phpstan/phpstan-deprecation-rules){:target="_blank" rel="noreferrer noopener"}, but also because our level is set to 9 in a legacy project, which causes a huge baseline and slows everything down even further. 
 
 Without the optimizations I will discuss here, an entire run for only the PHPStan job takes a whopping 19 minutes, not a time you want to wait for.
 
@@ -21,9 +21,9 @@ Without the optimizations I will discuss here, an entire run for only the PHPSta
 
 ## The PHPStan cache
 
-PHPStan does have a caching functionality, but it is very strict in when it will be used and when it will be disregarded. The most important factor is that you always have to run a [full analysis of your project](https://phpstan.org/blog/why-you-should-always-analyse-whole-project), otherwise you will miss out on errors outside the scope related to your file changes. 
+PHPStan does have a caching functionality, but it is very strict in when it will be used and when it will be disregarded. The most important factor is that you always have to run a [full analysis of your project](https://phpstan.org/blog/why-you-should-always-analyse-whole-project){:target="_blank" rel="noreferrer noopener"}, otherwise you will miss out on errors outside the scope related to your file changes. 
 
-The result cache is [valid for at least 7 days, or when any of the files are changed that are automatically reason for a new full run](https://phpstan.org/user-guide/result-cache). But normally when you configure a pipeline that cache is not shared, and not used on consecutive runs on that same branch or other branches. Let's change that! Say for example you have the following base job:
+The result cache is [valid for at least 7 days, or when any of the files are changed that are automatically reason for a new full run](https://phpstan.org/user-guide/result-cache){:target="_blank" rel="noreferrer noopener"}. But normally when you configure a pipeline that cache is not shared, and not used on consecutive runs on that same branch or other branches. Let's change that! Say for example you have the following base job:
 
 ```yml
 phpstan:
@@ -42,13 +42,13 @@ phpstan:
     - job: build-composer
 ```
 
-The job [is interruptible in case a new commit is pushed before the job is finished](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics#interruptible-jobs), and it depends on [our previously set up composer assets](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics#building-composer-assets). Besides that, basically the only thing here is our PHPStan command with a custom memory limit as PHPStan is quite memory greedy.
+The job [is interruptible in case a new commit is pushed before the job is finished](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics#interruptible-jobs){:target="_blank" rel="noreferrer noopener"}, and it depends on [our previously set up composer assets](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics#building-composer-assets){:target="_blank" rel="noreferrer noopener"}. Besides that, basically the only thing here is our PHPStan command with a custom memory limit as PHPStan is quite memory greedy.
 
 ---
 
 ## The missing 'tmpDir' command line argument
 
-To cache our cache, we need to be able to have access to it. By default, the tempfolder in gitlab is not sharable using caches and [we only can cache files inside the root directory](https://docs.gitlab.com/ee/ci/yaml/index.html#cachepaths), so we need to move it to an accessible location. There is a configuration key for it: [tmpDir](https://phpstan.org/config-reference#caching). But it can only be used in the phpstan.neon file, and there is no command line argument for it available. And we also don't want to have the cache in another folder locally. So instead of changing the tmpDir in our phpstan.neon or having a mirror phpstan.neon which is bound to cause some sync issues between the two files, we change the file right before runtime. Our simple one-liner for running phpstan now becomes the following;
+To cache our cache, we need to be able to have access to it. By default, the tempfolder in gitlab is not sharable using caches and [we only can cache files inside the root directory](https://docs.gitlab.com/ee/ci/yaml/index.html#cachepaths){:target="_blank" rel="noreferrer noopener"}, so we need to move it to an accessible location. There is a configuration key for it: [tmpDir](https://phpstan.org/config-reference#caching){:target="_blank" rel="noreferrer noopener"}. But it can only be used in the phpstan.neon file, and there is no command line argument for it available. And we also don't want to have the cache in another folder locally. So instead of changing the tmpDir in our phpstan.neon or having a mirror phpstan.neon which is bound to cause some sync issues between the two files, we change the file right before runtime. Our simple one-liner for running phpstan now becomes the following;
 
 ```yml
   script:
@@ -78,7 +78,7 @@ So after our first 19 minute PHPStan run on a specific branch, all consecutive r
 
 ## Global fallback cache for first runs.
 
-Now to brush away that first 19 minute run for a branch, we need to repeat the trick for a [global fallback cache](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics#fallback-vendor-cache). We only need to add 2 lines to our job;
+Now to brush away that first 19 minute run for a branch, we need to repeat the trick for a [global fallback cache](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics#fallback-vendor-cache){:target="_blank" rel="noreferrer noopener"}. We only need to add 2 lines to our job;
 
 ```yml
   variables:
