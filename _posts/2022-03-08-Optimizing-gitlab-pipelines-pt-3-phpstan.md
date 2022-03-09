@@ -13,7 +13,7 @@ In this third part I will focus on optimizing PHPStan pipelines.
 
 ---
 
-Besides maybe generating coverage, PHPStan is the most time-consuming job in our pipeline. Mostly because we have a lot of rule extensions like [Larastan for Laravel support](https://github.com/nunomaduro/larastan){:target="_blank" rel="noreferrer noopener"}, [PHPUnit support](https://github.com/phpstan/phpstan-phpunit){:target="_blank" rel="noreferrer noopener"}, [PHPStan strict rules](https://github.com/phpstan/phpstan-strict-rules) and [PHPStan deprecation rules](https://github.com/phpstan/phpstan-deprecation-rules){:target="_blank" rel="noreferrer noopener"}, but also because our level is set to 9 in a legacy project, which causes a huge baseline and slows everything down even further. 
+Besides maybe generating coverage, PHPStan is the most time-consuming job in our pipeline. Mostly because we have a lot of rule extensions like [Larastan for Laravel support](https://github.com/nunomaduro/larastan){:target="_blank" rel="noreferrer noopener"}, [PHPUnit support](https://github.com/phpstan/phpstan-phpunit){:target="_blank" rel="noreferrer noopener"}, [PHPStan strict rules](https://github.com/phpstan/phpstan-strict-rules){:target="_blank" rel="noreferrer noopener"} and [PHPStan deprecation rules](https://github.com/phpstan/phpstan-deprecation-rules){:target="_blank" rel="noreferrer noopener"}, but also because our level is set to 9 in a legacy project, which causes a huge baseline and slows everything down even further. 
 
 Without the optimizations I will discuss here, an entire run for only the PHPStan job takes a whopping 19 minutes, not a time you want to wait for.
 
