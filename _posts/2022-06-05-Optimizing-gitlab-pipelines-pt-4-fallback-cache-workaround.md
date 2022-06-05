@@ -11,9 +11,9 @@ The last few months I've been working a lot on optimizing our Gitlab pipelines f
 
 In this fourth part I will focus on working around fallback caches that get outdated due to a bug in gitlab runners.
 
-After I wrote my previous few posts, we ran into an issue: Due to some issues with our [MinIO shared cache for gitlab](https://docs.gitlab.com/charts/advanced/external-object-storage/minio.html) some cache-file references got corrupted, so we had to manually clear the cache. As it turns out, only the references to those cache files change, by incrementing an index used for caches. So when a cache was previously referenced by 'cache', it now is referenced by 'cache-1'.
+After I wrote my previous few posts, we ran into an issue: Due to some issues with our [MinIO shared cache for gitlab](https://docs.gitlab.com/charts/advanced/external-object-storage/minio.html){:target="_blank" rel="noreferrer noopener"} some cache-file references got corrupted, so we had to manually clear the cache. As it turns out, only the references to those cache files change, by incrementing an index used for caches. So when a cache was previously referenced by 'cache', it now is referenced by 'cache-1'.
 
-This works fine for normal caches, but doesn't work with fallback caches. As my [bug report on gitlab is still open 2 months later](https://gitlab.com/gitlab-org/gitlab/-/issues/354975) and the related issues also don't seem to get solved soon, I decided to share our workaround here.
+This works fine for normal caches, but doesn't work with fallback caches. As my [bug report on gitlab is still open 2 months later](https://gitlab.com/gitlab-org/gitlab/-/issues/354975){:target="_blank" rel="noreferrer noopener"} and the related issues also don't seem to get solved soon, I decided to share our workaround here.
 
 For a while, we used hardcoded indices as the caches never really get cleared. So instead of 'phpstan-fallback' we used 'phpstan-fallback-1', and whenever that cache gets cleared we simply incremented the index. But as I'm switching jobs and I'm trying to document everything as well as possible the cache index got outdated again. The last week of my job seems like a good time to figure out a more robust process for this, and a nice opportunity to write another post.
 
