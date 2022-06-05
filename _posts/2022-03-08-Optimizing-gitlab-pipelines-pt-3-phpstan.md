@@ -110,6 +110,8 @@ update-phpstan-fallback:
 
 This job needs the previous PHPStan run and its branch cache for main, and copies it to the global fallback cache. Now all first pipelines on new branches and tags also can use a cache!
 
+> **⚠ WARNING** The fallback cache key is not updated after clearing all caches due to a bug in gitlab. [See this post for a workaround](/2022/06/05/Optimizing-gitlab-pipelines-pt-4-fallback-cache-workaround).
+
 ---
 
 ## Only running the pipeline on related file changes
@@ -206,4 +208,6 @@ update-phpstan-fallback:
       policy: push
 ```
 
-This concludes the third part of this series. Sit tight for the next part!
+This concludes the third part of this series.  The next parts in this series:
+
+[Optimizing Gitlab pipelines - Fallback cache workaround (4)](/2022/06/05/Optimizing-gitlab-pipelines-pt-4-fallback-cache-workaround)

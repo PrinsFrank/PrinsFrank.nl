@@ -173,7 +173,7 @@ Here we specifically set the policy to 'pull' as there are no items in the vendo
 
 ### Fallback vendor cache
 
-When any package in the 'composer.lock' is added, updated or deleted, the entire vendor folder is regenerated, even if only a small portion of the packages are changed. We can optimize this and configure a fallback cache, that is periodically update with a 'base' vendor folder. Only the changed packages then need to be changed and pushed to the new cache.
+When any package in the 'composer.lock' is added, updated or deleted, the entire vendor folder is regenerated, even if only a small portion of the packages are changed. We can optimize this and configure a fallback cache, that is periodically updated with a 'base' vendor folder. Only the changed packages then need to be changed and pushed to the new cache.
 
 To seperate the logic, a new stage can be added to the global configuration:
 
@@ -230,6 +230,8 @@ build-composer:
 
 Now when a cache doesn't exist for a specific version of the 'composer.lock' file the fallback cache will be pulled and be used as a base to install/update/remove the remaining different packages.
 
+> **⚠ WARNING** The fallback cache key is not updated after clearing all caches due to a bug in gitlab. [See this post for a workaround](/2022/06/05/Optimizing-gitlab-pipelines-pt-4-fallback-cache-workaround).
+
 ### Composer package cache
 
 We can take this caching even one step further: when dependencies are updated/downgraded/added/removed in multiple branches or there is a complex branch structure with different dependency versions, the packages might be downloaded by composer multiple times.
@@ -256,6 +258,8 @@ build-composer:
   variables:
     CACHE_FALLBACK_KEY: composer-fallback-1
 ```
+
+> **⚠ WARNING** The fallback cache key is not updated after clearing all caches due to a bug in gitlab. [See this post for a workaround](/2022/06/05/Optimizing-gitlab-pipelines-pt-4-fallback-cache-workaround).
 
 A string key is used here as we want to have one global cache, as otherwise our cache doesn't make any sense. Our complete picture now looks as follows:
 
@@ -308,6 +312,8 @@ update-npm-fallback-cache:
         - node_modules/
       policy: push
 ```
+
+> **⚠ WARNING** The fallback cache key is not updated after clearing all caches due to a bug in gitlab. [See this post for a workaround](/2022/06/05/Optimizing-gitlab-pipelines-pt-4-fallback-cache-workaround).
 
 ---
 
