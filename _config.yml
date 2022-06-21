@@ -41,6 +41,7 @@ build: 2021012202 # cache busting variable for css
 visited_countries:
   - AT
   - BE
+  - CA
   - CH
   - CN
   - CZ
@@ -70,6 +71,7 @@ visited_countries:
   - SM
   - TR
   - UA
+  - US
   - UZ
   - VA
   - VN
