@@ -1,0 +1,18 @@
+@startuml
+
+start
+while (Providers)
+    :Provider::register;
+endwhile
+
+while (Providers)
+    :provider::boot;
+endwhile
+
+while (Deferred Providers)
+    :provider::register;
+endwhile
+stop
+
+@enduml
+
