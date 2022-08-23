@@ -1,0 +1,13 @@
+@startuml
+
+start
+:App::make;
+if (Is deferred and not resolved) then (no)
+else (yes)
+    :Load deferred provider;
+endif
+:Return instance from container;
+stop
+
+@enduml
+
