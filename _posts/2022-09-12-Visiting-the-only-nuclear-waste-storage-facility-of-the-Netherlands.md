@@ -13,7 +13,7 @@ I have written and researched about nuclear power before, and [in one of my prev
 
 If you want, it is possible to schedule a private tour with a group, but as a minimum of 10 people are required per group we were combined with two other groups; A couple of high-schoolers doing a paper on nuclear energy and a company on a company trip.
 
-Our tour of more than 3 hours started with a 3D video about how COVRA was founded and the processes involved, followed by a lengthy Q&A. We were than led to the on-site cloud chamber of a similar size of the one at CERN (I guess I didn't share the pictures of my trip down the ATLAS building there, a post about it will follow soon), but a lot bigger than [the one I built](2022/05/02/Building-a-peltier-cooled-cloud-chamber), where the concept of radiation and the different kinds of radiation were explained. 
+Our tour of more than 3 hours started with a 3D video about how COVRA was founded and the processes involved, followed by a lengthy Q&A. We were than led to the on-site cloud chamber of a similar size of the one at CERN (I guess I didn't share the pictures of my trip down the ATLAS building there, a post about it will follow soon), but a lot bigger than [the one I built](/2022/05/02/Building-a-peltier-cooled-cloud-chamber), where the concept of radiation and the different kinds of radiation were explained. 
 
 {% include img.html src="/images/2022/09/covra_cloud_chamber.jpg" aspect_ratio=55.3 %}
 
