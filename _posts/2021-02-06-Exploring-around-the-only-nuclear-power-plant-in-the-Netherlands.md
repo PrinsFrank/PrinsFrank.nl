@@ -35,4 +35,4 @@ There is another interesting nuclear related facility close by here, the COVRA. 
 
 From where this picture was taken, not any difference in radiation could be measured, and I was not planning to go closer. According to an [annual report by the Dutch ministry for public health, radiation is a bit higher, but also nothing to worry about](https://www.rivm.nl/bibliotheek/rapporten/2019-0107.pdf){:target="_blank" rel="noreferrer noopener"} here.
 
-Apparently, you could join a guided tour here before the pandemic hit, I will definitely do so when it is possible again!
+Apparently, you could join a guided tour here before the pandemic hit, I will definitely do so when it is possible again! UPDATE: [I finally was able to join a tour, and I wrote a post about it!](/2022/09/12/Visiting-the-only-nuclear-waste-storage-facility-of-the-Netherlands)
