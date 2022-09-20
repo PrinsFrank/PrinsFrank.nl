@@ -29,7 +29,7 @@ throw_if(), throw_unless(), today(), trait_uses_recursive(),
 transform(), value(), with();
 ```
 
-Apart from these - as of Laravel 9.0 - [all global functions documented](https://laravel.com/docs/9.x/helpers) {:target="_blank" rel="noreferrer noopener"}are dependent in some way or another on the state of a booted application. And while these functions are convenient ways to shorten the amount of code you have to write, they couple your code with the Laravel codebase. And furthermore, they decrease the testability of your codebase.
+Apart from these - as of Laravel 9.0 - [all global functions documented](https://laravel.com/docs/9.x/helpers){:target="_blank" rel="noreferrer noopener"}are dependent in some way or another on the state of a booted application. And while these functions are convenient ways to shorten the amount of code you have to write, they couple your code with the Laravel codebase. And furthermore, they decrease the testability of your codebase.
 
 Writing testcases for parts of your code that changes behaviour depending on the result of these global helpers is possible, but you still need to boot your application. And because the state of your application might even change in a single test case, this is usually done in the 'setUp' method. But that also means that you are booting your application for _every single test case_, often resulting in your application being booted several hundred or -thousand times. And the more functionality - especially service providers - your application has, the slower your test execution becomes. A 5% increase in boot time of your application then also means a 5% increase in test execution time. And waiting for your tests to execute becomes cumbersome after a while.
 
