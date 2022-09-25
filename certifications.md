@@ -27,6 +27,8 @@ order: 99
 
 [Microsoft Office Specialist Outlook (wa9CK-FM6E)](https://portal.certiport.com/Portal/Pages/CredentialVerification.aspx){:target="_blank" rel="noreferrer noopener"}
 
+[EXIN Privacy and Data Protection Foundation (6476889.20843586)](https://mylogin.exin.nl/AppPool_5/polarserver.asp){:target="_blank" rel="noreferrer noopener"}
+
 ## General
 
 First aid in Adults (EHBO) (April 2015 - April 2017)
