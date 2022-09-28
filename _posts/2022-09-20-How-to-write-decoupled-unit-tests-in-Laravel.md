@@ -104,7 +104,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Translation\Translator $translator
+Illuminate\Contracts\Translation\Translator $translator
 ```
 
 Instead of these functions, use these methods on the container service:
@@ -150,7 +150,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Routing\Redirector $redirector
+Illuminate\Routing\Redirector $redirector  // Redirector doesn't implement a contract
 ```
 
 Instead of these functions, use these methods on the container service:
@@ -168,7 +168,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Config\Repository $configRepository
+Illuminate\Contracts\Config\Repository $configRepository
 ```
 
 Instead of these functions, use these methods on the container service:
@@ -184,7 +184,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Log\LogManager $logManager
+Psr\Log\LoggerInterface $logManager
 ```
 
 Instead of these functions, use these methods on the container service:
@@ -295,7 +295,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Encryption\Encrypter $encrypter
+Illuminate\Contracts\Encryption\Encrypter $encrypter
 ```
 
 Instead of these functions, use these methods on the container service:
@@ -310,7 +310,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Hashing\HashManager $hashManager
+Illuminate\Contracts\Hashing\Hasher $hashManager
 ```
 
 Instead of this function, use the method on the container service:
@@ -342,7 +342,7 @@ Instead of these functions, use these methods on the container service:
 
 Class to DI:
 ```php
-Illuminate\Broadcasting\BroadcastManager $broadcastManager
+Illuminate\Contracts\Broadcasting\Factory $broadcastManager
 ```
 
 Instead of this function, use the method on the container service:
@@ -355,7 +355,7 @@ Instead of this function, use the method on the container service:
 
 Class to DI:
 ```php
-Illuminate\Bus\Dispatcher $dispatcher
+Illuminate\Contracts\Bus\QueueingDispatcher $dispatcher
 ```
 
 Instead of this function, use the method on the container service:
@@ -368,7 +368,7 @@ Instead of this function, use the method on the container service:
 
 Class to DI:
 ```php
-Illuminate\Events\Dispatcher $eventDispatcher
+Illuminate\Contracts\Events\Dispatcher $eventDispatcher
 ```
 
 Instead of this function, use the method on the container service:
@@ -407,7 +407,7 @@ Instead of this function, use the method on the container service:
 
 Class to DI:
 ```php
-Illuminate\Validation\Factory $validationFactory
+Illuminate\Contracts\Validation\Factory $validationFactory
 ```
 
 Instead of this function, use the method on the container service:
@@ -420,7 +420,7 @@ Instead of this function, use the method on the container service:
 
 Class to DI:
 ```php
-Illuminate\Cache\CacheManager $cacheManager
+Illuminate\Contracts\Cache\Factory $cacheManager
 ```
 
 Instead of this function, use the method on the container service:
