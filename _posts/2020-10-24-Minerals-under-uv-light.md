@@ -31,7 +31,7 @@ Tenebrescence is a rare phenomenon where a mineral changes colour and changes ba
 
 To share some excitement, I took some pictures in both visible and short wave UV to post here. Below each set of pictures the name of the mineral and the properties from above are listed.
 
-{% include img.html src="/images/2020/10/afghanite_visible_short_wave_uv_light.jpg" alt="Afghanite" aspect_ratio=28 full_width=true full_width=true %}
+{% include img.html src="/images/2020/10/afghanite_visible_short_wave_uv_light.jpg" alt="Afghanite" aspect_ratio=28 full_width=true %}
 <div style="text-align: center; font-style: italic; padding-bottom: 10px;">Afghanite, Fluorescent</div>
 
 {% include img.html src="/images/2020/10/calcite_visible_short_wave_uv_light.jpg" alt="Calcite" aspect_ratio=28 full_width=true %}
