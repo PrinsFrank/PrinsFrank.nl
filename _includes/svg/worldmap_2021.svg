@@ -705,7 +705,7 @@
             <title>Zimbabwe</title>
         </path>
     </g>
-    <circle cx="490" cy="292" r="2" id="amsterdam"/>
+    <circle cx="490" cy="292" r="7" id="amsterdam"/>
     <g id="2011">
         <circle cx="480" cy="337" r="2" id="barcelona"/>
     </g>
@@ -731,7 +731,7 @@
         <circle cx="523" cy="309" r="2" id="bratislava"/>
     </g>
     <g id="2017">
-        <circle cx="855" cy="359" r="2" id="kyoto"/>
+        <circle cx="855" cy="359" r="7" id="kyoto"/>
         <circle cx="854" cy="360" r="2" id="osaka"/>
         <circle cx="867" cy="356" r="2" id="tokyo"/>
         <circle cx="867" cy="358" r="2" id="yokohama"/>
@@ -793,7 +793,7 @@
     <g id="2022">
         <circle cx="504" cy="251" r="2" id="Oslo"/>
         <circle cx="529" cy="190" r="2" id="Tromso"/>
-        <circle cx="520" cy="100" r="2" id="Longyearbyen"/>
+        <circle cx="520" cy="100" r="7" id="Longyearbyen"/>
         <circle cx="534" cy="185" r="2" id="Skjervoy"/>
         <path d="M 504 251 L 529 190 L 520 100 M 529 190 L 534 185" stroke="black" fill="transparent"><title>2022</title></path>
         <circle cx="252" cy="327" r="2" id="Toronto"/>
