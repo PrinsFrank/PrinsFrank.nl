@@ -803,4 +803,7 @@
         <circle cx="257" cy="346" r="2" id="Washington DC"/>
         <path d="M 252 327 L 268 340 L 257 346 L 268 340 L 252 327 L 269 320 L 275 316 L 269 320 L 252 327" stroke="black" fill="transparent"><title>2022-2</title></path>
     </g>
+    <g id="2023">
+        <circle cx="482" cy="342" r="2" id="Mallorca"/>
+    </g>
 </svg>
