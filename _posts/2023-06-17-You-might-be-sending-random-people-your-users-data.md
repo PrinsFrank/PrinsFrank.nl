@@ -122,7 +122,7 @@ The domains are solely under my control to mitigate the issue and prevent others
 
 ### Why are you publishing now?
 
-I thought about publishing this when I first registered all these domain names. But when things like these get publish, besides making the companies aware malicious people also get aware, and can register a bunch of similar domain names. But after talking with the Dutch DPA (Autoriteit Persoonsgegevens) over the past few weeks, it became clear that publishing was better than keeping this silent.
+I thought about publishing this when I first registered all these domain names. But when things like these get publish, besides making the companies aware malicious people also get aware, and can register a bunch of similar domain names. But after talking with several security professionals and agencies over the past few weeks, it became clear that publishing was better than keeping this silent.
 
 ### How are you paying for this?
 
