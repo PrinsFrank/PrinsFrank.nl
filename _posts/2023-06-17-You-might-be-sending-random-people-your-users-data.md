@@ -14,7 +14,10 @@ You are working at a help desk or in a physical store signing people up for a se
 You just made a sale, and now you're inputting the personal data of your new customer.
 Their first and last name are easy. But wait, they don't have an email address?
 The field in the registration form is required, and has to contain a valid email.
-What if we put a random adress here? <a href="mailto:user@hasnomail.com">user@hasnomail.com</a>? or <a href="mailto:user@example.com">user@example.com</a>?
+
+{% include img.html src="/images/2023/06/email-required.png" aspect_ratio=38.17 %}
+
+What if we put a random address here? <a href="mailto:user@hasnomail.com">user@hasnomail.com</a>? or <a href="mailto:user@example.com">user@example.com</a>?
 
 The user is signed up (and hopefully happy about their new purchase).
 But in the background the **confirmation of this signup was sent** to a **random person** that is trying to intercept your data. Why? And how?
