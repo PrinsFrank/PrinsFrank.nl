@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article>
+  {% for certification in site.certifications %}
+  <div class="certificate">
+    <a href="{{ certification.url }}" target="_blank" rel="noopener noreferrer">
+      <div class="logo">
+        {% if certification.icon %}
+        <img src="{{ certification.icon }}">
+        {% else %}
+        <img src="./images/certificate/default.svg">
+        {% endif %}
+      </div>
+      <span>{{ certification.name }}</span>
+      <span>{{ certification.organization }}{% if certification.country %} - {{ certification.country }}{% endif %}</span>
+      <span>{{ certification.date }}{% if certification.expiry_date %} - {{ certification.expiry_date }}{% endif %}</span>
+    </a>
+  </div>
+  {% endfor %}
+</article>

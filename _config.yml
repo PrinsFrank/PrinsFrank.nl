@@ -80,3 +80,98 @@ visited_countries:
 visited_territories:
  - SJ
 
+certifications:
+  -
+    organization: Governor of Svalbard
+    country: Norway
+    name: Permission to borrow Weapon for Polarbear protection
+    icon: ./images/certificate/sysselmesteren.png
+    date: 2023-06-14
+  -
+    organization: EXIN
+    name: Privacy and Data Protection Foundation
+    number: 6476889.20843586
+    url: https://mylogin.exin.nl/AppPool_5/polarserver.asp
+    icon: ./images/certificate/EXIN_Privacy_and_Data_Protection.png
+    date: 2022-09-24
+  -
+    organization: PADI
+    country: Netherlands
+    name: Enriched Air Diver
+    url: https://www.padi.com/courses/enriched-air-diver
+    icon: ./images/certificate/PADI.png
+    number: 2104EN3828
+    date: 2021-04-10
+  -
+    organization: European Red Cross & Red Crescent
+    country: Netherlands
+    name: European First Aid Certificate
+    number: nrks10108215-71892
+    icon: ./images/certificate/red_cross_NL.png
+    date: 2021-03-27
+    expiry_date: 2023-03-27
+  -
+    organization: Austro Control
+    country: Austria
+    name: A1/A3 European Open sub category drone license
+    url: https://www.dronespace.at/drohnenfuehrerschein
+    icon: ./images/certificate/dronea1a3.png
+    number: AUT-RP-2576kqkl8ken
+    date: 2021-01-20
+  -
+    organization: Johns Hopkins University
+    name: COVID-19 Contact Tracing
+    url: http://coursera.org/verify/PVKC4ZW8VCDA
+    icon: ./images/certificate/john_hopkins.png
+    date: 2020-10-18
+  -
+    organization: PADI
+    country: Netherlands
+    name: Open Water
+    url: https://www.padi.com/courses/open-water-diver
+    icon: ./images/certificate/PADI.png
+    number: 2010EF0397
+    date: 2020-09-30
+  -
+    organization: CBR
+    country: Netherlands
+    url: https://www.cbr.nl/nl/recreatievaart-en-privevliegers/recreatievaart/recreatievaart-2/theorie-examen-klein-vaarbewijs-1.htm
+    icon: ./images/certificate/CBR.png
+    name: Small Boat license I
+    date: 2019-05-07
+  -
+    organization: Iedereen EHBO
+    country: Netherlands
+    name: First aid in Adults
+    url: https://livis.nl/cursussen/ehbo/ehbo-voor-volwassenen/ehbo-bij-volwassenen
+    icon: ./images/certificate/iedereenehbo.png
+    date: 2015-04-23
+    expiry_date: 2016-04-23
+  -
+    organization: Microsoft
+    name: Microsoft Office Specialist Outlook
+    url: https://portal.certiport.com/Portal/Pages/CredentialVerification.aspx
+    icon: ./images/certificate/MOS_outlook.png
+    number: wa9CK-FM6E
+    date: 2016
+  -
+    organization: ITIL® Foundation
+    name: Certificate in IT Service Management
+    url: https://www.axelos.com/successful-candidates-register
+    icon: ./images/certificate/ITIL.png
+    number: 5513751.20463076
+    date: 2015
+  -
+    organization: CBR
+    country: Netherlands
+    url:
+    icon: ./images/certificate/CBR.png
+    name: Car license
+    date: 2015-09-14
+  -
+    organization: CBR
+    country: Netherlands
+    url:
+    icon: ./images/certificate/CBR.png
+    name: Moped license
+    date: 2011-11-28
