@@ -75,7 +75,7 @@ Of course these questions are not exhaustive. There are a plethora of reasons th
 
 ## Definition Of Fixed
 
-When discussing or implementing this framework, it makes sense to commit to a new way of working. This can be done in a similar way of committing to a Definition Of Done or Definition Of Ready, by creating a Definition Of Fixed.
+When discussing or implementing this framework, it makes sense to write down criteria to which a complete fix must adhere to. This can be done in a similar way of committing to a Definition Of Done or Definition Of Ready, by creating a Definition Of Fixed.
 
 A Definition Of Fixed can contain some of the following points:
 
