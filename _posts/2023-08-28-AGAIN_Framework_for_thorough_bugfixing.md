@@ -93,4 +93,4 @@ A Definition Of Fixed can contain some of the following points:
 
 ## Epilogue
 
-The framework detailed above is just a written down version of a systematic way of solving bugs thoroughly. These steps are definitely not exhaustive, and will probably be updated in the future is this is not a blog but a bliki. If you have any additions, please open a PR on this post!
+The framework detailed above is just a written down version of a systematic way of solving bugs thoroughly. These steps are definitely not exhaustive, and will probably be updated in the future as this is not a blog but a bliki. If you have any additions, please open a PR on this post!
