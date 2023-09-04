@@ -7,7 +7,7 @@ tags: []
 readtime: 
 ---
 
-In the Netherlands you can't really function without WhatsApp. Its generification - using a brand name for all similar products - has been going on for a while. When someone says "Ik app je wel" - literally translated to "I'll app you" - they mean that they'll send you a message using Whatsapp.
+In the Netherlands you can't really function without WhatsApp. Its generification - using a brand name for all similar products - has been going on for a while. When someone says "Ik app je well" - literally translated to "I'll app you" - they mean that they'll send you a message using Whatsapp.
 
 I remember the first time I installed it, It must have been somewhere in 2010. Back then, I was in high school, somewhere in my final years there. Having internet in your phone plan was something that was available back then, but not really affordable for most people, and text messages were also quite expense for the volume an average teenager would like to send. So when an app became available that you could send free texts with, it wasn't that long before the entire school was available on WhatsApp. First installed on my iPod touch, it later also became available on android devices.
 

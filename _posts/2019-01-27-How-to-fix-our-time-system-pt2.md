@@ -71,7 +71,7 @@ Sadly it did not make it into everyday life. A hundred and thirty-one years late
 ## How to fix our time zones
 If you read [my previous article]({{ site.baseurl }}{% post_url 2019-01-20-How-to-fix-our-time-system %}) where i introduced Decimal Metric Time in Ticks you will know that i propose to divide days into a 1000 ticks. You should definitely read it if you haven’t, as my next point will make more sense.
 
-As a result of the division in a 1000 parts and removing the factor of 24, our current time zones will be broken. That’s not a problem, and in fact exactly what I envision. Why use time zones instead of one global time when we are as global of a civilization as we are now? As we’ve seen above this is not a novel idea at all, it is the Utopian view of Sandfor Fleming and many after him to only use global time. While he chose the term “Cosmopolitan Time”, he also coined other terms like “common”, “universal” “”non-local”, “uniform”, “aboslute”, “all-world” and “terrestrial” on page 28.
+As a result of the division in a 1000 parts and removing the factor of 24, our current time zones will be broken. That’s not a problem, and in fact exactly what I envision. Why use time zones instead of one global time when we are as global of a civilization as we are now? As we’ve seen above this is not a novel idea at all, it is the Utopian view of Sandfor Fleming and many after him to only use global time. While he chose the term “Cosmopolitan Time”, he also coined other terms like “common”, “universal” “”non-local”, “uniform”, “absolute”, “all-world” and “terrestrial” on page 28.
 
 Using one universal time does take some getting used to. Fleming worded this better than i can:
 

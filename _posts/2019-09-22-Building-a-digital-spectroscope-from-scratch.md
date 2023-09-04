@@ -9,7 +9,7 @@ readtime: 8
 
 I've wanted to use a spectroscope, and my aim has been to make it part of my home lab for a while. But with my budget split between travel and other instruments like a 3d-printer, microscope and oscilloscope, I decided to build my own. I'm certainly not the first one to, as there are a variety of how-to's and even kits available online. But with most of these made from cardboard or likewise materials and either not digital or with very low resolution I wanted a more permanent and high resolution solution.
 
-Over a year ago I bought the cheapest 3d-printer available online: the Anet a8. Apart fom being a fire hazard and as so not to be left alone, it's a really useful tool, but until now only used to print replacement parts for things like a glove compartment and a fridge, and some custom brackets for various things.
+Over a year ago I bought the cheapest 3d-printer available online: the Anet a8. Apart from being a fire hazard and as so not to be left alone, it's a really useful tool, but until now only used to print replacement parts for things like a glove compartment and a fridge, and some custom brackets for various things.
 
 I decided to change that. After some research I came to the conclusion that I had to design my own 3d-model as none were available. The main component of the build will be a webcam, and as it's the only part that I can't really customize I had to decide on what webcam I would use before continuing.
 

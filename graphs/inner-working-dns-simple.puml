@@ -8,7 +8,7 @@ control "Browser" as brwsr
 database "DNS Recursor" as recr
 database "Root Name Server" as root
 database "**.com** TLD Name Server" as tldns
-database "Authorative Name Server for **example.com**" as ans
+database "Authoritative Name Server for **example.com**" as ans
 database "Hosting Server" as hs
 
 usr -> brwsr: Request **example.com**

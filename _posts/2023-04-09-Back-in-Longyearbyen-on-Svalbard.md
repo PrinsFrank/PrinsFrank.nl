@@ -43,7 +43,7 @@ Halfway through and at the end of februari the sun finally casts some lights on 
 
 {% include img.html src="/images/2023/04/longyearbyen_from_sea_svalbard.jpg" aspect_ratio=31.6 full_width=true %}
 
-On march 8th the entire town goes up to the place where the old hospital used to be at to celebrate the return of the sun in town. During the second world war the entire town was burned down, but the steps of the old hospital where the solfest was celebrated were rebuilt to preserve this tradition. The kids that live here sing songs and shout for the sun to return. This year, the shouting and singing to the sun couldn't help agains the bad weather, and we didn't get a glimpse of the sun.
+On march 8th the entire town goes up to the place where the old hospital used to be at to celebrate the return of the sun in town. During the second world war the entire town was burned down, but the steps of the old hospital where the solfest was celebrated were rebuilt to preserve this tradition. The kids that live here sing songs and shout for the sun to return. This year, the shouting and singing to the sun couldn't help against the bad weather, and we didn't get a glimpse of the sun.
 
 {% include img.html src="/images/2023/04/solfest_march_8th_longyearbyen_svalbard.jpg" aspect_ratio=47.9 %}
 

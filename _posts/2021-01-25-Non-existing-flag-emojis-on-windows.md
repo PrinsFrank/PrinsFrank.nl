@@ -66,7 +66,7 @@ My search continued, until I found the [Noto Color Emoji font](https://github.co
 
 > NotoColorEmoji uses the CBDT/CBLC color font format, (..) Windows supports it starting with Windows 10 Anniversary Update (..)
 
-Great! This means we kind of solved the Windows emoji issue, but only for people on a recently updated version of Windows 10, wich will be around 75% percent of the Windows users. Quite a substantial fix! I included the font as follows;
+Great! This means we kind of solved the Windows emoji issue, but only for people on a recently updated version of Windows 10, which will be around 75% percent of the Windows users. Quite a substantial fix! I included the font as follows;
 
 ```html
 <style>
