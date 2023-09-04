@@ -1,0 +1,17 @@
+[files]
+extend-exclude = [
+    ".git/",
+    "Gemfile.lock",
+    "_includes/unicode/case_folded_characters_2021-11-17.html",
+    "_includes/svg/worldmap_2021.svg",
+]
+ignore-hidden = false
+
+[default]
+extend-ignore-re = [
+    "\\$countryCodes:.*",
+    "\\.nd \\{",
+]
+
+[default.extend-words]
+"encrypter" = "encrypter"
