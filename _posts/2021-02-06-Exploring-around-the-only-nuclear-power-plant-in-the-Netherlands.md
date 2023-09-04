@@ -9,7 +9,7 @@ readtime:
 
 Almost 3 years ago now, I went to Chernobyl and Pripyat to witness the result of the worst nuclear accident in history. Most contaminated top soil was removed, so besides the occasional truck with soil passing by and setting of our geiger counters and speeding through the red forest, radiation was limited. Maybe I will write about that experience in a later post.
 
-With curfews still in place, all non essential shops closed and my museum card now basically worthless, there is not much to do in or outside the Netherlands. Longing back to the carefree travels and struck by cabin fever, I ordered a geiger counter from Ukraine a couple of weeks ago, and it just arrived! With no Pripyat in the neighbourhood, no thrift stores to look for radioactive fiestaware or vaseline glass and no radiactive minerals at home, there was a next best thing. Our own little nuclear plant in Borssele, the only one still operational in the Netherlands.
+With curfews still in place, all non essential shops closed and my museum card now basically worthless, there is not much to do in or outside the Netherlands. Longing back to the carefree travels and struck by cabin fever, I ordered a geiger counter from Ukraine a couple of weeks ago, and it just arrived! With no Pripyat in the neighbourhood, no thrift stores to look for radioactive fiestaware or vaseline glass and no radioactive minerals at home, there was a next best thing. Our own little nuclear plant in Borssele, the only one still operational in the Netherlands.
 
 <video width="100%" height="100%" controls preload="auto" loop>
   <source src="/images/2021/02/borssele_cooling_outlet.mp4" type="video/mp4">

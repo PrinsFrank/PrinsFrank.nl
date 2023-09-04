@@ -18,7 +18,7 @@ First up was Oslo. I had booked two nights in a hotel here, as one of the requir
 
 The next stop was Tromsø. The plane that took me from Oslo to Tromsø was actually continuing to Longyearbyen and so the exact plane that I would take the next day. On the plane there was an announcement about a test requirement before arrival at Svalbard, which I knew nothing about. Lucky for me, I could get another Covid test in Tromsø. This ended up being the most expensive test I ever paid for at 180 euros, but as I was this close to the island that had been a dream destination since I was 12 I was not going to let that stop me.
 
-During my trip up north, first at Oslo and then at Tromsø, the nights got longer and longer. At Oslo the difference was a bit noticable, but in Tromsø there was already no official daylight, only civil twilight during these months. When I arrived it was already very dark, so getting some sleep was no issue at all.
+During my trip up north, first at Oslo and then at Tromsø, the nights got longer and longer. At Oslo the difference was a bit noticeable, but in Tromsø there was already no official daylight, only civil twilight during these months. When I arrived it was already very dark, so getting some sleep was no issue at all.
 
 The next morning I finally got on the plane for the last leg of the journey. After some de-icing we were ready to go, and flew into the night.
 

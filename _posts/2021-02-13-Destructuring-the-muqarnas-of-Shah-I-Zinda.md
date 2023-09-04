@@ -11,7 +11,7 @@ With the country still in lockdown and a curfew in place, it is not really diffi
 
 {% include img.html src="/images/2021/02/registan.jpg" aspect_ratio=88.8 %}
 
-Uzbekistan; For a country that doesn't have that much international travelers - altough that was starting to change because of new leadership and subsequent easing of visa restrictions - there are a significant number of impressive places to visit. The Registan - pictured above - is probably the most well known attraction, but the Gur-e-Amir - the mausoleum of Amir Timur also known as Tamerlane - is also relatively well known and just as beautiful;
+Uzbekistan; For a country that doesn't have that much international travelers - although that was starting to change because of new leadership and subsequent easing of visa restrictions - there are a significant number of impressive places to visit. The Registan - pictured above - is probably the most well known attraction, but the Gur-e-Amir - the mausoleum of Amir Timur also known as Tamerlane - is also relatively well known and just as beautiful;
 
 {% include img.html src="/images/2021/02/gur-e-amir.jpg" aspect_ratio=75 %}
 

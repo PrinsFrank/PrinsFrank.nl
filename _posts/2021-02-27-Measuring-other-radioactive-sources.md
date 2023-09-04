@@ -17,7 +17,7 @@ After that last trip, I learned about the [National measuring network Radiactivi
 
 ---
 
-So even though I have been to Chernobyl and know about how safe radiation actually is and how low the levels are even there, that thought of "what if I detect high radiation levels" kind of suprised me. Besides the fact that that would be an interesting phone call to officials, part of the thought might also be rooted in some irrational fear. With the national measurement network it also turned out to be totally unnecessary.
+So even though I have been to Chernobyl and know about how safe radiation actually is and how low the levels are even there, that thought of "what if I detect high radiation levels" kind of surprised me. Besides the fact that that would be an interesting phone call to officials, part of the thought might also be rooted in some irrational fear. With the national measurement network it also turned out to be totally unnecessary.
 
 But the presence of this network, the several radioactive facilities and nuclear power plants and their safety rarely get talked about. I decided to follow up the previous post and visit almost [all of the other remaining nuclear installations in the Netherlands](https://www.rivm.nl/straling-en-radioactiviteit/industrie-en-monitoring/nucleaire-installaties){:target="_blank" rel="noreferrer noopener"}. The only one I didn't visit was the URENCO in Almelo because of time constraints. With these pictures, I hope to show how low the radiation levels are at all these places. All locations I visited after the previous article were the same or lower than the background radiation levels in the surrounding area. (I started measurements a few kms before arriving)
 

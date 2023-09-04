@@ -19,9 +19,9 @@ As I'm browsing for a house to buy and I just bought a new car, buying a fume ho
 
 The past few months, I've had a lot of time to think about how to do this experiment safely. With an [evaporation rate of 2.9](https://ww3.arb.ca.gov/db/solvents/solvent_pages/alcohols-html/methanol.htm){:target="_blank" rel="noreferrer noopener"}, compared to the evaporation rate of [2 from ethanol](https://ww3.arb.ca.gov/db/solvents/solvent_pages/alcohols-html/ethanol.htm){:target="_blank" rel="noreferrer noopener"}, ventilation was the most important factor. I decided to swiftly transfer the tiny amount of methanol I needed in open air. After buying some protective glasses and plastic gloves I was good to go.
 
-The transfer of 1ml of methanol was anticlimactic. The Measuring pipet perfectly fit in the bottle attachment, so the methanol didn't even have a change to evaporate. Worst case scenario after puting the bottle back into the cabinet, was me drinking the 1ml, which was far away from having the possibility to make me blind.
+The transfer of 1ml of methanol was anticlimactic. The Measuring pipet perfectly fit in the bottle attachment, so the methanol didn't even have a change to evaporate. Worst case scenario after putting the bottle back into the cabinet, was me drinking the 1ml, which was far away from having the possibility to make me blind.
 
-The paper mentioned an exact concentration of Nile Red to Methanol, at 1µg mL<sup>-1</sup>, with quenching - decreasing of fluorescence - occuring above twice that dose. With 1 gram at my disposal and no scientific scale I decided to guesstimate it and just put some Nile Red in the eppendorf tube.
+The paper mentioned an exact concentration of Nile Red to Methanol, at 1µg mL<sup>-1</sup>, with quenching - decreasing of fluorescence - occurring above twice that dose. With 1 gram at my disposal and no scientific scale I decided to guesstimate it and just put some Nile Red in the eppendorf tube.
 
 {% include img.html src="/images/2021/02/eppendorf_fluorescent.jpg" aspect_ratio=46.9 %}
 

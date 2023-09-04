@@ -175,7 +175,7 @@ Here we specifically set the policy to 'pull' as there are no items in the vendo
 
 When any package in the 'composer.lock' is added, updated or deleted, the entire vendor folder is regenerated, even if only a small portion of the packages are changed. We can optimize this and configure a fallback cache, that is periodically updated with a 'base' vendor folder. Only the changed packages then need to be changed and pushed to the new cache.
 
-To seperate the logic, a new stage can be added to the global configuration:
+To separate the logic, a new stage can be added to the global configuration:
 
 ```yml
 stages:
