@@ -807,5 +807,7 @@
         <circle cx="520" cy="100" r="2" id="Longyearbyen"/>
         <circle cx="516" cy="105" r="2" id="Barentsburg"/>
         <circle cx="482" cy="342" r="2" id="Mallorca"/>
+        <circle cx="555" cy="338" r="2" id="istanbul"/>
+        <circle cx="545" cy="350" r="2" id="Mykonos"/>
     </g>
 </svg>
