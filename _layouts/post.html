@@ -3,17 +3,21 @@ layout: default
 ---
 
 <a href="/">Back to posts ↺</a>
-<h1 itemprop="name headline">{{ page.title | escape }}</h1>
+<h1 itemprop="name headline title">{{ page.title | escape }}</h1>
 <span itemprop="alternativeHeadline">{{ page.subtitle }}</span>
 <br>
 {%- include category_indicators.html post = page -%}
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: site.date_format }}</time>
 {% if page.author -%}
 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <span itemprop="name">{{ page.author }}</span>
+  <span itemprop="name">- {{ page.author }}</span>
 </span>
 {%- endif %}
+- {% include license.html %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   {{ content }}
 </article>
+<p>
+  {% include license.html %}
+</p>
 <a href="/">Back to posts ↺</a>
