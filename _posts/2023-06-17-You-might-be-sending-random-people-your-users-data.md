@@ -128,6 +128,6 @@ I thought about publishing this when I first registered all these domain names. 
 
 I am paying for these domain names every year out of my own pocket. That's also the reason that I stopped paying for the other 25 domains that got very minimal email traffic compared to these four remaining domain names.
 
-If you want to sponsor me you can do so using the bottom below on Github:
+If you want to sponsor me you can do so using the button below on Github:
 
 <iframe src="https://github.com/sponsors/PrinsFrank/button" title="Sponsor PrinsFrank" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
