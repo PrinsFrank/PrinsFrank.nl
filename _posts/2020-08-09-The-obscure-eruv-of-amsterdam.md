@@ -15,7 +15,7 @@ Not a lot of info about Dutch eruvins can be found. The English wikipedia page m
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1K9JpabMj1Wgdjy6O41Tqk_nvKes" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-But after all this research, not a single reference to how this boundary is created - no pictures of strings, fences, nothing. It doesn't really happen that much that not a single obscure blogpost talks about something that should physically exist, so I decided to find and document any physical thing related to the eruv boundary I could find. With the boundary map sent to my phone and the airco turned on to battle the onging heatwave, I arrive at my first destination "Leimuiden" after a short drive.
+But after all this research, not a single reference to how this boundary is created - no pictures of strings, fences, nothing. It doesn't really happen that much that not a single obscure blogpost talks about something that should physically exist, so I decided to find and document any physical thing related to the eruv boundary I could find. With the boundary map sent to my phone and the airco turned on to battle the ongoing heatwave, I arrive at my first destination "Leimuiden" after a short drive.
 
 With the rivers and bodies of water doing the gruntwork for the eruv - we're in the netherlands so what do you expect - any physical representation should be in the form of "beams" over bridges, mostly made of wire. The idea behind this is that those wires represent the cross beams of a door, with the poles they are attached to representing the side posts.
 
