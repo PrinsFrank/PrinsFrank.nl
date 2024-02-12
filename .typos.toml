@@ -15,3 +15,5 @@ extend-ignore-re = [
 
 [default.extend-words]
 "encrypter" = "encrypter"
+"ND" = "ND"
+"wel" = "wel"

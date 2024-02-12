@@ -14,3 +14,13 @@ jobs:
       - name: Check for external links without target="_blank" attribute
         run: |
           ! git grep --perl-regexp --only-matching -e '\[[^\]]*\]\([^\/][^)|{%]*\)(?!{)' -- '*.md'
+
+  typos:
+    name: Typos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Search for misspellings
+        uses: crate-ci/typos@master
