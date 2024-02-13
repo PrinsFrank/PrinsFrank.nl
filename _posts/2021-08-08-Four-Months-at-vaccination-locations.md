@@ -4,7 +4,7 @@ subtitle: What my weekends look like since early 2020
 Description:
 categories: [curiosity]
 tags: []
-readtime:
+readtime: 9
 ---
 
 _All pictures in this post were taken before the locations were open and without any people in them. Please refrain from taking pictures yourself, except at the designated selfie wall_

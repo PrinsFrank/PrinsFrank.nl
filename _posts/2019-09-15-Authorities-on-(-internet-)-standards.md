@@ -4,7 +4,7 @@ subtitle: Who decides on what?
 Description:
 categories: [standards]
 tags: []
-readtime: 
+readtime: 2
 ---
 
 Sometimes it's hard to keep track of all the authorities, so I decided to make an overview. Mostly for my own sake, but why not share it? This is a very short list for now, as these are only the standards i am working with right now. My intention is to make this a living document so I will update this whenever i come across a new authority or standard, or when something changes.   

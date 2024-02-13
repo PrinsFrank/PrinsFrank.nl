@@ -4,7 +4,7 @@ subtitle: A frustrating amount of time spent on a simple fix
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 2
 ---
 
 When building open source PHP packages, Scrutinizer is an awesome free tool to analyse code and create coverage reports. As I recently started a [Validated Properties](https://github.com/PrinsFrank/php-validated-properties){:target="_blank" rel="noreferrer noopener"} package I decided to implement it there as well, but unlike with other packages this one doesn't have support for PHP7.4 and 8.0, as it uses Attributes introduced with PHP8.1. And setting up PHP8.1 on Scrutinizer turned out to quite difficult.

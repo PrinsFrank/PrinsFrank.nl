@@ -4,7 +4,7 @@ subtitle: A new years eve tradition during the coronavirus outbreak
 Description:
 categories: [culture]
 tags: []
-readtime: 
+readtime: 4
 ---
 
 > Warning: Anything you read in this post is purely to inform you about an interesting Dutch tradition. This is not a guide or how to, and is probably not legal where you live. <b>DO NOT TRY THIS AT HOME</b>.

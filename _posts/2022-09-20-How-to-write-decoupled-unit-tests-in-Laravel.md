@@ -4,7 +4,7 @@ subtitle: And how this can make your code more testable and your tests run faste
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 7
 ---
 
 If you have been using Laravel for a while, You'll probably be familiar with the default test folder when setting up a new project: 'Feature' and 'Unit'. The distinction Laravel makes here since [two years](https://github.com/laravel/laravel/commit/f4b1dc6df04f4ef9b4b15e2c38668e8cb168c253){:target="_blank" rel="noreferrer noopener"} now is that Unit Tests extend from the base PHPUnit test case, and Feature tests extend from the ['Tests/TestCase.php' in the root of the test folder](https://github.com/laravel/laravel/blob/9.x/tests/TestCase.php){:target="_blank" rel="noreferrer noopener"}, where an application is set up and booted so you can access all the booted services. 

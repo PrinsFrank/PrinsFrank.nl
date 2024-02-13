@@ -4,7 +4,7 @@ subtitle: The beautiful geometric islamic art unknown to many
 Description:
 categories: [travel, curiosity]
 tags: []
-readtime:
+readtime: 4
 ---
 
 With the country still in lockdown and a curfew in place, it is not really difficult to reminisce the past and think back to previous trips. My most impressive and off the beaten track trip was back in november 2019, my second to last real trip before the pandemic. While I will probably write a blog post about the trip itself, this post is about muqarnas.

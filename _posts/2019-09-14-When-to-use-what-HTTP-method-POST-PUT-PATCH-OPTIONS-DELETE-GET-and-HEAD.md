@@ -4,7 +4,7 @@ subtitle: A guide on POST, PUT, PATCH, OPTIONS, DELETE, GET and HEAD
 Description:
 categories: [development, standards]
 tags: [HTTP, POST, PUT, PATCH, OPTIONS, DELETE, GET, HEAD]
-readtime: 
+readtime: 1
 ---
 
 The last couple of years i've talked with multiple developers about proper use of HTTP methods.

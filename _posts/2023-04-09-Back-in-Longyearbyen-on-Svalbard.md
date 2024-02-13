@@ -4,7 +4,7 @@ subtitle: A remote arctic island close to the north pole
 Description:
 categories: [travel, culture]
 tags: []
-readtime:
+readtime: 7
 ---
 
 **A common saying on this island is that people that come here are either looking for something, or running for something.**

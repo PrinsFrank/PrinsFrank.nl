@@ -4,7 +4,7 @@ subtitle: Workaround for gitlab fallback caches not updating
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 3
 ---
 
 The last few months I've been working a lot on optimizing our Gitlab pipelines for a large private codebase to keep the runtime of them below 4 minutes. As there is not a lot of info about optimizing Gitlab pipelines for PHP projects in general, I decided it was time to change that. As there is a lot to unpack here, this will be the fourth in a multipart series and also the final one for now as I'm switching jobs. If you haven't read the previous posts in this series, you can do it here: [part 1 about basics](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics), [part 2 about phpunit](/2022/02/16/Optimizing-gitlab-pipelines-pt-2-phpunit) or [part 3 about phpstan](/2022/03/08/Optimizing-gitlab-pipelines-pt-3-phpstan).

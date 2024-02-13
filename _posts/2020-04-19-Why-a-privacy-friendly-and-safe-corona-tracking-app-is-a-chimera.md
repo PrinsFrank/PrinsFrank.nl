@@ -4,7 +4,7 @@ subtitle: Bluetooth won't save us.
 Description:
 categories: [privacy]
 tags: []
-readtime: 
+readtime: 4
 ---
 
 **This weekend, 7 apps to track corona virus infections were presented to the public and the ministry of public health of the Netherlands in an "appathon"[<sup>1</sup>](https://www.youtube.com/playlist?list=PLVq02MUODjYHvRlPXOfU2j15eq7E_rwLF){:target="_blank" rel="noreferrer noopener"}.

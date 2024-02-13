@@ -4,7 +4,7 @@ subtitle: And why I haven't written a lot on here in the last month.
 Description:
 categories: [science, curiosity]
 tags: []
-readtime: 
+readtime: 2
 ---
 
 Even though I had the intention to write more here this year, I haven't done that so far because i was busy researching microplastics in prawn crackers and writing up the paper. It's finally done though, you can read it [on github](https://github.com/PrinsFrank/PrinsFrank.nl/blob/master/papers/2020-02-08-fibrous-microplastic-particles-in-prawn-crackers.pdf){:target="_blank" rel="noreferrer noopener"} or download it directly as a [pdf](https://github.com/PrinsFrank/PrinsFrank.nl/raw/master/papers/2020-02-08-fibrous-microplastic-particles-in-prawn-crackers.pdf

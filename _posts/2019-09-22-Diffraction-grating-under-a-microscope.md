@@ -4,7 +4,7 @@ subtitle: And how to make the grating visible
 Description:
 categories: [science, curiosity]
 tags: []
-readtime: 8
+readtime: 2
 ---
 
 # Background

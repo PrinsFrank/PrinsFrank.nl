@@ -4,7 +4,7 @@ subtitle: An inconvenient truth
 Description:
 categories: [science, curiosity]
 tags: []
-readtime: 4
+readtime: 3
 ---
 
 One of the main reasons I bought my microscope is the ability to do my own exploratory research. One of the things that I wanted to look into for a long time has been microplastics. It's been a relatively unknown area of research for a while, but has now become mainstream because of the alarming results published in the last couple of years.

@@ -4,7 +4,7 @@ subtitle: Is nuclear energy safer and a better solution to global warming than i
 Description:
 categories: [science, curiosity]
 tags: []
-readtime:
+readtime: 5
 ---
 
 Three weeks ago I went to the [only remaining operating nuclear power plant in the Netherlands]({% post_url 2021-02-06-Exploring-around-the-only-nuclear-power-plant-in-the-Netherlands %}) and looked at radiation levels around it. I got quite some personal messages after that article, both mentioning that the images were interesting and that there are several other radioactive facilities in the Netherlands besides power plants that also might be interesting to visit.

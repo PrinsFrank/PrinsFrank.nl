@@ -4,7 +4,7 @@ subtitle: And how to prevent them
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 3
 ---
 
 When working with multiple developers on a project, a lot can happen regarding Composer dependencies. Packages get added, removed, and upgraded. Sometimes when a package has been added, other dependencies might also need an upgrade. Or a developer accidentally upgrades all packages because they use the wrong command. (always running "composer update" is apparently a habit hard to get rid of)

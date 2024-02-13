@@ -4,7 +4,7 @@ subtitle: A story about Baarle-Hertog and Baarle-Nassau.
 Description:
 categories: [travel, culture, curiosity]
 tags: []
-readtime: 
+readtime: 4
 ---
 
 {% include img.html src="/images/2020/03/corona_baarle_hertog_nassau_closures_map.jpg" alt="" aspect_ratio=50.2 %}

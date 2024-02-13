@@ -4,7 +4,7 @@ subtitle: And how to use that knowledge to get changes sooner
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 2
 ---
 
 With [1.6 million NPM packages and a 1000 new ones added every day](http://www.modulecounts.com/){:target="_blank" rel="noreferrer noopener"} - all depending on each other - it is no surprise that there will be some vulnerabilities found and [advisories published](https://www.npmjs.com/advisories){:target="_blank" rel="noreferrer noopener"}. [The worryingly high package dependency count and dependency depth](https://sambleckley.com/writing/npm.html){:target="_blank" rel="noreferrer noopener"} makes it even more likely that you will find a lot - if not eventually all - of the advisories in your audit results. One of the reasons I have a strong distaste for NPM and even javascript in general, but I will go into that further in a next post. For now, it's sadly a necessary evil.

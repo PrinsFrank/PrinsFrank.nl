@@ -4,7 +4,7 @@ subtitle: A story 1.5 year in the making
 Description:
 categories: [curiosity, science]
 tags: []
-readtime:
+readtime: 5
 ---
 
 {% include img.html src="/images/2022/09/covra_building_entrance.jpg" aspect_ratio=52.1 %}

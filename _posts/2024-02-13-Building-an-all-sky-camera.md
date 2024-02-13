@@ -4,7 +4,7 @@ subtitle: towards live aurora alerts for less than € 275
 Description:
 categories: [science, curiosity]
 tags: []
-readtime:
+readtime: 8
 ---
 
 {% include img.html src="/images/2024/02/allsky-camera-v2-overview.jpg" aspect_ratio=56.04 %}

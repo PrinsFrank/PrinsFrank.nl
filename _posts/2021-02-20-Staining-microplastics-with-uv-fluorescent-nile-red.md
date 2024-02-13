@@ -4,7 +4,7 @@ subtitle: The search for microplastics in our environment continued
 Description:
 categories: [science, curiosity]
 tags: []
-readtime:
+readtime: 5
 ---
 
 {% include img.html src="/images/2021/02/home_lab_nile_red.jpg" aspect_ratio=53.5 %}

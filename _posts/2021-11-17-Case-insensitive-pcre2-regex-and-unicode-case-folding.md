@@ -4,7 +4,7 @@ subtitle: A complicated hunt for a bug in my code with a satisfying answer
 Description:
 categories: [standards, development]
 tags: []
-readtime:
+readtime: 15
 ---
 
 _All of the code samples below are written in PHP as it is the main language I work with, but these examples all apply in any language that has PCRE2 regexes_ 

@@ -4,7 +4,7 @@ subtitle: During a cold night that lasts 2,5 months - Polar Night
 Description:
 categories: [travel]
 tags: []
-readtime:
+readtime: 9
 ---
 
 {% include img.html src="/images/2022/08/polar-bear-sign-longyearbyen-svalbard.jpg" aspect_ratio=65.6 %}

@@ -4,7 +4,7 @@ subtitle: Facebooks data machine is becoming even more hungry
 Description:
 categories: [privacy, security]
 tags: []
-readtime: 
+readtime: 6
 ---
 
 In the Netherlands you can't really function without WhatsApp. Its generification - using a brand name for all similar products - has been going on for a while. When someone says "Ik app je wel" - literally translated to "I'll app you" - they mean that they'll send you a message using Whatsapp.

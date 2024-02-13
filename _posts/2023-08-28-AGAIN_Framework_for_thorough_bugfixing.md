@@ -4,7 +4,7 @@ subtitle: A deep dive
 Description:
 categories: [standards, development]
 tags: []
-readtime:
+readtime: 6
 ---
 
 **_Again?_ This one word might be said too much by your users, customer support staff or developers and can say a lot about the quality of your bug fixes. Or you are just looking for a framework to guide your efforts in squashing bugs. Either way, you came to the right place!**

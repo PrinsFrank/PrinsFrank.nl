@@ -4,7 +4,7 @@ subtitle: Deferrable providers and how they will save you those valuable first m
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 5
 ---
 
 If you have been working with Laravel you have probably touched some service providers. Laravel comes with [a bunch of them out of the box](https://github.com/laravel/laravel/blob/9.x/config/app.php#L157){:target="_blank" rel="noreferrer noopener"} to get your application starting as they are the central place to configure your application. But for a lot of developers, service providers and how they work internally remains a mystery. 

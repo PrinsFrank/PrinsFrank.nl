@@ -4,7 +4,7 @@ subtitle: Making radiation visible
 Description:
 categories: [science, curiosity]
 tags: []
-readtime:
+readtime: 9
 ---
 
 As some of you may know, I have been building a cloud chamber for a few months now. And while I might add some improvements like permanent temperature readings and graceful shutdown in the feature, this weekend I finished the initial build. And I'd like to share it with you here!

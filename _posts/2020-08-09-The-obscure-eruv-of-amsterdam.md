@@ -4,7 +4,7 @@ subtitle: looking for an enclosed area with invisible boundaries
 Description:
 categories: [travel, curiosity]
 tags: []
-readtime: 
+readtime: 3
 --- 
 
 I'm not a religious person, but I'm very interested in different religions, their origins and their impacts on society in the modern day. So when I heard about iron lines or fishing lines encompassing thousands of areas in the world for religious reasons I was intrigued. With my summer holiday sadly over and my cabin fever still having me in it's stronghold I decided to find out more.

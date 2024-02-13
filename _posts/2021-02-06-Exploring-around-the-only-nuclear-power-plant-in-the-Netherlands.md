@@ -4,7 +4,7 @@ subtitle: Testing a new geiger counter as a TERRA-P for cabin fever
 Description:
 categories: [science, curiosity]
 tags: []
-readtime:
+readtime: 3
 ---
 
 Almost 3 years ago now, I went to Chernobyl and Pripyat to witness the result of the worst nuclear accident in history. Most contaminated top soil was removed, so besides the occasional truck with soil passing by and setting of our geiger counters and speeding through the red forest, radiation was limited. Maybe I will write about that experience in a later post.

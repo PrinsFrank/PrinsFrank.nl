@@ -4,7 +4,7 @@ subtitle: Why 🇳 and 🇱 make 🇳🇱
 Description:
 categories: [development, standards]
 tags: []
-readtime:
+readtime: 6
 ---
 
 While they seem quite new, the first known emoji set was created by [Softbank in 1997](https://emojipedia.org/softbank/1997/){:target="_blank" rel="noreferrer noopener"} for Japanese customers, but only in [2008 Apple introduced support on the Japanese market](https://web.archive.org/web/20090703152413/http://support.apple.com/kb/TS2404){:target="_blank" rel="noreferrer noopener"}, with eventually the entire world being able to use them. And while all emoji differ between platforms, most do work when you send them in an email from your Apple device to an Android or Windows device, or displayed on a web page. With one noticeable exception: country flags;

@@ -4,7 +4,7 @@ subtitle: And how to keep them out of your composer.json and lock file so your t
 Description:
 categories: [development]
 tags: []
-readtime: 
+readtime: 3
 ---
 
 **When developing in a team where other devs have different local setups you might run into issues where you can't set the ```path``` directly in the composer.json because those paths differ between the different environments. Apparently, those values can be kept outside the composer.json by setting them globally!**

@@ -4,7 +4,7 @@ subtitle: Caching caches
 Description:
 categories: [development]
 tags: []
-readtime:
+readtime: 5
 ---
 
 The last few months I've been working a lot on optimizing our Gitlab pipelines for a large private codebase to keep the runtime of them below 4 minutes. As there is not a lot of info about optimizing Gitlab pipelines for PHP projects in general, I decided it was time to change that. As there is a lot to unpack here, this will be the third in a multipart series. If you haven't read the previous posts in this series, you can do it here: [part 1 about basics](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics) or [part 2 about phpunit](/2022/02/16/Optimizing-gitlab-pipelines-pt-2-phpunit).
