@@ -9,13 +9,30 @@ readtime:
 
 {% include img.html src="/images/2024/02/allsky-camera-overview.jpg" aspect_ratio=56.04 %}
 
-1. The enclosure should be waterproof
-2. The camera should be able to withstand temperatures down to -30C
-3. There should be as few cables as possible to the camera
-4. Maintenance should be as easy as possible
+Ever since I'm back from Svalbard, I've been thinking about building an all sky camera. During dark season, there are a lot of tourists on the island for Northern lights (Aurora Borealis), even though it is actually too far north up there to see them consistently. Sometimes they aren't seen for weeks due to snow storms or lack of solar activity, and other times they are just not noticed due to the fact that is very cold outside and few people are spending hours outside due to that cold.
 
+There is an all sky camera on the island, but it is not always online and when there are northern lights visible you have to look at the camera feed at the right time to notice them. I could use that feed to provide realtime alerts, but it would be better to have my own camera to use, even more so as the existing feed is from a 15 kilometers out of town at the [Kjell Henriksen Observatory](https://maps.app.goo.gl/6gqgSfpG64GEDMgZ6).
+
+An out-of-the box all-sky camera will cost at least €2000 and runs into much higher numbers, so that's not an option for me.
+
+My plan is thus very simple; I'll build my own budget friendly all-sky camera, set it up on the island and build an app that provides real-time alerts. This post describes the first part, and gives you all the information you'll need to build your own. It also includes a cost breakdown and the STL/F3D files to print the custom part. There are some requirements to consider from the start;
+
+1. The enclosure should be waterproof, as there is a lot of snow during winter and rain during the summer
+2. The camera should operate at temperatures down to -30C, and should be able to withstand temperatures down to -50C.
+3. There should be as few cables as possible to the camera
+4. Maintenance should be as easy as possible, and not require full re-assembly.
+
+I decided on using the latest Raspberry Pi at the time, which was version 4 when I started this project.
+
+For enclosure, I did have a box that's waterproof and has a seal, but I suspect that it is the wrong material and too thin to withhold the extreme temperatures. There are a lot of PVC sewer pipe materials available at my local DIY store, and as those have to deal with a lot of water I decided to use that as my base material. Initially I went for a tube with a diameter of 11cm, but when mock-assembling all the parts I noticed that in the right orientation the 7.5cm diameter tubing would also work.
+
+After several prototypes I came up with this design:
 
 {% include img.html src="/images/2024/02/allsky-camera-3d-printed-mount.jpg" aspect_ratio=55.42 %}
+
+There are hexagonal holes for the screw standoffs, and countersunk holes for the corresponding screws. The shape of the outer perimeter allows for airflow inside the piping, and some holes below and next to the location of the raspberry pi allows for extra airflow. A cutout on the top of the camera mount allows for a ribbon cable to run through, and there is a cutout on the bottom to allow for easy changing of micro-SD cards without full reassembly.
+
+After waiting for a few months for all the parts to arrive and several redesigns of the 3D design, it was time for a test-fit;
 
 {% include img.html src="/images/2024/02/allsky-camera-inside.jpg" aspect_ratio=61.88 %}
 
