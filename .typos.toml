@@ -11,9 +11,9 @@ ignore-hidden = false
 extend-ignore-re = [
     "\\$countryCodes:.*",
     "\\.nd \\{",
+    "BY-NC-ND",
+    "Ik app je wel",
 ]
 
 [default.extend-words]
 "encrypter" = "encrypter"
-"ND" = "ND"
-"wel" = "wel"
