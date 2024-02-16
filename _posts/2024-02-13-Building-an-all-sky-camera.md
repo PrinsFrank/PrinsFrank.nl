@@ -22,7 +22,7 @@ My plan is thus very simple; I'll build my own budget friendly all-sky camera, s
 There are some requirements to consider from the start;
 
 1. The enclosure should be waterproof, as there is a lot of snow during winter and rain during the summer
-2. The camera should operate at temperatures down to -30C, and should be able to withstand temperatures down to -50C.
+2. The camera should operate at temperatures down to -30°C, and should be able to withstand temperatures down to -50°C.
 3. There should be as few cables as possible to the camera
 4. Maintenance should be as easy as possible, and not require full re-assembly.
 
@@ -33,6 +33,8 @@ For the waterproof enclosure (1) that can withstand extreme temperatures (2), I 
 To reduce the amount of cables running to the camera (3), I decided on Power over Ethernet (PoE), so the ethernet cable for connectivity can also be used to provide power. There is a PoE shield available for the raspberry pi, and although it does produce a lot of heat, that can actually be used to our advantage to keep the dome clear of fog as warm heat rises. We'll keep air flow inside the case as a consideration when designing the next steps, next to also using silica gel to keep the humidity in the camera to a minimum.
 
 We could use Wi-Fi to connect the camera to the internet and rely on batteries, but capacity is much lower in extreme cold for most battery types, so PoE seems like the more reliable choice here. That also means less maintenance in battery replacements.
+
+Speaking of cold(2): As this camera is going to be high above the arctic circle, the temperatures will be between +5°C and -30°C. As there is a lot of snowfall, the heat of the raspberry should be able to clear off any snow from the dome by melting it. This camera will only be operational during polar night, as half of the year the sun is permanently above the horizon, so we don't have to worry about cooling the device during those summer months (even though the temperature doesn't go much above freezing anyway).
 
 Apart from these initial design constraints, I decided on PVC screw lids to allow for easy access to the raspberry pi board for even easier maintenance access (4).
 
