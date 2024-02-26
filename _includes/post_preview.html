@@ -6,6 +6,7 @@
             <span itemprop="name">{{ page.author }}</span>{{ -}}
         </span>
     {%- endif -%}
+    {% include featured_on.html featured_on=post.featured_on -%}
     <h3 itemprop="name"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
     <span itemprop="alternativeHeadline">{{ post.subtitle }}</span>
 </li>
