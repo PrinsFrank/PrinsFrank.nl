@@ -24,3 +24,21 @@ jobs:
 
       - name: Search for misspellings
         uses: crate-ci/typos@master
+
+  lint_front_matter:
+    name: Lint Front Matter
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install yamllint
+        run: pip install --user yamllint
+
+      - name: Remove document contents
+        run: |
+          git ls-files -z -- '_posts/**.md' | xargs -0 -n 1 -- sed -i -e 'N;P;/---\n$/Q;D'
+
+      - name: Check Front Matter
+        run: |
+          git ls-files -z -- '_posts/**.md' | xargs -0 -n 1 -- python -m yamllint
