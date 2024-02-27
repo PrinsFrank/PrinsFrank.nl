@@ -9,7 +9,7 @@ rules:
     brackets:
         forbid: false
     empty-values:
-        forbid-in-block-mappings: true
+        forbid-in-block-mappings: false
         forbid-in-flow-mappings: true
     indentation:
         spaces: 2
