@@ -35,7 +35,7 @@ As my curiosity was piqued - and to treat my stomach to some other food - I had 
 
 The name on Google Maps for this place: "TOO «Food Solutions KZ»"
 
-Of course I wanted to know more, so I looked around on news sites looking for some kind of back story to this nameless restaurant. I found a [Reuters article with pictures of this exact restaurant, titled "Former McDonald's restaurants reopen without branding in Kazakhstan"](https://www.reuters.com/business/retail-consumer/former-mcdonalds-restaurants-reopen-without-branding-kazakhstan-2023-01-23/). The reason for this interesting place according to that article: 
+Of course I wanted to know more, so I looked around on news sites looking for some kind of back story to this nameless restaurant. I found a [Reuters article with pictures of this exact restaurant, titled "Former McDonald's restaurants reopen without branding in Kazakhstan"](https://www.reuters.com/business/retail-consumer/former-mcdonalds-restaurants-reopen-without-branding-kazakhstan-2023-01-23/){:target="_blank" rel="noreferrer noopener"}. The reason for this interesting place according to that article: 
 
 > McDonald's and Food Solutions KZ terminated their licence agreement this month, citing supply issues.
 > Sources earlier told Reuters that McDonald's Kazakhstan had stopped buying supplies from Russia and had trouble replacing them.
