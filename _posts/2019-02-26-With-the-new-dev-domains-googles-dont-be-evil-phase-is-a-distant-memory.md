@@ -1,7 +1,7 @@
 ---
 title: With the new .dev domains Google's "Don't be evil"-phase is a distant memory
 subtitle: The dystopian reality of a monopolized internet
-Description: 
+Description:
 categories: [privacy, standards]
 canonical: https://medium.com/@prinsfrank/with-the-new-dev-domains-googles-don-t-be-evil-phase-is-a-distant-memory-34a4db39e41c
 tags: [future, google, tld, privacy, DNS]
