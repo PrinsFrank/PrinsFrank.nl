@@ -1,6 +1,8 @@
 {% if include.featured_on -%}
-    - Featured on
+    <sup>
+    <span id="badge-ribbon"></span>
     {% for featured_on in include.featured_on %}
         <a href="{{ featured_on.url }}" target="_blank" rel="noreferrer noopener">{{ featured_on.name }}</a>
     {% endfor %}
+    </sup>
 {%- endif -%}

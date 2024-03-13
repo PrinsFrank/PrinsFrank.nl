@@ -459,3 +459,28 @@ time.inline {
     margin: 0 auto;
   }
 }
+
+#badge-ribbon {
+  display: inline-block;
+  position: relative;
+  background: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+}
+#badge-ribbon:before,
+#badge-ribbon:after {
+  content: '';
+  position: absolute;
+  border-bottom: 7px solid black;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  top: 7px;
+  left: -1px;
+  transform: rotate(-140deg);
+}
+#badge-ribbon:after {
+  left: auto;
+  right: -1px;
+  transform: rotate(140deg);
+}

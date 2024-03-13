@@ -10,6 +10,8 @@ featured_on:
     url: https://hackaday.com/2024/02/16/all-sky-camera-checks-for-aurora/
   - name: PetaPixel.com
     url: https://petapixel.com/2024/02/16/build-a-raspberry-pi-powered-aurora-detecting-camera-for-under-300/
+  - name: TomsHardware.com
+    url: https://www.tomshardware.com/raspberry-pi/diy-raspberry-pi-all-sky-camera-captures-the-majesty-of-the-northern-lights
 ---
 
 {% include img.html src="/images/2024/02/allsky-camera-v2-overview.jpg" aspect_ratio=56.04 %}
