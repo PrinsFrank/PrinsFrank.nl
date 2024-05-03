@@ -182,7 +182,6 @@ Let's take a step back and think about all constructors that are possible. There
 public function __construct($foo);        // Without type
 public function __construct(mixed $foo);  // With mixed type
 public function __construct(string $foo); // With string type
-public function __construct(A $foo);      // With class type
 public function __construct(A|B $foo);    // With Union type of classes
 public function __construct(A&C $foo);    // With Intersection type of classes
 ```
