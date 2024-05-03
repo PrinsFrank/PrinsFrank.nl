@@ -3,4 +3,8 @@
 @import "variables";
 @import "mixins";
 @import "main";
-@import "rougify";
+
+@import "rougify/base16.solarized.light";
+@media (prefers-color-scheme: dark) {
+  @import "rougify/base16.monokai.dark";
+}
