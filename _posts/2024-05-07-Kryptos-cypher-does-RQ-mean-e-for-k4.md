@@ -37,7 +37,7 @@ To solve k3, none of the clues seem to help in actually solving the cypher the c
 
 ## k4: the unsolved cypher
 
-As k4 has been unsolved for so long, there have been four sets of clues given by Sanborn. In the matrix below I've put the characeters for k4, with below the decyphered characters. Below that I've put the shortest distance between the two, and if the letter is ahead or behind the decyphered letter.
+As k4 has been unsolved for so long, there have been four sets of clues given by Sanborn. In the matrix below I've put the characeters for k4, with below the deciphered characters. Below that I've put the shortest distance between the two, and if the letter is ahead or behind the deciphered letter.
 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | O | B | K | R |
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
@@ -62,4 +62,4 @@ Then two connections I haven't seen made before:
 
 For the EASTNORTHEAST sequence, there is a repeating sequence of +---+ relations between the encrypted/decrypted character. Clue 6, the morse code for SOS(...___...) might be a clue that could have pointed here.
 
-RQ could mean anything, but in math it could point to Irrational numbers, as it is R - Q (Real numbers without the rational numbers). The morse above contains a bunch of padding _e_ characters, similarly in how k2 contained a bunch of padding "x" characters where "Abscissa" was the keyword. _e_ is an irrational number, so could that point to having to use _e_ to decypher k4?
+RQ could mean anything, but in math it could point to Irrational numbers, as it is R - Q (Real numbers without the rational numbers). The morse above contains a bunch of padding _e_ characters, similarly in how k2 contained a bunch of padding "x" characters where "Abscissa" was the keyword. _e_ is an irrational number, so could that point to having to use _e_ to decipher k4?
