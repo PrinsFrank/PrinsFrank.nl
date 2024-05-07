@@ -9,7 +9,7 @@ readtime: 5
 
 {% include img.html src="/images/2022/09/covra_building_entrance.jpg" aspect_ratio=52.1 %}
 
-I have written and researched about nuclear power before, and [in one of my previous posts I mentioned wanting to visit COVRA](/2021/02/06/Exploring-around-the-only-nuclear-power-plant-in-the-netherlands), as it is the only nuclear waste storage facility of the Netherlands. A year after that post I read on the website that tours were available again, and half a year later - last tuesday - it was finally time to visit one of the most secure places in the Netherlands.
+I have written and researched about nuclear power before, and [in one of my previous posts I mentioned wanting to visit COVRA](/2021/02/06/Exploring-around-the-only-nuclear-power-plant-in-the-netherlands), as it is the only nuclear waste storage facility of the Netherlands. A year after that post I read on the website that tours were available again, and half a year later - last Tuesday - it was finally time to visit one of the most secure places in the Netherlands.
 
 If you want, it is possible to schedule a private tour with a group, but as a minimum of 10 people are required per group we were combined with two other groups; A couple of high-schoolers doing a paper on nuclear energy and a company on a company trip.
 

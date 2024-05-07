@@ -9,7 +9,7 @@ readtime: 7
 
 **A common saying on this island is that people that come here are either looking for something, or running for something.**
 
-It was exactly a year since I left when I arrived back in January. After an overnight layover in Oslo on my way from Amsterdam, and a quick customs stop in Tromso the plane took us up, where I would see the last glimpse of sunlight for the next few months as we were flying into the darkness.
+It was exactly a year since I left when I arrived back in January. After an overnight layover in Oslo on my way from Amsterdam, and a quick customs stop in Tromsø the plane took us up, where I would see the last glimpse of sunlight for the next few months as we were flying into the darkness.
 
 {% include img.html src="/images/2023/04/hike_polar_night_longyearbyen_svalbard.jpg" aspect_ratio=26 full_width=true %}
 
@@ -67,7 +67,7 @@ During these weeks the days keep getting longer and longer. Days of snowstorms a
 
 {% include img.html src="/images/2023/04/mary_anns_polarrigg_snowstorm_longyearbyen_svalbard.jpg" aspect_ratio=36.2 full_width=true %}
 
-With a lot of sea ice around Pyramiden, that town is not reachable yet. But the second town on this island - Barentsburg - is now besides snowmobile also reachable by boat. Henningson provides a full day trip to a glacier by boat where you'll be provided with barbequeued meat, followed by a visit to this russian town.
+With a lot of sea ice around Pyramiden, that town is not reachable yet. But the second town on this island - Barentsburg - is now besides snowmobile also reachable by boat. Henningson provides a full day trip to a glacier by boat where you'll be provided with barbequeued meat, followed by a visit to this Russian town.
 
 {% include img.html src="/images/2023/04/sea_ice_barbeque_henningson.jpg" aspect_ratio=75.3 %}
 

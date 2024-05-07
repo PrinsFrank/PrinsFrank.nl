@@ -16,7 +16,7 @@ readtime: 4
 To fully understand the significance of what happened we need to go back some years. With the predecessor of the internet - ARPANET - somewhat grown up, it became clear that the implementation of keeping one list of all hosts and their corresponding ip-addresses centrally at the NIC was not sustainable anymore. It was agreed upon that the Network Information Center would supply this master list to any secondary volunteer hosts[<sup>RFC625</sup>](http://www.rfc-editor.org/rfc/rfc625.txt){:target="_blank" rel="noreferrer noopener"}, but after ten years of growing pains between 1973 and 1983 it was clear there was a solution needed. The hosts file was becoming larger, updates became more frequent and as the network expanded more hosts were copying the file every night.
 >The conclusion in this area was that the current "user@host" mailbox identifier should be extended to "user@host.domain" where "domain" could be a hierarchy of domains.[<sup>RFC805</sup>](http://www.rfc-editor.org/rfc/rfc805.txt){:target="_blank" rel="noreferrer noopener"}
 
-A new system was proposed and implemented, eventually growing into our current system. A simplified graph of how a user can type in a user friendely domain name and get the resulting web page can be seen below;
+A new system was proposed and implemented, eventually growing into our current system. A simplified graph of how a user can type in a user friendly domain name and get the resulting web page can be seen below;
 
 {% include puml.html graph_name="inner-working-dns-simple" alt="Inner working DNS graph"  aspect_ratio=43.49 %}
 
