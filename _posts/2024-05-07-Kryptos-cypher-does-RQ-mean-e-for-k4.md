@@ -37,7 +37,7 @@ To solve k3, none of the clues seem to help in actually solving the cypher the c
 
 ## k4: the unsolved cypher
 
-As k4 has been unsolved for so long, there have been four sets of clues given by Sanborn. In the matrix below I've put the characeters for k4, with below the deciphered characters. Below that I've put the shortest distance between the two, and if the letter is ahead or behind the deciphered letter.
+As k4 has been unsolved for so long, there have been four sets of clues given by Sanborn. In the matrix below I've put the characters for k4, with below the deciphered characters. Below that I've put the shortest distance between the two, and if the letter is ahead or behind the deciphered letter.
 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | O | B | K | R |
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
