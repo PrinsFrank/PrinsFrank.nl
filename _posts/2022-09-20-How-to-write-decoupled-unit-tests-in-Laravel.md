@@ -463,6 +463,6 @@ App\User $user
 
 ## Larastan
 
-As this might be a pattern you want to adopt or even enforce, I decided to [open a PR which adds a rule for this in Larasta0n](https://github.com/nunomaduro/larastan/pull/1378){:target="_blank" rel="noreferrer noopener"}. I'll update this post when the PR got merged, after which you can manually enable the new rule!
+As this might be a pattern you want to adopt or even enforce, I decided to [open a PR which adds a rule for this in Larastan](https://github.com/nunomaduro/larastan/pull/1378){:target="_blank" rel="noreferrer noopener"}. I'll update this post when the PR got merged, after which you can manually enable the new rule!
 
 I hope this helps you in any way. If I missed anything here or if there is an incorrect section above. please let me know in an issue on the repo of this blog on github.

@@ -1,6 +1,6 @@
 ---
 title: Minerals under shortwave uv light
-subtitle: Fluorescence, Tenebresence and Phosphoresence
+subtitle: Fluorescence, Tenebrescence and Phosphorescence
 Description:
 categories: [science, curiosity]
 tags: []

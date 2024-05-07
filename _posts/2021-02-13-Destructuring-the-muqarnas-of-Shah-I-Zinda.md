@@ -7,7 +7,7 @@ tags: []
 readtime: 4
 ---
 
-With the country still in lockdown and a curfew in place, it is not really difficult to reminisce the past and think back to previous trips. My most impressive and off the beaten track trip was back in november 2019, my second to last real trip before the pandemic. While I will probably write a blog post about the trip itself, this post is about muqarnas.
+With the country still in lockdown and a curfew in place, it is not really difficult to reminisce the past and think back to previous trips. My most impressive and off the beaten track trip was back in November 2019, my second to last real trip before the pandemic. While I will probably write a blog post about the trip itself, this post is about muqarnas.
 
 {% include img.html src="/images/2021/02/registan.jpg" aspect_ratio=88.8 %}
 
@@ -15,11 +15,11 @@ Uzbekistan; For a country that doesn't have that much international travelers - 
 
 {% include img.html src="/images/2021/02/gur-e-amir.jpg" aspect_ratio=75 %}
 
-Besides a lot of history - especially that of the silk road - a common denominator between most of Uzbekistans attractions is the extensive decorations, especially muqarnas. Before I was back in Holland, I didn't even know the name for them, as the few people I asked all answered with different names for them.
+Besides a lot of history - especially that of the silk road - a common denominator between most of Uzbekistan's attractions is the extensive decorations, especially muqarnas. Before I was back in Holland, I didn't even know the name for them, as the few people I asked all answered with different names for them.
 
 Not a lot has been written about muqarnas in English, except for the numerous papers about the Alhambra palace in Spain. Last week, I started a deep dive into them, and stumbled across a [very impressive website by Shiro Takahashi with a description about the different styles, a map describing where they occur and detailed plans on how to put their elements together](http://www.shiro1000.jp/muqarnas/){:target="_blank" rel="noreferrer noopener"}.
 
-After watching a [video about elements being constructed](https://www.youtube.com/watch?v=_ZXeH06kIwI){:target="_blank" rel="noreferrer noopener"}, I wanted to experience this awesome puzzle for myself as well. As the ones in the Gur e Amir tomb are the ones that impressed me the most, I started to look for a plan on Shiro Takahashis website. Unfortunately, the plans are only labeled by city, but after a short while looking I came to the conclusion those are not of the sqarue style but the pole table style. Pole table style muqarnas are not constructed by putting together geometric elements, but by overlaying a jig with panel components and hanging those together.
+After watching a [video about elements being constructed](https://www.youtube.com/watch?v=_ZXeH06kIwI){:target="_blank" rel="noreferrer noopener"}, I wanted to experience this awesome puzzle for myself as well. As the ones in the Gur e Amir tomb are the ones that impressed me the most, I started to look for a plan on Shiro Takahashis website. Unfortunately, the plans are only labeled by city, but after a short while looking I came to the conclusion those are not of the square style but the pole table style. Pole table style muqarnas are not constructed by putting together geometric elements, but by overlaying a jig with panel components and hanging those together.
 
 I decided to choose a plan first, and search the building in my own photos and use that instead. The Shah i Zinda - a necropolis in Samarkand - houses the mausoleum of Shodi Mulk Oko, with [it's plan also available on Shiro Tkahashis site](http://www.shiro1000.jp/muqarnas/data/076/076c-.gif){:target="_blank" rel="noreferrer noopener"}.
 
