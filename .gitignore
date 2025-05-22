@@ -5,3 +5,4 @@ _site/
 *.synctex.gz
 auxil/
 out/
+Gemfile.lock
