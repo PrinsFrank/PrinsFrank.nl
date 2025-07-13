@@ -814,4 +814,12 @@
         <circle cx="675" cy="296" r="2" id="Astana"/>
         <path d="M685 332 L 691 329 L 675 296" stroke="black" fill="transparent"><title>2023</title></path>
     </g>
+    <g id="2025">
+        <circle cx="414" cy="227" r="2" id="Reykjavik"/>
+        <circle cx="425" cy="232" r="2" id="Vik"/>
+        <circle cx="433" cy="225" r="2" id="Hofn"/>
+        <circle cx="425" cy="216" r="2" id="Akureyri"/>
+        <circle cx="410" cy="216" r="2" id="Bildudalur"/>
+        <path d="M414 227 L 425 232 L 433 225 L 425 216 L 410 216 L 414 227" stroke="black" fill="transparent"><title>2025</title></path>
+    </g>
 </svg>
