@@ -1,11 +1,11 @@
 ---
 title: DMTT earth visualized
-subtitle: 
+subtitle:
 Description:
 categories: [standards, curiosity]
 tags: []
 readtime: 4
---- 
+---
 
 I've had some discussions with people about the practical use of decimal time and its implications, and sometimes it's really hard to discuss these kinds of topics without visualizing what you're talking about in some way. In the process of discussing this, a friend even found an error in one of my previous articles that has been up for more than a year and a half, so it's obviously not an easy subject. I don't know how one and a half year passed already since my first article about time - Is it fair to blame time? - but I intended to continue the time series with some more follow-ups, so here's the first one.
 
