@@ -1,7 +1,7 @@
 ---
 title: The difficulties with solving the domain names homograph attack
 subtitle: Why a Homograph-safe font is the best solution
-Description: 
+Description:
 categories: [security, standards]
 canonical: https://medium.com/@prinsfrank/the-difficulties-with-solving-the-domain-names-homograph-attack-f3263d21045b
 tags: [security, DNS, IETF, standards, unicode, vulnerability, browsers]
