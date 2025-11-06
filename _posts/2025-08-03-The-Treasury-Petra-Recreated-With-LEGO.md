@@ -4,7 +4,7 @@ subtitle: A LEGO Ideas submission that might become an actual set!
 Description:
 categories: [curiosity]
 tags: []
-readtime: 
+readtime:
 ---
 
 As a child I played with old LEGO sets a lot. Growing up in a single income family with three siblings meant that there was not a lot of money for new sets, so most of my time was spent with old bricks from the 70s and 80s. Over time, I switched to K'nex, some old Meccano sets, and later on I experimented with electronical components and circuits and finally ventured into programming when I was about 12.

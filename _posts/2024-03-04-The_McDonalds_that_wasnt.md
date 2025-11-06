@@ -4,7 +4,7 @@ subtitle: or; how a famous brand doesn't really disappear from Kazakhstan
 Description:
 categories: [curiosity]
 tags: []
-readtime: 
+readtime:
 ---
 
 It's been three months since I'm back from my trip to Kyrgyzstan and Kazakhstan. And while there are as many Soviet buildings, beautiful sights, mountain backdrops, and amazing sleeper trains as you might expect, I won't write about them here as you'll find all about them on other pages on the internet.
