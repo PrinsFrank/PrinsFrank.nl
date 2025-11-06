@@ -89,9 +89,9 @@ figure {
 
   &.full-width {
     left: 50%;
-    margin-left: -49vw;
-    margin-right: -49vw;
-    max-width: 98vw; // Don't use 100vw here as it includes the scrollbar
+    margin-left: -47vw;
+    margin-right: -47vw;
+    max-width: 94vw;
     max-height: $max-full-height-img;
     position: relative;
     right: 50%;
