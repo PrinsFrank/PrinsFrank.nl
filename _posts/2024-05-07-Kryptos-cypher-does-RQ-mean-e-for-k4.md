@@ -4,7 +4,7 @@ subtitle: does RQ mean e for k4?
 Description:
 categories: [curiosity]
 tags: []
-readtime: 
+readtime:
 ---
 
 **For anyone that is as excited about cyphers and puzzles, you might be familiar with the still partially unsolved Kryptos cypher.** 

@@ -4,7 +4,7 @@ subtitle: creating a simple DI service from scratch
 Description:
 categories: [development]
 tags: []
-readtime: 
+readtime:
 ---
 
 **When talking about design patterns in programming, it's often difficult to talk about a single pattern in isolation. When looking for articles that explain Dependency Injection, I realised that this is one of those topics. Patterns like LSP, Service Locators, Service Containers and others usually get talked about. But Dependency Injection can be much more simple than that. Let's take away some of that magic!**
