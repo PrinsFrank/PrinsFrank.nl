@@ -89,9 +89,9 @@ figure {
 
   &.full-width {
     left: 50%;
-    margin-left: -49vw;
-    margin-right: -49vw;
-    max-width: 98vw; // Don't use 100vw here as it includes the scrollbar
+    margin-left: -47vw;
+    margin-right: -47vw;
+    max-width: 94vw;
     max-height: $max-full-height-img;
     position: relative;
     right: 50%;
@@ -317,15 +317,14 @@ footer nav {
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
-
-  padding-left: calc(100vw - 100% + #{$spacing-unit});
+  padding-left: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width: calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
-    padding-left: calc(100vw - 100% + (#{$spacing-unit} / 2));
+    padding-left: $spacing-unit / 2;
   }
 }
 
