@@ -183,3 +183,10 @@ certifications:
     icon: ./images/certificate/CBR.png
     name: Moped license
     date: 2011-11-28
+conferences:
+  -
+    date: 2026-03-13
+    name: "The Dutch PHP Conference"
+    session_title: "Building a PDF parser so you don’t have to"
+    icon: ./images/conference/phpconference.png
+    url: https://phpconference.nl/session/slot-3/

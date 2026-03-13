@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article>
+  {% for conference in site.conferences %}
+  <div class="conference">
+    <a href="{{ conference.url }}" target="_blank" rel="noopener noreferrer">
+      <div class="logo">
+        {% if conference.icon %}
+        <img src="{{ conference.icon }}">
+        {% else %}
+        <img src="./images/conference/default.svg">
+        {% endif %}
+      </div>
+      <span>{{ conference.name }}</span>
+      <span>{{ conference.session_title }}</span>
+      <span>{{ conference.date }}</span>
+    </a>
+  </div>
+  {% endfor %}
+</article>
