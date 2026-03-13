@@ -13,6 +13,7 @@ extend-ignore-re = [
     "\\.nd \\{",
     "BY-NC-ND",
     "Ik app je wel",
+    "Nvironmental",
 ]
 
 [default.extend-words]
