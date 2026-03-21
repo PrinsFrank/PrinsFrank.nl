@@ -4,7 +4,7 @@ subtitle: A project years in the making
 Description:
 categories: [development]
 tags: []
-readtime: 
+readtime:
 ---
 
 Over the last decade I've worked at several large companies, and almost every one had some sort of PDF extraction in part of the codebase. PDFs have become the preferred format for companies to share data. And even though PDFs will almost always look identical across devices and readers, accessing their underlying data is very complicated, and therefore this is a very inaccessible format to retrieve data from.
