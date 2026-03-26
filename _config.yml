@@ -89,6 +89,14 @@ visited_territories:
 
 certifications:
   -
+    organization: Microsoft
+    name: Github Actions
+    number: B9BCB1DDBAC020B/F558Y5-CDFD3F
+    url: https://learn.microsoft.com/en-us/users/frankprins-9893/credentials/b9bcb1ddbac020b
+    icon: ./images/certificate/github-actions.svg
+    date: 2026-03-26
+    expiry_date: 2028-03-27
+  -
     organization: Governor of Svalbard
     country: Norway
     name: Permission to borrow Weapon for Polarbear protection
