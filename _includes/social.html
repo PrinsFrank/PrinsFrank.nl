@@ -53,12 +53,12 @@
         </a>{{ -}}
     </li>
     {%- endif -%}
-    {%- if site.polarsteps_username -%}
+    {%- if site.printables_username -%}
     <li>{{ -}}
-        Polarsteps: {{ -}}
+        Printables: {{ -}}
         <a itemprop="sameAs" target="_blank" rel="noopener" {{ -}}
-           href="https://www.polarsteps.com/{{ site.polarsteps_username| escape }}">{{ -}}
-            {{ site.thingiverse_username| escape -}}
+           href="https://www.printables.com/@{{ site.printables_username| escape }}">{{ -}}
+            @{{ site.printables_username| escape -}}
         </a>{{ -}}
     </li>
     {%- endif -%}
@@ -68,6 +68,24 @@
         <a itemprop="sameAs" target="_blank" rel="noopener" {{ -}}
            href="https://www.chess.com/member/{{ site.chess_com_username| escape }}">{{ -}}
             {{ site.chess_com_username | escape -}}
+        </a>{{ -}}
+    </li>
+    {%- endif -%}
+    {%- if site.packagist_username -%}
+    <li>{{ -}}
+        Packagist: {{ -}}
+        <a itemprop="sameAs" target="_blank" rel="noopener" {{ -}}
+           href="https://packagist.org/users/{{ site.packagist_username| escape }}/">{{ -}}
+            {{ site.packagist_username | escape -}}
+        </a>{{ -}}
+    </li>
+    {%- endif -%}
+    {%- if site.lego_ideas_username -%}
+    <li>{{ -}}
+        Lego Ideas: {{ -}}
+        <a itemprop="sameAs" target="_blank" rel="noopener" {{ -}}
+           href="https://ideas.lego.com/profile/{{ site.lego_ideas_username| escape }}">{{ -}}
+            {{ site.lego_ideas_username | escape -}}
         </a>{{ -}}
     </li>
     {%- endif -%}
