@@ -822,4 +822,8 @@
         <circle cx="410" cy="216" r="2" id="Bildudalur"/>
         <path d="M414 227 L 425 232 L 433 225 L 425 216 L 410 216 L 414 227" stroke="black" fill="transparent"><title>2025</title></path>
     </g>
+    <g id="2026">
+        <circle cx="599" cy="335" r="2" id="Tbilisi"/>
+        <circle cx="599" cy="339" r="2" id="Yerevan"/>
+    </g>
 </svg>

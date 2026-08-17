@@ -40,6 +40,7 @@ defaults:
 build: 20240503 # cache busting variable for css
 
 visited_countries:
+  - AM
   - AT
   - BE
   - CA
@@ -53,6 +54,7 @@ visited_countries:
   - FI
   - FR
   - GB
+  - GE
   - GR
   - IL
   - IT
