@@ -21,4 +21,4 @@ On May 6th, 2022 I created a new repository because I was looking for a new chal
 
 But that wasn't the end of the repository, because otherwise this wouldn't have been a blog post. I picked up the pace in October 2024, and in February version 1.0 was released. It worked in extracting text, but it didn't detect newlines and positional context. On May 19th 2025, version 2.0 was released, which did add support for positional context and image extraction!
 
-Since then a lot of new features have been added. The library now has support for extracting lots of different types of images, and I'm currently working on support for encrypted PDFs!
+Since then a lot of new features have been added. The library now has support for extracting lots of different types of images, and also supports encrypted documents!
