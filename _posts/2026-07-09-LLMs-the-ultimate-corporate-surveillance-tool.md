@@ -2,7 +2,7 @@
 title: LLMs; The Ultimate Corporate Surveillance Tool
 subtitle: Cognitive Sovereignty as Humanity's last hope
 Description:
-categories: [privacy, culture]
+categories: [privacy, security]
 tags: []
 readtime:
 ---
@@ -62,3 +62,5 @@ It's time for a new human right: Cognitive Sovereignty. The right to own your ow
 <hr>
 
 <sup>This article was originally submitted as an entry for the [Marc Chavanneprijs](https://marcchavannesprijs.nl/){:target="_blank" rel="noreferrer noopener"}. It was translated from Dutch and edited for a broader audience.</sup>
+
+This is part 1 of my deep dive into LLMs. [In part 2 I look at agents](/2026/08/18/LLM-Agents-and-Full-User-Privileges-A-silent-security-crisis)
