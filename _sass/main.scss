@@ -160,7 +160,6 @@ hr {
 }
 
 header {
-  border-top: 5px solid $border-color-dark;
   border-bottom: 1px solid $border-color-light;
   line-height: $header-height;
 
@@ -182,13 +181,16 @@ header {
       color: $header-color-dark-mode;
     }
 
+    @include media-query($on-palm) {
+      display: none;
+    }
+
     &:hover {
       text-decoration: underline;
     }
   }
 
   [itemtype~="http://www.schema.org/SiteNavigationElement"] {
-    float: right;
     padding: 0;
     margin: 0;
 
