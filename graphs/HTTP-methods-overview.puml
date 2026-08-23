@@ -9,7 +9,8 @@ skinparam activityEndColor orange
 
 left to right direction
 
-(*) -> "Do you want to know \n what methods are available \n for a resource?" as Q1
+(*) -> "Do you want to filter a list of resources?" as Q0
+Q0 -> "Do you want to know \n what methods are available \n for a resource?" as Q1
 Q1 -> [ no ] "Do you want to know \n something about an \n existing resource?" as Q2
 Q2 --> [ yes ] "Do you only want to know either \n - if a specific resource exists or \n - when it was last modified?" as Q3
 Q2 -> [ no ] "Do you want to modify \n a specific existing resource?" as Q4
@@ -19,9 +20,10 @@ Q4 -> [ no ] "Do you want to create \n a new resource?" as Q7
 Q7 --> [ yes ] "Do you want to \n determine the location? \n (e.g. the {id})" as Q8
 
 partition "HTTP Methods" {
+    Q0 --> [ yes ] "QUERY \n /user \n {'name':'frank'}" as QUERY
     Q1 --> [ yes ] "OPTIONS \n /user *1 \n /user/{id} *2" as OPTIONS
     Q3 --> [ yes ] "HEAD \n /user \n /user/{id}" as HEAD
-    Q3 --> [ no ] "GET \n /user/{id} \n /user?name=frank" as GET
+    Q3 --> [ no ] "GET \n /user/{id}" as GET
     Q5 --> [ yes ] "DELETE \n /user/{id}" as DELETE
     Q6 --> [ yes ] "PUT \n /user/{id}" as PUT
     Q6 --> [ no ] "PATCH \n /user/{id}" as PATCH
