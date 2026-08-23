@@ -20,10 +20,13 @@ packagist_username: PrinsFrank
 lego_ideas_username: 0500c0b9-37fd-4fae-9264-769b4a666c35
 rss: PrinsFrank.nl
 
+theme: minima
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-tidy
   - jekyll-sitemap
 
@@ -32,7 +35,11 @@ permalink: /:year/:month/:day/:title
 show_drafts: false
 defaults:
   -
+    scope:
+      path: ""
+      type: "posts"
     values:
+      layout: "post"
       author: "Frank Prins"
 
 build: 20240503 # cache busting variable for css
