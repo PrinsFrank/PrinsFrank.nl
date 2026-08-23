@@ -46,7 +46,7 @@ In the Kernel class, the "handle" method makes sure the application is bootstrap
 A lot of internal magic happens here, but simply said, for every service provider, the "register" method is called, and after that for every service provider the "boot" method is called. To make it more visually;
 
 <div style="width:50%;margin: 0 25%;">
-{% include puml.html graph_name="service-providers-console-simple" alt="Simple service provider registering"  aspect_ratio=139 %}
+{% include img.html src="/graphs/service-providers-console-simple.png" alt="Simple service provider registering"  aspect_ratio=139 %}
 </div>
 
 ## Deferred Providers
@@ -54,7 +54,7 @@ A lot of internal magic happens here, but simply said, for every service provide
 If you've read the [Laravel documentation about Service providers](https://laravel.com/docs/9.x/providers){:target="_blank" rel="noreferrer noopener"}, You've also come across [Deferred Providers](https://laravel.com/docs/9.x/providers#deferred-providers){:target="_blank" rel="noreferrer noopener"}. These complicate the Console commands but are a necessary segue into the technical explanation about speeding up your application. Deferred Providers are loaded after all the normal service providers have been booted and registered by the "RegisterProviders" bootstrapper in the "bootstrap" method in the Console Kernel;
 
 <div style="width:50%;margin: 0 25%;">
-{% include puml.html graph_name="service-providers-console-with-deferred" alt="Service provider registering with deferred"  aspect_ratio=186 %}
+{% include img.html src="/graphs/service-providers-console-with-deferred.png" alt="Service provider registering with deferred"  aspect_ratio=186 %}
 </div>
 
 So far, whether or not your ServiceProvider is deferrable doesn't really make a difference, as you can see that it gets loaded either way when booting the console. That changes when we move into HTTP request though.
@@ -95,13 +95,13 @@ To dig into this deeper, we should first take a step back. While we didn't look 
 We didn't need to dive into this for console commands, but this same caching mechanism is used for those. As you can see there are multiple array keys in this file. The "providers" key contains a list of _all_ service providers available in the application. But instead of registering all non-deferrable providers and then registering all deferrable providers, for HTTP requests we iterate over all keys in the "eager" section only after calling the "handle" method on the HttpKernel and sending the request through the router;
 
 <div style="width:50%;margin: 0 25%;">
-{% include puml.html graph_name="service-providers-http-eager" alt="HTTP eager service provider loading"  aspect_ratio=139 %}
+{% include img.html src="/graphs/service-providers-http-eager.png" alt="HTTP eager service provider loading"  aspect_ratio=139 %}
 </div>
 
 And then in controllers or depending services, whenever we request a service that is not loaded and is deferrable - when calling resolve(), App::make() or something similar - we can check if the key for that service is set in the deferred section;
 
 <div style="width:50%;margin: 0 25%;">
-{% include puml.html graph_name="service-providers-http-deferred" alt="HTTP eager service provider loading"  aspect_ratio=137 %}
+{% include img.html src="/graphs/service-providers-http-deferred.png" alt="HTTP eager service provider loading"  aspect_ratio=137 %}
 </div>
 
 ## Why do my providers stop working when I change their order?

@@ -263,7 +263,7 @@ build-composer:
 
 A string key is used here as we want to have one global cache, as otherwise our cache doesn't make any sense. Our complete picture now looks as follows:
 
-{% include puml.html graph_name="gitlab-composer-cache" alt="Gitlab composer caches" aspect_ratio=141.17  %}
+{% include img.html src="/graphs/gitlab-composer-cache.png" alt="Gitlab composer caches" aspect_ratio=141.17  %}
 
 ---
 

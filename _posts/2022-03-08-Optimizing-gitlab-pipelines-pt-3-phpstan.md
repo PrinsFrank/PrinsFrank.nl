@@ -143,7 +143,7 @@ As this is a laravel application, we have a folder structure with multiple php f
 
 Our caching schema now looks like this:
 
-{% include puml.html graph_name="gitlab-phpstan-cache" alt="Gitlab composer caches" aspect_ratio=170.17  %}
+{% include img.html src="/graphs/gitlab-phpstan-cache.png" alt="Gitlab composer caches" aspect_ratio=170.17  %}
 
 And our two jobs in the yaml file now look like this; (For the composer build steps you can reference the [first post in this series](/2022/02/15/Optimizing-gitlab-pipelines-pt-1-basics))
 

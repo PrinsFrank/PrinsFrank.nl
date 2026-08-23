@@ -13,6 +13,6 @@ One of my biggest pet peeves when it comes to improper use of HTTP methods is on
 
 In [RFC 7231](https://tools.ietf.org/html/rfc7231){:target="_blank" rel="noreferrer noopener"} and [RFC 5789](https://tools.ietf.org/html/rfc5789){:target="_blank" rel="noreferrer noopener"} all of the ones below and some more are defined, but totaling at 111 pages it's not the easiest starting point. Frequent readers of my posts have probably noticed my love for making charts, and that's exactly what i did. This decision chart should help you on your way.
 
-{% include puml.html graph_name="HTTP-methods-overview"  alt="An HTTP method decision chart" aspect_ratio=68.92 %}
+{% include img.html src="/graphs/HTTP-methods-overview.png"  alt="An HTTP method decision chart" aspect_ratio=68.92 %}
 
 You're free to update or redistribute this chart, the plantUML-file can be found [here](https://github.com/PrinsFrank/PrinsFrank.nl/blob/main/graphs/HTTP-methods-overview.puml){:target="_blank" rel="noreferrer noopener"}. Please submit an issue or pull-request if I've missed anything!  
