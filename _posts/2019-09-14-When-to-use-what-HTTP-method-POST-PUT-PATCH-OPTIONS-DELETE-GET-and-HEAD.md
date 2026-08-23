@@ -15,4 +15,4 @@ In [RFC 7231](https://tools.ietf.org/html/rfc7231){:target="_blank" rel="norefer
 
 {% include puml.html graph_name="HTTP-methods-overview"  alt="An HTTP method decision chart" aspect_ratio=68.92 %}
 
-You're free to update or redistribute this chart, the plantUML-file can be found [here](https://github.com/PrinsFrank/PrinsFrank.nl/blob/master/graphs/HTTP-methods-overview.puml){:target="_blank" rel="noreferrer noopener"}. Please submit an issue or pull-request if I've missed anything!  
+You're free to update or redistribute this chart, the plantUML-file can be found [here](https://github.com/PrinsFrank/PrinsFrank.nl/blob/main/graphs/HTTP-methods-overview.puml){:target="_blank" rel="noreferrer noopener"}. Please submit an issue or pull-request if I've missed anything!  
