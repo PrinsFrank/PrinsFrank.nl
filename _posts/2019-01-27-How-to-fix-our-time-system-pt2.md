@@ -23,7 +23,7 @@ The paper highlights much more examples, but the point is clear. Local times wer
 
 >“From its very nature, there are as many different local days as there are points differing in longitude (..).” _-page 19-_
 
-Sir Fleming then talks about the fundamentals of the Reckoning of Time. He talks about the different kinds of days and the history of dividing those days. About how any division of a day has to be arbitrary since they are not part of what he calls _“The great natural divisions”_ and all other divisions are _“arbitrary, conventional and artificial”_. When i wrote [my previous article about a different scheme]({{ site.baseurl }}{% post_url 2019-01-20-How-to-fix-our-time-system %}) i hadn’t read these papers yet. It is interesting to see that he, although he disagrees on the practicality of introducing a system like this, has a similar view about dividing days using the decimal system:
+Sir Fleming then talks about the fundamentals of the Reckoning of Time. He talks about the different kinds of days and the history of dividing those days. About how any division of a day has to be arbitrary since they are not part of what he calls _“The great natural divisions”_ and all other divisions are _“arbitrary, conventional and artificial”_. When i wrote [my previous article about a different scheme]({% post_url 2019-01-20-How-to-fix-our-time-system %}) i hadn’t read these papers yet. It is interesting to see that he, although he disagrees on the practicality of introducing a system like this, has a similar view about dividing days using the decimal system:
 
 >“When the decimal system was adopted by the French, it was proposed to divide the day into ten and a hundred parts; a scheme which would probably be the best at this age of the world, had the whole system of horology [time telling]to be established de novo [from the beginning].” _-page 26- (Additions by me in [square brackets])_
 
@@ -69,7 +69,7 @@ Sadly it did not make it into everyday life. A hundred and thirty-one years late
 >“It will thus be seen that while the contemplated reform will interfere as little as possible with existing customs, it will result in giving to the human family around the globe concurrent dates and in making every division of time uniform the world over.” _-page 357-_
 
 ## How to fix our time zones
-If you read [my previous article]({{ site.baseurl }}{% post_url 2019-01-20-How-to-fix-our-time-system %}) where i introduced Decimal Metric Time in Ticks you will know that i propose to divide days into a 1000 ticks. You should definitely read it if you haven’t, as my next point will make more sense.
+If you read [my previous article]({% post_url 2019-01-20-How-to-fix-our-time-system %}) where i introduced Decimal Metric Time in Ticks you will know that i propose to divide days into a 1000 ticks. You should definitely read it if you haven’t, as my next point will make more sense.
 
 As a result of the division in a 1000 parts and removing the factor of 24, our current time zones will be broken. That’s not a problem, and in fact exactly what I envision. Why use time zones instead of one global time when we are as global of a civilization as we are now? As we’ve seen above this is not a novel idea at all, it is the Utopian view of Sandfor Fleming and many after him to only use global time. While he chose the term “Cosmopolitan Time”, he also coined other terms like “common”, “universal” “”non-local”, “uniform”, “absolute”, “all-world” and “terrestrial” on page 28.
 
