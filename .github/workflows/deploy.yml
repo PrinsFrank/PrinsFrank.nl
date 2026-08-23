@@ -32,6 +32,18 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Download PlantUML
+        run: curl -L -o plantuml.jar https://github.com/plantuml/plantuml/releases/latest/download/plantuml.jar
+
+      - name: Convert .puml to PNG
+        run: find . -name '*.puml' -exec java -jar plantuml.jar -tpng -o . {} +
+
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
