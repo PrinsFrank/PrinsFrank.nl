@@ -6,6 +6,6 @@ favicon font: *Kenia*
 ## Updating rougify styles
 
 ```bash
-rougify style base16.monokai.dark > _sass/rougify/base16.monokai.dark.scss
-rougify style base16.solarized.light > _sass/rougify/base16.solarized.light.scss
+rougify style base16.monokai.dark > assets/css/base16.monokai.dark.css
+rougify style base16.solarized.light > assets/css/base16.solarized.light.css
 ```
