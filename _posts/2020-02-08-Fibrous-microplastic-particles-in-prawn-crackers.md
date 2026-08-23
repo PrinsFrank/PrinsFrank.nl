@@ -7,7 +7,7 @@ tags: []
 readtime: 2
 ---
 
-Even though I had the intention to write more here this year, I haven't done that so far because i was busy researching microplastics in prawn crackers and writing up the paper. It's finally done though, you can read it [on github](https://github.com/PrinsFrank/PrinsFrank.nl/blob/master/papers/2020-02-08-fibrous-microplastic-particles-in-prawn-crackers.pdf){:target="_blank" rel="noreferrer noopener"} or download it directly as a [pdf](https://github.com/PrinsFrank/PrinsFrank.nl/raw/master/papers/2020-02-08-fibrous-microplastic-particles-in-prawn-crackers.pdf
+Even though I had the intention to write more here this year, I haven't done that so far because i was busy researching microplastics in prawn crackers and writing up the paper. It's finally done though, you can read it [on github](https://github.com/PrinsFrank/PrinsFrank.nl/blob/main/papers/2020-02-08-fibrous-microplastic-particles-in-prawn-crackers.pdf){:target="_blank" rel="noreferrer noopener"} or download it directly as a [pdf](https://github.com/PrinsFrank/PrinsFrank.nl/raw/main/papers/2020-02-08-fibrous-microplastic-particles-in-prawn-crackers.pdf
 ){:target="_blank" rel="noreferrer noopener"}.
 
 It was fun to finally put my microscope to good use. Collecting all the necessary equipment like a vacuum attachment and glassware was really fun as well, although the entire project got a little more expensive than I hoped for. Part of the reason I decided to look into prawn crackers was because of how cheap I thought I could run the project, but the surprises like 60 euro filter paper and a really expensive vacuum erlenmeyer were not expected.
