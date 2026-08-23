@@ -1,9 +1,9 @@
 <li itemscope itemtype="http://schema.org/ListItem http://schema.org/Article">
     <time itemprop="datePublished">{{- post.date | date: site.date_format -}}</time>
     {%- include category_indicators.html post = post -%}
-    {%- if page.author -%}
+    {%- if post.author -%}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ -}}
-            <span itemprop="name">{{ page.author }}</span>{{ -}}
+            <span itemprop="name">{{ post.author }}</span>{{ -}}
         </span>
     {%- endif -%}
     {% include featured_on.html featured_on=post.featured_on -%}
