@@ -10,9 +10,6 @@
           {{ site.title | escape }}
         {%- endif -%}
       </li>
-      {%- if site.email -%}
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      {%- endif -%}
       {%- if site.pgp_fingerprint -%}
         <li>Fingerprint: {{ site.pgp_fingerprint }}</li>
       {%- endif -%}
