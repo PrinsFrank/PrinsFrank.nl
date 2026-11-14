@@ -3,7 +3,6 @@ title: Why you should always use your own VPN
 subtitle: or; How to be somewhat secure at your local coffee shop
 Description:
 categories: [privacy, security]
-canonical: https://medium.com/@prinsfrank/why-you-should-always-use-your-own-vpn-70621c28810d
 tags: [VPN, security, privacy, internet, technology]
 readtime: 4
 ---
